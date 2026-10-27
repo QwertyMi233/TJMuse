@@ -1,0 +1,18 @@
+// Release signing is supplied by the local build helper, never stored in source.
+// Ninja on Windows still has path limits; hash long generated C++ object paths.
+if (org.gradle.internal.os.OperatingSystem.current().isWindows()) {
+    android.defaultConfig.externalNativeBuild.cmake.arguments.add('-DCMAKE_OBJECT_PATH_MAX=240')
+    android.externalNativeBuild.cmake.buildStagingDirectory = new File(rootDir, '../.cxx').canonicalFile
+}
+def tjmuseStorePath = System.getenv('TJMUSE_RELEASE_STORE_FILE')
+if (tjmuseStorePath) {
+    android.signingConfigs {
+        tjmuseRelease {
+            storeFile new File(tjmuseStorePath)
+            storePassword System.getenv('TJMUSE_RELEASE_STORE_PASSWORD')
+            keyAlias System.getenv('TJMUSE_RELEASE_KEY_ALIAS')
+            keyPassword System.getenv('TJMUSE_RELEASE_KEY_PASSWORD')
+        }
+    }
+    android.buildTypes.release.signingConfig = android.signingConfigs.tjmuseRelease
+}

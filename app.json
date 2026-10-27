@@ -1,0 +1,71 @@
+{
+  "expo": {
+    "name": "TJMuse",
+    "slug": "tjmuse",
+    "scheme": "tjmuse",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#F7F8F4",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tjmuse.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.tjmuse.app",
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#E9EFE6"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "TJMuse",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-system-ui",
+      "expo-secure-store",
+      "./plugins/with-material-theme.cjs",
+      [
+        "expo-notifications",
+        {
+          "color": "#416C56"
+        }
+      ],
+      [
+        "@react-native-community/datetimepicker",
+        {}
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "选择一张照片作为你的 TJMuse 头像。",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "b2549ef6-6bfb-4ec4-b954-55ba5c643302"
+      }
+    },
+    "owner": "qwertymi"
+  }
+}
