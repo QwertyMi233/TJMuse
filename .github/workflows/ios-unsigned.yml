@@ -1,0 +1,118 @@
+name: Build unsigned iPhone IPA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - 'codex/ios-*'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ios-unsigned-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: iPhone Release archive
+    runs-on: xcode-27
+    timeout-minutes: 75
+    env:
+      CI: '1'
+      TZ: Asia/Singapore
+      EXPO_NO_TELEMETRY: '1'
+      DEVELOPER_DIR: /Applications/Xcode_27.1.app/Contents/Developer
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out project sources
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.22.1'
+          package-manager-cache: false
+
+      - name: Set up pinned pnpm
+        uses: pnpm/action-setup@73e46992e05b19abd31f2f3c20e0e7370d762115 # v6.1.1
+        with:
+          cache: true
+
+      - name: Check native toolchain
+        run: |
+          xcodebuild -version
+          xcrun --sdk iphoneos --show-sdk-version
+          node --version
+          pnpm --version
+          pod --version
+
+      - name: Install locked dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check TypeScript and business logic
+        run: pnpm check
+
+      - name: Generate iOS project
+        run: pnpm exec expo prebuild --no-install --platform ios
+
+      - name: Install iOS native dependencies
+        run: pod install --project-directory=ios
+
+      - name: Record source revision and build configuration
+        run: |
+          mkdir -p releases
+          node <<'NODE'
+          const fs = require('node:fs');
+          const crypto = require('node:crypto');
+          const { execFileSync } = require('node:child_process');
+          const { expo } = require('./app.json');
+          const info = {
+            version: expo.version,
+            buildNumber: expo.ios.buildNumber,
+            bundleIdentifier: expo.ios.bundleIdentifier,
+            commit: process.env.GITHUB_SHA,
+            run: `${process.env.GITHUB_SERVER_URL}/${process.env.GITHUB_REPOSITORY}/actions/runs/${process.env.GITHUB_RUN_ID}`,
+            xcode: execFileSync('xcodebuild', ['-version'], { encoding: 'utf8' }).trim(),
+            logoSha256: crypto.createHash('sha256').update(fs.readFileSync('assets/logo.png')).digest('hex'),
+          };
+          fs.writeFileSync('releases/ci-build-info.json', JSON.stringify(info, null, 2) + '\n');
+          NODE
+
+      - name: Compile and package unsigned device IPA
+        run: bash scripts/build-ios-unsigned.sh 2>&1 | tee releases/ios-archive.log
+
+      - name: Verify device executable, widget and version
+        run: |
+          TASK_VERSION="$(node -p "require('./package.json').version")"
+          python3 scripts/verify-ipa.py "releases/TJMuse-$TASK_VERSION-unsigned.ipa" | tee releases/ios-verification.log
+
+      - name: Upload verified IPA
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: TJMuse-iPhone-unsigned-${{ github.run_id }}
+          path: |
+            releases/*-unsigned.ipa
+            releases/*-unsigned.ipa.sha256
+            releases/*-unsigned.ipa.verification.json
+            releases/ci-build-info.json
+          if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload build diagnostics
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: TJMuse-iPhone-build-logs-${{ github.run_id }}
+          path: |
+            releases/ios-archive.log
+            releases/ios-verification.log
+            releases/ios-executable.txt
+            releases/ci-build-info.json
+            ios/Podfile.lock
+          if-no-files-found: ignore
+          retention-days: 7

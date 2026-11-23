@@ -40,8 +40,9 @@ if ! file "$TASK_APP/$TASK_EXECUTABLE" | grep -q 'arm64'; then
 fi
 
 ditto "$TASK_APP" "$TASK_BUILD_DIR/package/Payload/TJMuse.app"
-TASK_IPA="$TASK_ROOT/releases/TJMuse-0.1.0-unsigned.ipa"
+TASK_VERSION="$(node -p "require('./package.json').version")"
+TASK_IPA="$TASK_ROOT/releases/TJMuse-$TASK_VERSION-unsigned.ipa"
 ditto -c -k --keepParent "$TASK_BUILD_DIR/package/Payload" "$TASK_IPA"
 unzip -t "$TASK_IPA"
-shasum -a 256 "$TASK_IPA" | tee "$TASK_ROOT/releases/TJMuse-0.1.0-unsigned.ipa.sha256"
+shasum -a 256 "$TASK_IPA" | tee "$TASK_IPA.sha256"
 echo "Unsigned IPA ready: $TASK_IPA"

@@ -1,0 +1,24 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});try{
+ const context=await browser.newContext({viewport:{width:393,height:852},deviceScaleFactor:3,locale:'zh-CN',timezoneId:'Asia/Singapore'}),p=await context.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ const button=name=>p.getByRole('button',{name,exact:true}),card=p.getByTestId('sheet-card'),stored=()=>p.evaluate(()=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')));
+ await p.goto('http://127.0.0.1:8081/?demo=021',{waitUntil:'domcontentloaded'});await button('我的').waitFor();
+ const original=(await stored());
+ const idle=()=>p.waitForFunction(()=>document.querySelector('[data-testid="onboarding"]')?.getAttribute('aria-busy')==='false');
+ const drag=async(locator,dx)=>{const r=await locator.boundingBox(),x=r.x+r.width*.7,y=r.y+Math.min(r.height/2,110);await p.mouse.move(x,y);await p.mouse.down();await p.mouse.move(x+dx,y,{steps:20});await p.mouse.up();await p.waitForTimeout(450);};
+ const selected=await p.locator('[data-testid^="day-content-"]:not([aria-hidden=true])').evaluateAll(ns=>ns.find(n=>!n.closest('[aria-hidden=true]'))?.dataset.testid);
+ await drag(p.getByTestId('week-strip'),-210);const same=await p.locator('[data-testid^="day-content-"]').evaluateAll(ns=>ns.find(n=>!n.closest('[aria-hidden=true]'))?.dataset.testid);assert.equal(same,selected);
+ await drag(p.getByTestId('day-pager'),-210);const next=await p.locator('[data-testid^="day-content-"]').evaluateAll(ns=>ns.find(n=>!n.closest('[aria-hidden=true]'))?.dataset.testid);assert.notEqual(next,selected);
+ await button('我的').click();await button('语言').click();
+ for(const [language,label,close] of [['en-US','English (US)','Close'],['ja','日本語','閉じる'],['es','Español','Cerrar'],['fr','Français','Fermer'],['zh-TW','繁體中文','關閉'],['zh-CN','简体中文','关闭']]){
+  await p.getByRole('button',{name:label,exact:true}).click();await p.getByRole('button',{name:close,exact:true}).waitFor();assert.equal((await stored()).settings.language,language);
+ }
+ await button('关闭').click();await card.waitFor({state:'hidden'});await button('编辑头像').click();await button('选择国家或地区').click();await p.getByTestId('country-list').waitFor();assert.equal(await p.getByTestId('country-alphabet').getByRole('button').count(),26);
+ await p.getByLabel('搜索国家或地区',{exact:true}).fill('Japan');await button('日本 JP').click();await button('保存个人资料').click();await card.waitFor({state:'hidden'});assert.equal((await stored()).profile.regionCode,'JP');
+ await button('作业').click();assert.equal(await button('Canvas 连接设置').count(),0);assert.equal(await button('Canvas 自动更换令牌').count(),0);await button('折叠作业平台').click();assert.equal(await p.getByTestId('platform-canvas').count(),0);await button('展开作业平台').click();await button('同步Canvas作业').waitFor();
+ await button('我的').click();await button('作业设置').click();assert.equal(await p.getByText('已提交的作业',{exact:false}).count(),0);await button('Canvas设置').click();await p.getByLabel('粘贴令牌',{exact:true}).waitFor();await button('断开 Canvas 连接').click();await button('保留连接').click();await button('关闭').click();await button('Canvas设置').waitFor();await button('关闭').click();await card.waitFor({state:'hidden'});
+ await button('重新体验初始化设置').click();await p.getByTestId('onboarding').waitFor();await idle();await p.screenshot({path:'artifacts/preview-040-intro.png'});
+ await button('下一步').click();await idle();await p.getByLabel('昵称',{exact:true}).fill('测试昵称');await button('选择国家或地区').click();await p.getByLabel('搜索国家或地区',{exact:true}).fill('France');await button('法国 FR').click();await button('下一步').click();await idle();assert.equal((await stored()).settings.onboardingStep,2);await p.screenshot({path:'artifacts/preview-040-semester.png'});
+ for(let step=2;step<6;step++){await button('跳过').click();await idle();}assert.equal((await stored()).settings.onboardingStep,6);await p.screenshot({path:'artifacts/preview-040-complete.png'});await button('进入 TJMuse').click();await button('我的').waitFor();assert.equal((await stored()).settings.onboardingCompleted,true);assert.equal((await stored()).profile.nickname,'测试昵称');assert.equal((await stored()).profile.regionCode,'FR');
+ assert.deepEqual(errors,[]);const result={passed:true,weekBrowseKeepsSelectedDay:true,daySwipeChangesDay:true,sixLanguageSwitches:true,countryFullscreenAnd26Letters:true,countrySearchAndPersistence:true,compactPlatformCards:true,platformCollapse:true,canvasDisconnectConfirmation:true,fiveStepOnboardingAndSkip:true,profilePreserved:true,pageErrors:errors,nativeDeviceVerified:false};fs.writeFileSync('.build-tools/qa-v040-result.json',JSON.stringify(result));console.log(JSON.stringify(result));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

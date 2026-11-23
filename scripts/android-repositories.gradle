@@ -1,0 +1,7 @@
+// WebView's buildscript omits Maven Central, although its Kotlin artifacts are
+// published there. Resolve them directly instead of through Plugin Portal.
+gradle.beforeProject { project ->
+    if (project.name == 'react-native-webview') {
+        project.buildscript.repositories.mavenCentral()
+    }
+}

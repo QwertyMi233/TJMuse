@@ -1,11 +1,16 @@
 import { Platform } from 'react-native';
 import type { AppData } from '../core/types';
 import { upcomingReminders } from '../core/reminders';
+async function ensureChannels(N: typeof import('expo-notifications')) {
+  if (Platform.OS !== 'android') return;
+  await N.setNotificationChannelAsync('tasks', { name: '待办与课程提醒', importance: N.AndroidImportance.HIGH });
+  await N.setNotificationChannelAsync('homework', { name: '作业截止提醒', importance: N.AndroidImportance.HIGH });
+}
 
 export async function requestNotificationPermission() {
   if (Platform.OS === 'web') throw new Error('网页版不支持本地定时通知，请在 iOS 或 Android App 中开启。');
   const N = await import('expo-notifications');
-  if (Platform.OS === 'android') await N.setNotificationChannelAsync('tasks', { name: '日程提醒', importance: N.AndroidImportance.HIGH });
+  await ensureChannels(N);
   const existing = await N.getPermissionsAsync();
   if (existing.granted || existing.ios?.status === N.IosAuthorizationStatus.PROVISIONAL) return;
   const result = await N.requestPermissionsAsync();
@@ -19,12 +24,13 @@ export function syncNotifications(data: AppData) {
     N.setNotificationHandler({ handleNotification: async () => ({ shouldPlaySound: true, shouldSetBadge: false, shouldShowBanner: true, shouldShowList: true }) });
     const pending = await N.getAllScheduledNotificationsAsync();
     await Promise.all(pending.filter(n => n.identifier.startsWith('tjmuse:')).map(n => N.cancelScheduledNotificationAsync(n.identifier)));
-    if (!data.settings.todoNotifications && !data.settings.courseNotifications) return;
+    if (!data.settings.todoNotifications && !data.settings.courseNotifications && !data.settings.homeworkNotifications) return;
     const permission = await N.getPermissionsAsync();
-    if (!permission.granted && permission.ios?.status !== N.IosAuthorizationStatus.PROVISIONAL) throw new Error('系统通知权限已关闭，请前往系统设置开启。');
+    if (!permission.granted && permission.ios?.status !== N.IosAuthorizationStatus.PROVISIONAL) return;
+    await ensureChannels(N);
     for (const r of upcomingReminders(data)) await N.scheduleNotificationAsync({ identifier: r.id,
       content: { title: r.title, body: r.body, sound: true },
-      trigger: { type: N.SchedulableTriggerInputTypes.DATE, date: r.at, channelId: 'tasks' },
+      trigger: { type: N.SchedulableTriggerInputTypes.DATE, date: r.at, channelId: r.category },
     });
   };
   queue = queue.catch(() => {}).then(perform);

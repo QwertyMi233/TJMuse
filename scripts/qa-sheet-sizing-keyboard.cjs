@@ -1,0 +1,25 @@
+const{chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
+(async()=>{const b=await chromium.launch({channel:'msedge',headless:true});try{
+ const p=await b.newPage({viewport:{width:440,height:956},locale:'zh-CN',reducedMotion:'no-preference'}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ const button=n=>p.getByRole('button',{name:n,exact:true}),frame=p.getByTestId('attached-sheet-frame'),card=p.getByTestId('sheet-card');
+ const sample=title=>p.evaluate(title=>{window.sheetFrames=[];const requested=performance.now();let start=null;function tick(){for(const e of document.querySelectorAll('[data-testid="attached-sheet-frame"]')){const card=e.querySelector('[data-testid="sheet-card"]'),header=e.querySelector('[data-testid="sheet-drag-handle"]');if(header?.textContent.includes(title)&&card&&getComputedStyle(card).opacity==='1'){if(start===null)start=performance.now();const r=e.getBoundingClientRect();if(r.top<innerHeight-1&&r.bottom>0)window.sheetFrames.push({height:r.height,top:r.top});}}if(start===null?performance.now()-requested<3000:performance.now()-start<800)requestAnimationFrame(tick);}requestAnimationFrame(tick);},title);
+ await p.goto('http://127.0.0.1:8081/me?demo=021',{waitUntil:'domcontentloaded'});await button('关于我们').waitFor();await sample('关于我们');await button('关于我们').click();await p.waitForTimeout(800);
+ const about=await p.evaluate(()=>window.sheetFrames),short=await frame.boundingBox();assert.ok(about.length>4);assert.ok(short.height<956*.5);assert.ok(about.every(f=>Math.abs(f.height-short.height)<2),JSON.stringify(about));await p.screenshot({path:'artifacts/preview-022-compact-build20.png'});await button('关闭').click();await card.waitFor({state:'hidden'});
+ await button('个性化设置').click();await button('主题颜色').waitFor();await sample('外观与颜色');await button('主题颜色').click();await p.waitForTimeout(800);
+ const theme=await p.evaluate(()=>window.sheetFrames),large=await frame.boundingBox();assert.ok(Math.abs(large.height-956*.92)<2,JSON.stringify(large));assert.ok(theme.length>4);assert.ok(theme.every(f=>Math.abs(f.height-large.height)<2),JSON.stringify(theme));await p.screenshot({path:'artifacts/preview-022-large-build20.png'});
+ const body=await p.getByTestId('sheet-content').boundingBox();
+ await p.evaluate(()=>{const viewport=window.visualViewport;window.testKeyboardInset=0;Object.defineProperty(viewport,'height',{configurable:true,get:()=>window.innerHeight-window.testKeyboardInset});Object.defineProperty(viewport,'offsetTop',{configurable:true,get:()=>0});});
+ await p.getByLabel('强调色',{exact:true}).focus();
+ const positions=[];
+ for(const inset of [80,180,300,360,330,180,80,0]){
+   await p.evaluate(inset=>{window.testKeyboardInset=inset;visualViewport.dispatchEvent(new Event('resize'));},inset);await p.waitForTimeout(180);
+   const r=await frame.boundingBox(),content=await p.getByTestId('sheet-content').boundingBox();positions.push({inset,top:r.y,height:r.height});
+   assert.ok(Math.abs(r.y-large.y)<2,JSON.stringify(positions));assert.ok(Math.abs(r.y+r.height-(956-inset))<2);assert.ok(Math.abs(content.height-body.height)<2);
+   const footer=await button('应用主题').boundingBox();assert.ok(footer.y+footer.height<=956-inset+1);
+ }
+ await p.evaluate(()=>{window.testKeyboardInset=320;visualViewport.dispatchEvent(new Event('resize'));});await p.waitForTimeout(700);
+ const input=await p.getByLabel('强调色',{exact:true}).boundingBox(),scroll=await p.getByTestId('sheet-scroll').boundingBox();assert.ok(input.y+input.height<=scroll.y+scroll.height+2,JSON.stringify({input,scroll}));
+ await p.evaluate(()=>{window.testKeyboardInset=0;visualViewport.dispatchEvent(new Event('resize'));});await p.waitForTimeout(400);assert.ok(Math.abs((await frame.boundingBox()).height-large.height)<2);await button('关闭').click();await button('主题颜色').waitFor();await sample('首页排版');await button('首页排版').click();await p.waitForTimeout(900);const sibling=await p.evaluate(()=>window.sheetFrames),siblingBox=await frame.boundingBox();assert.ok(sibling.length>4&&sibling.every(f=>Math.abs(f.height-siblingBox.height)<2),JSON.stringify(sibling));await button('关闭').click();await button('主题颜色').waitFor();await button('关闭').click();await card.waitFor({state:'hidden'});
+ await button('AI 设置').click();await p.waitForTimeout(700);assert.ok(Math.abs((await frame.boundingBox()).height-956*.92)<2);await button('关闭').click();await card.waitFor({state:'hidden'});assert.deepEqual(errors,[]);
+ const result={passed:true,largeFromFirstVisibleFrame:true,compactFromFirstVisibleFrame:true,siblingMenuRemeasuredBeforeOpening:true,themeAndAiLarge:true,keyboardViewportSimulation:true,stableTopDuringKeyboard:true,intrinsicContentHeightStable:true,footerAboveKeyboard:true,focusedFieldVisible:true,restoresOriginalHeight:true,positions,pageErrors:errors,nativeKeyboardVerified:false};fs.writeFileSync('.build-tools/qa-sheet-sizing-keyboard-result.json',JSON.stringify(result));console.log(JSON.stringify(result));
+}finally{await b.close()}})().catch(e=>{console.error(e);process.exitCode=1});

@@ -3,24 +3,34 @@
     "name": "TJMuse",
     "slug": "tjmuse",
     "scheme": "tjmuse",
-    "version": "0.1.0",
+    "version": "0.5.2",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "backgroundColor": "#F7F8F4",
+    "backgroundColor": "#FFFFFF",
     "icon": "./assets/icon.png",
     "ios": {
       "supportsTablet": true,
+      "buildNumber": "39",
       "bundleIdentifier": "com.tjmuse.app",
       "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
+        "ITSAppUsesNonExemptEncryption": false,
+        "CFBundleLocalizations": [
+          "zh-Hans",
+          "zh-Hant",
+          "en",
+          "ja",
+          "es",
+          "fr"
+        ]
       }
     },
     "android": {
       "package": "com.tjmuse.app",
+      "versionCode": 39,
       "softwareKeyboardLayoutMode": "resize",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#E9EFE6"
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
@@ -37,7 +47,7 @@
       [
         "expo-notifications",
         {
-          "color": "#416C56"
+          "color": "#0066B3"
         }
       ],
       [
@@ -50,6 +60,44 @@
           "photosPermission": "选择一张照片作为你的 TJMuse 头像。",
           "cameraPermission": false,
           "microphonePermission": false
+        }
+      ],
+      "expo-localization",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": false,
+          "recordAudioAndroid": false,
+          "enableBackgroundPlayback": false
+        }
+      ],
+      [
+        "expo-widgets",
+        {
+          "bundleIdentifier": "com.tjmuse.app.widgets",
+          "groupIdentifier": "group.com.tjmuse.app",
+          "enableAndroid": true,
+          "widgets": [
+            {
+              "name": "DailyAgenda",
+              "displayName": "TJMuse · 今日安排",
+              "description": "教学周、日期与接下来的课程、To-do 和作业",
+              "ios": {
+                "supportedFamilies": [
+                  "systemLarge"
+                ],
+                "initialLayout": "src/widgets/AgendaWidget.ios.tsx"
+              },
+              "android": {
+                "targetCellWidth": 4,
+                "targetCellHeight": 4,
+                "minWidth": 250,
+                "minHeight": 250,
+                "resizeMode": "both",
+                "initialLayout": "src/widgets/AgendaWidget.android.tsx"
+              }
+            }
+          ]
         }
       ]
     ],

@@ -1,3 +1,5 @@
 nodeLinker: hoisted
 allowBuilds:
   esbuild: true
+minimumReleaseAgeExclude:
+  - react-native-marked@8.3.3

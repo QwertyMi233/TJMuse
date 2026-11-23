@@ -1,0 +1,447 @@
+# 简体中文 | English (US) | 日本語 | Español | Français
+登录信息读取超时，请重试读取；当前网页登录会保留。|Reading the login session timed out. Try again; your website login is preserved.|ログイン情報の読み取りがタイムアウトしました。ログイン状態は保持されます。再度お試しください。|Se agotó el tiempo para leer la sesión. Vuelve a intentarlo; tu sesión web se conserva.|La lecture de la session a expiré. Réessayez ; votre connexion au site est conservée.
+登录信息读取未完成，请重试读取。|The login session could not be read. Please try again.|ログイン情報を読み取れませんでした。再度お試しください。|No se pudo leer la sesión. Vuelve a intentarlo.|La session n’a pas pu être lue. Veuillez réessayer.
+语言|Language|言語|Idioma|Langue
+跟随系统|System default|システム設定|Usar sistema|Suivre le système
+跟随系统或选择你的语言|Use the system language or choose your own|システムの言語、またはお好みの言語|Usa el idioma del sistema o elige otro|Langue du système ou de votre choix
+课程|Courses|授業|Clases|Cours
+课程表|Timetable|時間割|Horario|Emploi du temps
+作业|Homework|課題|Tareas|Devoirs
+我的|Me|マイページ|Mi perfil|Mon profil
+通知|Notifications|通知|Notificaciones|Notifications
+完成|Done|完了|Hecho|Terminé
+关闭|Close|閉じる|Cerrar|Fermer
+确认|Confirm|確認|Confirmar|Confirmer
+保留|Keep|保持|Conservar|Conserver
+显示|Show|表示|Mostrar|Afficher
+隐藏|Hide|非表示|Ocultar|Masquer
+展开|Expand|展開|Expandir|Développer
+折叠|Collapse|折りたたむ|Contraer|Réduire
+删除|Delete|削除|Eliminar|Supprimer
+取消|Cancel|キャンセル|Cancelar|Annuler
+跳过|Skip|スキップ|Omitir|Passer
+退出|Exit|終了|Salir|Quitter
+下一步|Next|次へ|Siguiente|Suivant
+上一步|Back|戻る|Atrás|Retour
+昵称|Nickname|ニックネーム|Apodo|Pseudo
+性别|Gender|性別|Género|Genre
+女|Female|女性|Mujer|Femme
+男|Male|男性|Hombre|Homme
+自定义|Custom|カスタム|Personalizado|Personnalisé
+不愿透露|Prefer not to say|回答しない|Prefiero no decirlo|Préfère ne pas préciser
+国家 / 地区|Country / Region|国・地域|País o región|Pays ou région
+选择国家或地区|Choose country or region|国・地域を選択|Elegir país o región|Choisir un pays ou une région
+搜索国家或地区|Search countries or regions|国・地域を検索|Buscar país o región|Rechercher un pays ou une région
+关闭国家地区选择|Close country selection|国・地域の選択を閉じる|Cerrar selección de país|Fermer le choix du pays
+没有找到匹配的地区|No matching regions|該当する地域がありません|No hay regiones coincidentes|Aucune région correspondante
+未设置地区|Region not set|地域未設定|Región sin configurar|Région non définie
+选择头像|Choose avatar|プロフィール写真を選択|Elegir avatar|Choisir un avatar
+更换头像|Change avatar|プロフィール写真を変更|Cambiar avatar|Changer d’avatar
+选择照片|Choose photo|写真を選択|Elegir foto|Choisir une photo
+移除头像|Remove avatar|プロフィール写真を削除|Quitar avatar|Supprimer l’avatar
+编辑头像|Edit avatar|プロフィール写真を編集|Editar avatar|Modifier l’avatar
+自定义性别|Custom gender|性別を入力|Género personalizado|Genre personnalisé
+关于你|About you|あなたについて|Sobre ti|À propos de vous
+保存个人资料|Save profile|プロフィールを保存|Guardar perfil|Enregistrer le profil
+请填写昵称。|Please enter a nickname.|ニックネームを入力してください。|Introduce un apodo.|Veuillez saisir un pseudo.
+很高兴，在这里遇见你。|Glad you're here.|ようこそ。|Qué gusto verte aquí.|Heureux de vous retrouver ici.
+主题颜色|Theme colors|テーマカラー|Colores del tema|Couleurs du thème
+个性化设置|Personalization|カスタマイズ|Personalización|Personnalisation
+首页排版|Home layout|ホームのレイアウト|Diseño de inicio|Disposition de l’accueil
+作业显示设置|Homework visibility|課題の表示設定|Visibilidad de tareas|Affichage des devoirs
+课程表设置|Timetable settings|時間割設定|Ajustes del horario|Réglages de l’emploi du temps
+AI 设置|AI settings|AI設定|Ajustes de IA|Réglages de l’IA
+作业设置|Homework settings|課題設定|Ajustes de tareas|Réglages des devoirs
+通知设置|Notification settings|通知設定|Ajustes de notificaciones|Réglages des notifications
+日历与作息|Calendar & routine|カレンダーと生活リズム|Calendario y rutina|Calendrier et rythme de vie
+清除历史对话|Clear chat history|チャット履歴を消去|Borrar historial|Effacer l’historique
+关于我们|About us|このアプリについて|Acerca de|À propos
+重新体验初始化设置|Repeat the welcome setup|初期設定をもう一度|Repetir configuración inicial|Revoir la configuration initiale
+主题颜色 · 首页排版 · 作业显示设置|Theme · Home layout · Homework visibility|テーマ・ホーム表示・課題表示|Tema · Inicio · Visibilidad de tareas|Thème · Accueil · Affichage des devoirs
+课程、作业和 To-do 的顺序与折叠|Order and collapse courses, homework and to-dos|授業・課題・To-doの順序と折りたたみ|Orden de clases, tareas y pendientes|Ordre des cours, devoirs et tâches
+系统配色、浅色与深色主题|System, light and dark themes|システム・ライト・ダークテーマ|Temas del sistema, claro y oscuro|Thèmes système, clair et sombre
+行高 · 节次起止时间 · 时长|Row height · Period times · Duration|行の高さ・授業時間・長さ|Altura · Horas de clase · Duración|Hauteur · Horaires des cours · Durée
+Canvas · 好课 · 连接与同步|Canvas · Haoke · Connections & sync|Canvas・Haoke・接続と同期|Canvas · Haoke · Conexión y sincronización|Canvas · Haoke · Connexion et synchronisation
+课程、作业与 To-do|Courses, homework & to-dos|授業・課題・To-do|Clases, tareas y pendientes|Cours, devoirs et tâches
+按时间穿插|Chronological|時刻順|Por hora|Par heure
+按分类显示|By category|カテゴリ別|Por categoría|Par catégorie
+分类顺序|Category order|カテゴリの順序|Orden de categorías|Ordre des catégories
+向下移动|Move down|下へ移動|Mover abajo|Descendre
+向上移动|Move up|上へ移動|Mover arriba|Monter
+调整{0}顺序|Reorder {0}|{0}の順序を変更|Reordenar {0}|Réordonner {0}
+按时间穿插会将全部事项按当天时间排序。分类显示时，每个分类和其中已勾选的任务都可以单独折叠。|Chronological view sorts your day by time. In category view, each category and its completed tasks can collapse separately.|時刻順では当日の時刻で並びます。カテゴリ別では、各カテゴリと完了したタスクを個別に折りたためます。|La vista por hora ordena el día cronológicamente. Por categoría puedes contraer cada grupo y sus tareas completadas.|La vue par heure suit la chronologie. Par catégorie, chaque groupe et ses tâches terminées se réduisent séparément.
+拖动右侧三横线调整，松手后自动保存。默认 To-do、课程、作业；在“按分类显示”时应用，按时间穿插仍按时间排序。|Drag the handles to reorder; changes save on release. Default: To-do, courses, homework. Applies to category view only.|右のハンドルをドラッグすると、離した時に保存されます。初期順はTo-do、授業、課題。カテゴリ別表示で適用されます。|Arrastra los controles para ordenar; se guarda al soltar. Orden inicial: To-do, clases y tareas. Solo afecta a la vista por categoría.|Glissez les poignées ; l’ordre est enregistré au relâchement. Par défaut : To-do, cours, devoirs. Uniquement en vue par catégorie.
+外观与颜色|Appearance & colors|外観と色|Apariencia y colores|Apparence et couleurs
+颜色模式|Appearance|カラーモード|Modo de color|Mode de couleur
+浅色模式|Light|ライト|Claro|Clair
+深色模式|Dark|ダーク|Oscuro|Sombre
+编辑浅色配色|Edit light palette|ライト配色を編集|Editar paleta clara|Modifier la palette claire
+编辑深色配色|Edit dark palette|ダーク配色を編集|Editar paleta oscura|Modifier la palette sombre
+前景色|Foreground|文字色|Color de texto|Couleur du texte
+背景色|Background|背景色|Fondo|Arrière-plan
+强调色|Accent|アクセント色|Acento|Couleur d’accentuation
+前景|Text|文字|Texto|Texte
+背景|Background|背景|Fondo|Fond
+强调|Accent|アクセント|Acento|Accent
+浅色|Light|ライト|Claro|Clair
+深色|Dark|ダーク|Oscuro|Sombre
+应用主题|Apply theme|テーマを適用|Aplicar tema|Appliquer le thème
+恢复默认配色|Reset colors|初期配色に戻す|Restablecer colores|Réinitialiser les couleurs
+跟随默认|Use default|既定値に従う|Usar valor predeterminado|Valeur par défaut
+已开启|On|オン|Activado|Activé
+未开启|Off|オフ|Desactivado|Désactivé
+已连接|Connected|接続済み|Conectado|Connecté
+未连接|Not connected|未接続|Sin conexión|Non connecté
+已关闭显示|Hidden|表示オフ|Oculto|Masqué
+日期|Date|日付|Fecha|Date
+时间|Time|時刻|Hora|Heure
+地点|Location|場所|Lugar|Lieu
+描述|Description|説明|Descripción|Description
+星期|Weekday|曜日|Día|Jour
+每周|Weekly|毎週|Semanal|Chaque semaine
+周一|Monday|月曜日|Lunes|Lundi
+周日|Sunday|日曜日|Domingo|Dimanche
+单周|Odd weeks|奇数週|Semanas impares|Semaines impaires
+双周|Even weeks|偶数週|Semanas pares|Semaines paires
+天|Days|日|Días|Jours
+周|Week|週|Semana|Semaine
+月|Month|月|Mes|Mois
+年|Year|年|Año|An
+节|Period|時限|Clase|Séance
+第|No.|第|N.º|Nº
+今|Today|今日|Hoy|Auj.
+休|Off|休|Libre|Repos
+班|Work|勤|Laboral|Travail
+休息|Day off|休日|Descanso|Repos
+补班|Workday|振替出勤|Día laborable|Jour travaillé
+今天|Today|今日|Hoy|Aujourd’hui
+上一周|Previous week|前の週|Semana anterior|Semaine précédente
+下一周|Next week|次の週|Semana siguiente|Semaine suivante
+跳转到今天|Go to today|今日へ移動|Ir a hoy|Aller à aujourd’hui
+选择日程日期|Choose date|日程の日付を選択|Elegir fecha|Choisir une date
+去往某一天|Go to a date|指定日へ|Ir a una fecha|Aller à une date
+查看日程|View day|日程を見る|Ver día|Voir la journée
+学期未开始|Semester not started|学期開始前|El semestre no ha empezado|Semestre non commencé
+第 {0} 周|Week {0}|第{0}週|Semana {0}|Semaine {0}
+今天，慢慢来|A little room for today|今日は、ゆっくりと|Hoy, con calma|Aujourd’hui, prenez le temps
+件事|items|件|cosas|éléments
+已完成 ·|Completed ·|完了 ·|Completadas ·|Terminés ·
+取消完成|Mark incomplete|未完了に戻す|Marcar pendiente|Marquer non terminé
+一天的可能，从这里开始|Make room for your day|今日の可能性は、ここから|Tu día empieza aquí|Votre journée commence ici
+写下第一件小事，|Write down your first small step.|最初の小さな一歩を記しましょう。|Anota tu primer pequeño paso.|Notez votre première petite étape.
+让生活有条不紊，也从容一点。|A little more order. A little more ease.|日々に少しの整いと、ゆとりを。|Un poco de orden, un poco de calma.|Un peu d’ordre, un peu de sérénité.
+添加 To-do|Add to-do|To-doを追加|Añadir pendiente|Ajouter une tâche
+创建第一项 To-do|Create your first to-do|最初のTo-doを作成|Crear tu primer pendiente|Créer votre première tâche
+给时间一点灵感|A little inspiration for your day|時間に少しのひらめきを|Inspiración para tu día|Un peu d’inspiration pour la journée
+查看 AI 时间规划|View AI plan|AIの予定を見る|Ver plan de IA|Voir le planning IA
+让 AI 看看今天的计划，为重要的事找到合适的时间。|Let AI find room for what matters today.|AIと一緒に、大切なことの時間を見つけましょう。|Deja que la IA encuentre tiempo para lo importante.|Laissez l’IA trouver du temps pour l’essentiel.
+一次性|One-time|一度のみ|Una vez|Une seule fois
+循环|Repeat|繰り返し|Repetir|Récurrence
+循环每|Repeat every|繰り返し間隔|Repetir cada|Répéter tous les
+循环间隔|Repeat interval|繰り返し間隔|Intervalo|Intervalle
+子任务|Subtasks|サブタスク|Subtareas|Sous-tâches
+添加子任务|Add subtask|サブタスクを追加|Añadir subtarea|Ajouter une sous-tâche
+任务时间|Task time|タスクの時間|Horario de la tarea|Horaire de la tâche
+开始日期|Start date|開始日|Fecha de inicio|Date de début
+开始时间|Start time|開始時刻|Hora de inicio|Heure de début
+结束日期|End date|終了日|Fecha de fin|Date de fin
+结束时间|End time|終了時刻|Hora de fin|Heure de fin
+时长 / 分钟|Duration / minutes|長さ（分）|Duración / minutos|Durée / minutes
+边框颜色|Border color|枠線の色|Color del borde|Couleur de bordure
+保存更改|Save changes|変更を保存|Guardar cambios|Enregistrer les modifications
+确认添加|Add|追加|Añadir|Ajouter
+删除这件事？|Delete this task?|このタスクを削除しますか？|¿Eliminar esta tarea?|Supprimer cette tâche ?
+课表管理|Manage timetables|時間割の管理|Gestionar horarios|Gérer les emplois du temps
+导入或添加课表|Import or add timetable|時間割を読み込む・追加|Importar o añadir horario|Importer ou ajouter un emploi du temps
+手动添加课程|Add course manually|授業を手動追加|Añadir clase manualmente|Ajouter un cours manuellement
+从同济1系统导入|Import from Tongji 1|同済1システムから読み込む|Importar de Tongji 1|Importer depuis Tongji 1
+同济个人课表|Tongji timetable|同済大学の時間割|Horario de Tongji|Emploi du temps Tongji
+课程详情|Course details|授業の詳細|Detalles de la clase|Détails du cours
+课程名称|Course name|授業名|Nombre de clase|Nom du cours
+上课地点|Class location|教室|Aula|Lieu du cours
+授课教师|Teacher|担当教員|Profesor|Enseignant
+课程颜色|Course color|授業の色|Color de la clase|Couleur du cours
+保存课程设置|Save course|授業設定を保存|Guardar clase|Enregistrer le cours
+保存手动课程|Save course|授業を保存|Guardar clase|Enregistrer le cours
+课程开始时间|Course starts|授業開始時刻|Inicio de clase|Début du cours
+课程结束时间|Course ends|授業終了時刻|Fin de clase|Fin du cours
+手动课表|Manual timetable|手動の時間割|Horario manual|Emploi du temps manuel
+新建课表|New timetable|時間割を新規作成|Nuevo horario|Nouvel emploi du temps
+新课表名称|New timetable name|新しい時間割名|Nombre del nuevo horario|Nom du nouvel emploi du temps
+添加到课表|Add to timetable|時間割に追加|Añadir al horario|Ajouter à l’emploi du temps
+开始教学周|First teaching week|開始授業週|Primera semana lectiva|Première semaine de cours
+结束教学周|Last teaching week|最終授業週|Última semana lectiva|Dernière semaine de cours
+开始节次|First period|開始時限|Primera clase|Première séance
+结束节次|Last period|終了時限|Última clase|Dernière séance
+课表名称|Timetable name|時間割名|Nombre del horario|Nom de l’emploi du temps
+核对课表|Review timetable|時間割を確認|Revisar horario|Vérifier l’emploi du temps
+保存这份课表|Save timetable|時間割を保存|Guardar horario|Enregistrer l’emploi du temps
+确认删除课表|Delete timetable|時間割を削除|Eliminar horario|Supprimer l’emploi du temps
+删除这份课表？|Delete this timetable?|この時間割を削除しますか？|¿Eliminar este horario?|Supprimer cet emploi du temps ?
+显示中|Visible|表示中|Visible|Visible
+已隐藏|Hidden|非表示|Oculto|Masqué
+未标注|Not specified|未記載|Sin especificar|Non précisé
+教师：|Teacher: |教員：|Profesor: |Enseignant : 
+地点：|Location: |場所：|Lugar: |Lieu : 
+课程表显示设置|Timetable display|時間割の表示設定|Vista del horario|Affichage de l’emploi du temps
+自动适应屏幕|Fit to screen|画面に合わせる|Ajustar a pantalla|Adapter à l’écran
+课表自动行高|Automatic row height|行の高さを自動調整|Altura automática|Hauteur automatique
+每节课行高|Period row height|時限の行の高さ|Altura por clase|Hauteur par séance
+减小行高|Reduce row height|行を低くする|Reducir altura|Réduire la hauteur
+增大行高|Increase row height|行を高くする|Aumentar altura|Augmenter la hauteur
+默认时间模板|Default time template|既定の時間設定|Plantilla horaria|Modèle horaire par défaut
+设置节次时间与时长|Set period times and duration|時限の時刻と長さを設定|Configurar horarios y duración|Définir les horaires et la durée
+保存显示设置|Save display settings|表示設定を保存|Guardar vista|Enregistrer l’affichage
+课表上一周|Previous timetable week|時間割の前週|Semana anterior del horario|Semaine précédente des cours
+课表下一周|Next timetable week|時間割の翌週|Semana siguiente del horario|Semaine suivante des cours
+课表回到本周|Back to this week|今週に戻る|Volver a esta semana|Revenir à cette semaine
+添加或管理课表|Add or manage timetables|時間割を追加・管理|Añadir o gestionar horarios|Ajouter ou gérer les emplois du temps
+作业平台|Homework platforms|課題プラットフォーム|Plataformas de tareas|Plateformes de devoirs
+折叠作业平台|Collapse platforms|プラットフォームを折りたたむ|Contraer plataformas|Réduire les plateformes
+展开作业平台|Expand platforms|プラットフォームを展開|Expandir plataformas|Développer les plateformes
+一键同步所有平台作业|Sync all homework|すべての課題を同期|Sincronizar todas las tareas|Synchroniser tous les devoirs
+同步 Canvas 作业|Sync Canvas|Canvasを同期|Sincronizar Canvas|Synchroniser Canvas
+同步Canvas作业|Sync Canvas|Canvasを同期|Sincronizar Canvas|Synchroniser Canvas
+同步好课作业|Sync Haoke|Haokeを同期|Sincronizar Haoke|Synchroniser Haoke
+Canvas设置|Canvas settings|Canvas設定|Ajustes de Canvas|Réglages Canvas
+Canvas 设置|Canvas settings|Canvas設定|Ajustes de Canvas|Réglages Canvas
+好课设置|Haoke settings|Haoke設定|Ajustes de Haoke|Réglages Haoke
+好课平台|Haoke|Haoke|Haoke|Haoke
+好课|Haoke|Haoke|Haoke|Haoke
+截止：|Due: |期限：|Entrega: |Échéance : 
+未设置|Not set|未設定|Sin configurar|Non défini
+已提交|Submitted|提出済み|Entregado|Remis
+未提交|Not submitted|未提出|Sin entregar|Non remis
+已完成的作业|Completed homework|完了した課題|Tareas completadas|Devoirs terminés
+删除作业|Delete homework|課題を削除|Eliminar tarea|Supprimer le devoir
+显示在 To-do 中|Show in To-do|To-doに表示|Mostrar en To-do|Afficher dans To-do
+在 To-do 显示作业|Show homework in To-do|To-doに課題を表示|Mostrar tareas en To-do|Afficher les devoirs dans To-do
+有截止时间的作业默认显示|Show dated homework by default|期限のある課題を既定で表示|Mostrar tareas con fecha por defecto|Afficher les devoirs datés par défaut
+隐藏无时间限制的作业|Hide undated homework|期限のない課題を非表示|Ocultar tareas sin fecha|Masquer les devoirs sans date
+查看已删除作业（{0}）|Recently deleted ({0})|最近削除した課題（{0}）|Eliminadas recientemente ({0})|Suppressions récentes ({0})
+已删除的作业|Recently deleted|最近削除した課題|Eliminadas recientemente|Suppressions récentes
+恢复作业|Restore homework|課題を復元|Restaurar tarea|Restaurer le devoir
+启用手动清空|Enable manual clearing|手動消去を有効にする|Permitir vaciar manualmente|Autoriser l’effacement manuel
+确认清空|Clear now|今すぐ消去|Vaciar ahora|Effacer maintenant
+保留作业|Keep homework|課題を保持|Conservar tareas|Conserver les devoirs
+Canvas 网站地址|Canvas URL|CanvasのURL|URL de Canvas|Adresse Canvas
+打开令牌设置页|Open token settings|トークン設定を開く|Abrir ajustes del token|Ouvrir les réglages du jeton
+粘贴令牌|Paste token|トークンを貼り付け|Pegar token|Coller le jeton
+个人访问令牌|Personal access token|個人アクセストークン|Token de acceso personal|Jeton d’accès personnel
+验证令牌并同步|Connect & sync|接続して同期|Conectar y sincronizar|Connecter et synchroniser
+显示令牌|Show token|トークンを表示|Mostrar token|Afficher le jeton
+隐藏令牌|Hide token|トークンを非表示|Ocultar token|Masquer le jeton
+自动更换令牌|Auto-renew token|トークンの自動更新|Renovar token automáticamente|Renouvellement automatique
+Canvas 自动更换令牌|Canvas token renewal|Canvasトークンの自動更新|Renovación del token Canvas|Renouvellement du jeton Canvas
+自动更换令牌开关|Automatic token renewal|トークン自動更新スイッチ|Renovación automática del token|Renouvellement automatique du jeton
+启用自动更换|Enable auto-renewal|自動更新を有効にする|Activar renovación|Activer le renouvellement
+学校自动登录|School auto-login|大学の自動ログイン|Acceso automático escolar|Connexion scolaire automatique
+断开 Canvas 连接|Disconnect Canvas|Canvasの接続を解除|Desconectar Canvas|Déconnecter Canvas
+断开 Canvas？|Disconnect Canvas?|Canvasの接続を解除しますか？|¿Desconectar Canvas?|Déconnecter Canvas ?
+保留连接|Keep connection|接続を維持|Mantener conexión|Garder la connexion
+连接好课平台|Connect Haoke|Haokeに接続|Conectar Haoke|Connecter Haoke
+重新登录好课|Sign in to Haoke again|Haokeに再ログイン|Volver a acceder a Haoke|Se reconnecter à Haoke
+断开好课连接|Disconnect Haoke|Haokeの接続を解除|Desconectar Haoke|Déconnecter Haoke
+确认断开好课|Disconnect Haoke|Haokeの接続解除を確認|Confirmar desconexión|Confirmer la déconnexion
+学号自动登录设置|Student auto-login|学籍番号で自動ログイン|Acceso automático por matrícula|Connexion automatique étudiante
+学校学号|Student ID|学籍番号|Matrícula|Numéro étudiant
+密码|Password|パスワード|Contraseña|Mot de passe
+保存登录设置|Save login settings|ログイン設定を保存|Guardar acceso|Enregistrer la connexion
+开启|Enable|有効にする|Activar|Activer
+连接你的 AI|Connect your AI|AIに接続|Conecta tu IA|Connecter votre IA
+连接我的 AI|Connect my AI|自分のAIに接続|Conectar mi IA|Connecter mon IA
+模型名称|Model name|モデル名|Nombre del modelo|Nom du modèle
+选择模型|Choose model|モデルを選択|Elegir modelo|Choisir un modèle
+自定义接口|Custom endpoint|カスタムAPI|API personalizada|API personnalisée
+输出 TOKEN 上限|Max output tokens|最大出力トークン数|Máximo de tokens|Limite de tokens de sortie
+保存 AI 设置|Save AI settings|AI設定を保存|Guardar ajustes de IA|Enregistrer les réglages IA
+隐藏密钥|Hide API key|APIキーを非表示|Ocultar clave|Masquer la clé
+显示密钥|Show API key|APIキーを表示|Mostrar clave|Afficher la clé
+允许 AI 写入任务|Allow AI to edit tasks|AIによるタスク編集を許可|Permitir a la IA editar tareas|Autoriser l’IA à modifier les tâches
+打开 AI 设置|Open AI settings|AI設定を開く|Abrir ajustes de IA|Ouvrir les réglages IA
+填写规划提示词|Draft a planning prompt|予定の指示を入力|Redactar una indicación|Rédiger une demande de planning
+发送消息|Send message|メッセージを送信|Enviar mensaje|Envoyer le message
+停止生成|Stop|生成を停止|Detener|Arrêter
+撤销这次安排|Undo this plan|この予定を元に戻す|Deshacer este plan|Annuler ce planning
+编辑提示词后重试|Edit prompt to retry|指示を編集して再試行|Editar para reintentar|Modifier la demande pour réessayer
+把时间，留给你在意的事。|Make room for what matters.|大切なことに、時間を。|Haz espacio para lo que importa.|Du temps pour ce qui compte.
+把时间，留给你在意的事|Make room for what matters|大切なことに、時間を|Haz espacio para lo que importa|Du temps pour ce qui compte
+Muse 的时间提案|Muse's plan for you|Museからの時間の提案|Tu plan de Muse|Les suggestions de Muse
+慢慢实现的小事|Little things, in your own time|いつか叶えたい小さなこと|Pequeños planes, a tu ritmo|De petites envies, à votre rythme
+可自行安排且无时限的事项。|Things without a deadline.|期限に縛られないこと。|Cosas sin fecha límite.|Des envies sans échéance.
+添加自由事项|Add a little thing|自由なタスクを追加|Añadir un pequeño plan|Ajouter une petite envie
+添加第一件自由事项|Add your first little thing|最初の自由なタスクを追加|Añadir tu primer plan|Ajouter votre première envie
+编辑自由事项|Edit little thing|自由なタスクを編集|Editar pequeño plan|Modifier une petite envie
+删除自由事项|Delete little thing|自由なタスクを削除|Eliminar pequeño plan|Supprimer une petite envie
+留一个小心愿|Save a little wish|小さな願いを残す|Guardar un pequeño deseo|Garder une petite envie
+正在为今天寻找合适的节奏…|Finding your rhythm for today…|今日に合うリズムを探しています…|Buscando tu ritmo de hoy…|À la recherche de votre rythme du jour…
+正在回应你的安排…|Working on your plans…|予定を考えています…|Preparando tus planes…|Préparation de vos projets…
+和 AI 聊聊安排|Chat about your plans|AIと予定を相談|Habla sobre tus planes|Discutez de vos projets
+聊聊安排，或让我添加一件小事…|Share a plan, or ask me to add something…|予定を相談したり、小さなことを追加したり…|Comparte un plan o pídeme añadir algo…|Parlez de vos projets ou ajoutez une petite envie…
+轻轻提醒你|A gentle reminder|そっとお知らせ|Un recordatorio suave|Un rappel en douceur
+To-do 通知|To-do reminders|To-doの通知|Avisos de pendientes|Rappels de tâches
+课程通知|Course reminders|授業の通知|Avisos de clases|Rappels de cours
+作业截止通知|Homework due reminders|課題の期限通知|Avisos de entrega|Rappels d’échéance des devoirs
+提前提醒|Remind me before|事前に通知|Avisar antes|Me rappeler à l’avance
+准时|At start time|開始時刻|A la hora|À l’heure prévue
+{0} 小时|{0} hours|{0}時間|{0} horas|{0} heures
+{0} 分钟|{0} minutes|{0}分|{0} minutos|{0} minutes
+打开系统设置|Open system settings|システム設定を開く|Abrir ajustes del sistema|Ouvrir les réglages système
+每周第一天|First day of week|週の始まり|Primer día de la semana|Premier jour de la semaine
+作息时间|Daily routine|生活リズム|Rutina diaria|Rythme quotidien
+可安排时间 · 开始|Available from|予定の開始時刻|Disponible desde|Disponible à partir de
+可安排时间 · 结束|Available until|予定の終了時刻|Disponible hasta|Disponible jusqu’à
+保存设置|Save settings|設定を保存|Guardar ajustes|Enregistrer les réglages
+学期第一周|First semester week|学期の第1週|Primera semana del semestre|Première semaine du semestre
+第一周内的任意日期|Any date in week one|第1週内の任意の日付|Cualquier fecha de la primera semana|Une date de la première semaine
+中国大陆调休|Mainland China holidays|中国本土の休日・振替出勤|Festivos de China continental|Jours fériés en Chine continentale
+同步年份|Year to sync|同期する年|Año a sincronizar|Année à synchroniser
+获取 / 更新调休信息|Update holiday calendar|休日情報を更新|Actualizar festivos|Actualiser les jours fériés
+查看原始公告|View official notice|公式通知を見る|Ver anuncio oficial|Voir l’annonce officielle
+清除历史对话？|Clear chat history?|チャット履歴を消去しますか？|¿Borrar el historial?|Effacer l’historique ?
+本地保存的所有 AI 对话都会被清除，To-do 和自由事项会保留。|Deletes saved AI chats. Your tasks and little things stay.|保存されたAIチャットを消去します。To-doと自由なタスクは残ります。|Se borran los chats guardados. Tus tareas y pequeños planes se conservan.|Les conversations sont effacées. Vos tâches et petites envies sont conservées.
+让每一天，\n从容展开。|Let each day\nunfold with ease.|毎日に、\nゆとりを。|Que cada día\nfluya con calma.|Que chaque journée\ntrouve son rythme.
+留一点空间，给重要的事，也给自己。|A little space for what matters. And for you.|大切なことにも、自分にも、少しの余白を。|Un poco de espacio para lo importante. Y para ti.|Un peu d’espace pour l’essentiel. Et pour vous.
+先认识一下你|Let's get to know you|まず、あなたのことから|Empecemos por ti|Faisons connaissance
+一个属于你的空间，从你的名字开始。|A space of your own begins with your name.|あなたの名前から、あなただけの場所を。|Un espacio propio empieza por tu nombre.|Votre espace commence par votre nom.
+从你的第一周开始|Start with your first week|最初の一週間から|Empieza con tu primera semana|Commencez par votre première semaine
+把课程带进来，让日程自然衔接。|Bring your courses in and let your day flow.|授業を取り込んで、日程を自然につなぎましょう。|Añade tus clases y conecta tu día.|Importez vos cours pour des journées fluides.
+让作业各归其位|Give homework a home|課題にも、居場所を|Cada tarea en su lugar|Une place pour chaque devoir
+连接学习平台，重要的截止日不再错过。|Connect your learning platforms and keep deadlines in sight.|学習サービスを接続して、大切な期限を見逃さないように。|Conecta tus plataformas y no pierdas las fechas importantes.|Connectez vos plateformes pour garder les échéances en vue.
+为时间添一点灵感|A little inspiration for your time|時間に少しのひらめきを|Inspiración para tu tiempo|Un peu d’inspiration pour votre temps
+连接你熟悉的模型，一起安排日常。|Connect a familiar model and plan your days together.|使い慣れたAIと、毎日の予定を考えましょう。|Conecta tu modelo favorito y organiza tus días.|Connectez votre modèle et préparez vos journées ensemble.
+找到舒服的节奏|Find a rhythm that feels right|心地よいリズムを見つけよう|Encuentra un ritmo cómodo|Trouvez un rythme qui vous convient
+让提醒适时响起，也为休息留出时间。|Timely reminders, with room to rest.|ちょうどよい時に通知を。休む時間も大切に。|Avisos a tiempo, con espacio para descansar.|Des rappels au bon moment et du temps pour se reposer.
+准备好了，\n开始你的每一天。|You're all set.\nMake each day yours.|準備はできました。\nあなたらしい毎日へ。|Todo listo.\nHaz tuyo cada día.|Tout est prêt.\nÀ vous de vivre chaque journée.
+不用一次设定完美，以后随时可以调整。|It doesn't have to be perfect. You can adjust it anytime.|完璧でなくても大丈夫。いつでも変えられます。|No hace falta que sea perfecto. Puedes cambiarlo cuando quieras.|Tout n’a pas besoin d’être parfait. Vous pourrez ajuster à tout moment.
+让我们开始吧|Let's begin|はじめましょう|Empecemos|Commençons
+进入 TJMuse|Open TJMuse|TJMuseをはじめる|Entrar en TJMuse|Ouvrir TJMuse
+开启音效|Turn sound on|サウンドをオン|Activar sonido|Activer le son
+关闭音效|Mute sound|サウンドをオフ|Silenciar|Couper le son
+连接学习平台|Connect learning platforms|学習サービスに接続|Conectar plataformas|Connecter les plateformes
+{0} 份课表已保存|{0} timetables saved|時間割を{0}件保存済み|{0} horarios guardados|{0} emplois du temps enregistrés
+请填写昵称，或选择跳过。|Enter a nickname, or skip for now.|ニックネームを入力するか、スキップしてください。|Introduce un apodo u omite este paso.|Saisissez un pseudo ou passez cette étape.
+请设置有效的作息时间。|Please enter valid routine times.|正しい生活時間を設定してください。|Introduce un horario válido.|Veuillez définir des horaires valides.
+第 {0} 步，共 5 步|Step {0} of 5|5ステップ中{0}|Paso {0} de 5|Étape {0} sur 5
+
+在好课网页登录|Log in to Haoke|好課にログイン|Iniciar sesión en Haoke|Se connecter à Haoke
+正在打开好课登录页…|Opening Haoke login…|好課のログイン画面を開いています…|Abriendo sesión de Haoke…|Ouverture de la connexion Haoke…
+取消连接|Cancel connection|接続をキャンセル|Cancelar conexión|Annuler la connexion
+
+智学盟|Zhixuemeng|智学盟|Zhixuemeng|Zhixuemeng
+智学盟设置|Zhixuemeng settings|智学盟の設定|Ajustes de Zhixuemeng|Réglages Zhixuemeng
+智学盟连接设置|Zhixuemeng connection|智学盟の接続|Conexión con Zhixuemeng|Connexion Zhixuemeng
+智学盟自动登录|Zhixuemeng automatic login|智学盟の自動ログイン|Inicio automático en Zhixuemeng|Connexion automatique Zhixuemeng
+智学盟账号|Zhixuemeng account|智学盟のアカウント|Cuenta de Zhixuemeng|Compte Zhixuemeng
+智学盟密码|Zhixuemeng password|智学盟のパスワード|Contraseña de Zhixuemeng|Mot de passe Zhixuemeng
+账号自动登录设置|Automatic login settings|自動ログイン設定|Ajustes de inicio automático|Réglages de connexion automatique
+在智学盟网页登录|Log in to Zhixuemeng|智学盟にログイン|Iniciar sesión en Zhixuemeng|Se connecter à Zhixuemeng
+重新登录智学盟|Log in to Zhixuemeng again|智学盟に再ログイン|Volver a iniciar sesión en Zhixuemeng|Se reconnecter à Zhixuemeng
+连接示例智学盟账号|Connect a sample Zhixuemeng account|智学盟のサンプルに接続|Conectar cuenta de ejemplo de Zhixuemeng|Connecter un compte exemple Zhixuemeng
+同步智学盟作业|Sync Zhixuemeng homework|智学盟の課題を同期|Sincronizar tareas de Zhixuemeng|Synchroniser les devoirs Zhixuemeng
+断开智学盟连接|Disconnect Zhixuemeng|智学盟の接続を解除|Desconectar Zhixuemeng|Déconnecter Zhixuemeng
+断开智学盟连接？|Disconnect Zhixuemeng?|智学盟の接続を解除しますか？|¿Desconectar Zhixuemeng?|Déconnecter Zhixuemeng ?
+确认断开智学盟|Confirm disconnection|接続解除を確認|Confirmar desconexión|Confirmer la déconnexion
+正在打开智学盟手机版登录页…|Opening Zhixuemeng mobile login…|智学盟のモバイルログインを開いています…|Abriendo acceso móvil de Zhixuemeng…|Ouverture de la connexion mobile Zhixuemeng…
+智学盟登录与同步|Zhixuemeng login and sync|智学盟のログインと同期|Acceso y sincronización de Zhixuemeng|Connexion et synchronisation Zhixuemeng
+已登录，读取智学盟作业|Read Zhixuemeng homework|智学盟の課題を読み込む|Leer tareas de Zhixuemeng|Lire les devoirs Zhixuemeng
+同意仅在本机保存智学盟账号密码|Allow local storage of Zhixuemeng credentials|智学盟の認証情報を端末に保存する|Permitir guardar credenciales en este dispositivo|Autoriser le stockage local des identifiants Zhixuemeng
+同意仅在本机保存，用于自动登录。|Save only on this device for automatic login.|自動ログイン用にこの端末だけに保存します。|Guardar solo en este dispositivo para el inicio automático.|Enregistrer uniquement sur cet appareil pour la connexion automatique.
+账号和密码仅保存在本机安全存储中，用于智学盟手机版官方网页自动登录。|Credentials stay in secure device storage for automatic login to the official mobile website.|認証情報は端末の安全なストレージに保存し、公式モバイルサイトの自動ログインに使用します。|Las credenciales se guardan de forma segura en el dispositivo para acceder automáticamente al sitio móvil oficial.|Les identifiants sont conservés dans le stockage sécurisé de cet appareil pour la connexion au site mobile officiel.
+通过手机版网页读取班级作业、截止时间和每页要求；保留网页的提交状态，不替你作答或提交。每次打开 App 自动同步，失败保留已有作业。|Read class homework, deadlines and page requirements from the mobile website. Submission status is preserved; opening the app syncs homework and failures keep the cache.|モバイルサイトから課題、期限、各ページの内容を読み込みます。提出状態を保持し、アプリ起動時に同期します。失敗時は既存の課題を保持します。|Lee tareas, fechas límite y requisitos de cada página desde la web móvil. Conserva el estado de entrega y sincroniza al abrir la app; mantiene la caché si falla.|Lit les devoirs, échéances et consignes de chaque page depuis le site mobile. Conserve les états de remise et synchronise à l’ouverture ; garde le cache en cas d’échec.
+清除本机智学盟连接、缓存和自动登录信息，其他平台保留。|Remove the local Zhixuemeng connection, cache and login credentials. Other platforms are preserved.|この端末の智学盟の接続、キャッシュ、認証情報を削除します。他のプラットフォームは保持します。|Borra la conexión, caché y credenciales locales de Zhixuemeng. Conserva las otras plataformas.|Supprime la connexion, le cache et les identifiants locaux Zhixuemeng. Les autres plateformes sont conservées.
+上次登录需要验证，请在官方页面完成或更新账号密码。|The last login needs verification. Complete it on the official page or update your credentials.|前回のログインには確認が必要です。公式ページで確認するか認証情報を更新してください。|El último acceso requiere verificación. Complétala en la página oficial o actualiza tus credenciales.|La dernière connexion nécessite une vérification. Effectuez-la sur la page officielle ou mettez à jour vos identifiants.
+Canvas · 好课 · 智学盟 · 连接与同步|Canvas · Haoke · Zhixuemeng · Connections and sync|Canvas・好課・智学盟・接続と同期|Canvas · Haoke · Zhixuemeng · Conexiones y sincronización|Canvas · Haoke · Zhixuemeng · Connexions et synchronisation
+
+外观|Appearance|外観|Apariencia|Apparence
+主题颜色 · 首页排版|Theme colors · Home layout|テーマカラー · ホームレイアウト|Colores · Diseño de inicio|Couleurs · Disposition de l’accueil
+一日之计在于晨|A fresh start for your day|今日を、気持ちよく始めよう|Un nuevo comienzo para tu día|Une nouvelle journée commence
+关闭今日计划|Close today’s overview|今日の予定を閉じる|Cerrar el resumen de hoy|Fermer l’aperçu du jour
+轻触任意位置，开始今天|Tap anywhere to begin your day|タップして、今日を始めよう|Toca para comenzar el día|Touchez pour commencer la journée
+今天暂无安排，留一点空间给自己。|No plans today. Leave a little space for yourself.|今日は予定がありません。自分のための時間を。|Hoy no hay planes. Reserva un momento para ti.|Rien de prévu aujourd’hui. Gardez un peu de temps pour vous.
+今天暂无剩余安排|No more plans for today|今日の残りの予定はありません|No quedan planes para hoy|Plus rien de prévu aujourd’hui
+另有 {0} 项|{0} more items|ほか {0} 件|{0} elementos más|{0} autres éléments
+未完成 · {0}|Unfinished · {0}|未完了 · {0}|Pendiente · {0}|À terminer · {0}
+未完成|Unfinished|未完了|Pendiente|À terminer
+启用本次课程|Enable this lesson|今回の授業を有効にする|Activar esta clase|Activer ce cours
+仅影响这一天，其他周的课程保持不变。|Applies to this date only. Other weeks keep their schedule.|この日のみに適用され、ほかの週には影響しません。|Solo se aplica a esta fecha. Las otras semanas no cambian.|S’applique uniquement à cette date. Les autres semaines ne changent pas.
+返回连接设置|Back to connection settings|接続設定に戻る|Volver a los ajustes de conexión|Retour aux réglages de connexion
+桌面小组件暂未刷新，请重新打开 App。|The widget could not refresh. Please reopen the app.|ウィジェットを更新できませんでした。アプリを開き直してください。|No se pudo actualizar el widget. Vuelve a abrir la app.|Le widget n’a pas pu être actualisé. Rouvrez l’application.
+无截止时间|No deadline|期限なし|Sin fecha límite|Sans échéance
+
+使用手机版官方网页登录，登录后自动读取作业。|Sign in on the official mobile website. Homework syncs after login.|公式モバイルサイトにログインすると、課題を自動で読み込みます。|Inicia sesión en la web móvil oficial para sincronizar las tareas.|Connectez-vous au site mobile officiel pour synchroniser les devoirs.
+请在网页中完成登录，随后会自动读取作业。|Complete sign-in on the page; homework will then sync automatically.|ページでログインすると、課題を自動で読み込みます。|Completa el inicio de sesión; las tareas se sincronizarán automáticamente.|Terminez la connexion ; les devoirs seront ensuite synchronisés.
+网页进程已重新加载，请稍候。|The web page has reloaded. Please wait.|ページを再読み込みしました。お待ちください。|Se ha recargado la página. Espera un momento.|La page a été rechargée. Veuillez patienter.
+网页加载未完成，请重试加载。|The page did not finish loading. Please reload.|ページを読み込めませんでした。再読み込みしてください。|La página no terminó de cargar. Vuelve a cargarla.|Le chargement a échoué. Rechargez la page.
+{0} 可重试读取或重新加载网页。|{0} You can retry syncing or reload the page.|{0} 読み込みの再試行またはページの再読み込みができます。|{0} Puedes reintentar la sincronización o recargar la página.|{0} Vous pouvez réessayer la synchronisation ou recharger la page.
+读取并保存令牌|Read and save token|トークンを読み取り保存|Leer y guardar token|Lire et enregistrer le jeton
+打开网页，读取并保存令牌|Open website to read and save token|Webページでトークンを読み取り保存|Abrir la web para leer y guardar el token|Ouvrir le site pour lire et enregistrer le jeton
+读取并选择专用令牌|Read and select a dedicated token|専用トークンを読み取り選択|Leer y seleccionar un token dedicado|Lire et sélectionner un jeton dédié
+已开启后台自动登录|Background sign-in enabled|バックグラウンド自動ログイン有効|Inicio automático en segundo plano activado|Connexion automatique en arrière-plan activée
+尚未保存自动登录账号|No saved sign-in account|自動ログインのアカウント未保存|No hay una cuenta guardada|Aucun compte de connexion enregistré
+需要验证或更新密码|Verification or password update needed|認証またはパスワード更新が必要|Se necesita verificar o actualizar la contraseña|Vérification ou mise à jour du mot de passe requise
+正在后台登录并同步作业…|Signing in and syncing homework…|バックグラウンドでログイン・課題同期中…|Iniciando sesión y sincronizando tareas…|Connexion et synchronisation des devoirs…
+最近同步：{0}|Last synced: {0}|最終同期：{0}|Última sincronización: {0}|Dernière synchronisation : {0}
+学号／教师工号|Student or staff ID|学籍番号／教職員番号|Número de estudiante o de empleado|Numéro étudiant ou identifiant du personnel
+登录密码|Sign-in password|ログインパスワード|Contraseña|Mot de passe
+同意仅在本机安全保存账号密码|Allow secure on-device credential storage|この端末へのアカウント情報の安全な保存に同意|Permitir guardar las credenciales de forma segura en este dispositivo|Autoriser le stockage sécurisé des identifiants sur cet appareil
+同意仅在本机安全保存账号密码，用于后台自动登录。|Allow secure on-device storage for background sign-in.|バックグラウンド自動ログインのため、この端末への安全な保存に同意します。|Permitir el almacenamiento seguro en este dispositivo para el inicio automático.|Autoriser le stockage sécurisé sur cet appareil pour la connexion automatique.
+保存后自动在后台打开官网、填写并登录、同步作业。每次打开 App 或返回前台时自动检查并恢复登录。|After saving, the app opens the official site in the background, signs in and syncs homework. It checks the session whenever you open or return to the app.|保存後、公式サイトをバックグラウンドで開き、自動入力・ログイン・課題同期を行います。アプリ起動時と復帰時に接続を確認します。|Tras guardar, la app abre la web oficial en segundo plano, inicia sesión y sincroniza las tareas. Comprueba la sesión al abrir o volver a la app.|Après l’enregistrement, l’application ouvre le site officiel en arrière-plan, se connecte et synchronise les devoirs. Elle vérifie la session à chaque ouverture ou retour.
+自动选择学号登录、同济大学及“一周内自动登录”。|Automatically selects student ID, Tongji University and one-week sign-in.|学籍番号ログイン、同済大学、1週間の自動ログインを自動選択します。|Selecciona automáticamente el acceso con número de estudiante, la Universidad de Tongji y mantener la sesión una semana.|Sélectionne automatiquement le numéro étudiant, l’université Tongji et la connexion pendant une semaine.
+保存账号密码后无需手动打开浏览器。登录失效会自动在后台恢复；验证码或二次验证出现时才需要你处理。|With saved credentials, no manual browser opening is needed. Expired sessions recover in the background; only verification challenges need your help.|保存済みアカウントでブラウザを手動起動する必要はありません。期限切れの接続は自動復旧し、追加認証がある場合のみ操作が必要です。|Con las credenciales guardadas no hace falta abrir el navegador. La sesión se recupera en segundo plano; solo necesitas intervenir si se solicita verificación.|Avec les identifiants enregistrés, inutile d’ouvrir le navigateur. Les sessions expirées sont rétablies en arrière-plan ; seule une vérification nécessite votre intervention.
+编辑课程|Edit course|授業を編集|Editar clase|Modifier le cours
+保存课程更改|Save course changes|授業の変更を保存|Guardar cambios de la clase|Enregistrer les modifications du cours
+仅删除本次课程|Delete this occurrence only|今回の授業のみ削除|Eliminar solo esta sesión|Supprimer uniquement cette séance
+删除这条课程排课|Delete this course schedule|この授業予定を削除|Eliminar este horario de clase|Supprimer cet horaire de cours
+删除本次课程？|Delete this occurrence?|今回の授業を削除しますか？|¿Eliminar esta sesión?|Supprimer cette séance ?
+删除这条课程排课？|Delete this course schedule?|この授業予定を削除しますか？|¿Eliminar este horario de clase?|Supprimer cet horaire de cours ?
+修改这条排课的全部教学周，其他同名排课记录不变。|Changes apply to all weeks of this schedule; other schedules with the same name are preserved.|この授業予定の全週を変更します。同名の他の授業予定は変更しません。|Los cambios se aplican a todas las semanas de este horario. Los demás horarios con el mismo nombre se conservan.|Les changements concernent toutes les semaines de cet horaire. Les autres horaires du même nom sont conservés.
+指定教学周（可选，逗号分隔）|Specific weeks (optional, comma-separated)|指定週（任意、カンマ区切り）|Semanas específicas (opcional, separadas por comas)|Semaines précises (facultatif, séparées par des virgules)
+例如 1、3、5；留空使用上方范围|e.g. 1,3,5; leave blank to use the range above|例：1,3,5。空欄は上の範囲を使用|Ej.: 1,3,5; deja en blanco para usar el intervalo anterior|Ex. : 1,3,5 ; laisser vide pour utiliser la plage ci-dessus
+仅移除 {0} 这一次，其他教学周保留。|Only {0} will be removed; other weeks are preserved.|{0} の授業のみ削除し、他の週は残します。|Solo se elimina la sesión del {0}; las demás semanas se conservan.|Seule la séance du {0} sera supprimée ; les autres semaines sont conservées.
+这条排课的全部教学周都会移除，其他排课记录保留。|All weeks of this schedule will be removed. Other course schedules are preserved.|この授業予定の全週を削除します。他の授業予定は残します。|Se eliminan todas las semanas de este horario. Los demás horarios se conservan.|Toutes les semaines de cet horaire seront supprimées. Les autres horaires sont conservés.
+临时编辑本次课程|Edit this occurrence|今回のみ編集|Editar esta sesión|Modifier cette séance
+临时编辑作业|Edit homework locally|課題を一時編集|Editar tarea localmente|Modifier le devoir localement
+保存本次安排|Save this occurrence|今回の予定を保存|Guardar esta sesión|Enregistrer cette séance
+保存本机更改|Save local changes|端末の変更を保存|Guardar cambios locales|Enregistrer les changements locaux
+仅影响这一天的这一节课；其他周保留原排课，可随时恢复。|Only this occurrence changes. Other weeks keep their schedule. You can restore it anytime.|今回の授業だけを変更します。他の週は変更せず、いつでも元に戻せます。|Solo cambia esta sesión. Las demás semanas se conservan. Puedes restaurarla cuando quieras.|Seule cette séance change. Les autres semaines sont conservées. Vous pouvez la rétablir à tout moment.
+恢复本次原始安排|Restore original occurrence|今回の予定を元に戻す|Restaurar sesión original|Rétablir la séance initiale
+恢复平台原文|Restore platform details|プラットフォームの内容に戻す|Restaurar datos de la plataforma|Rétablir les données de la plateforme
+当前使用本机临时安排。|Local temporary changes are active.|端末の一時的な変更を使用中です。|Se usan cambios locales temporales.|Les changements locaux temporaires sont actifs.
+平台原截止时间：{0}|Original platform deadline: {0}|元の提出期限：{0}|Fecha límite original: {0}|Échéance initiale : {0}
+启用这份作业|Enable this assignment|この課題を有効にする|Activar esta tarea|Activer ce devoir
+临时禁用后不参与首页、提醒或 AI 安排，可在这里恢复。|While disabled, this assignment is excluded from Home, reminders and AI planning. Restore it here.|無効中はホーム、通知、AI予定から除外されます。ここで再開できます。|Mientras esté desactivada, no aparecerá en Inicio, avisos ni planes de IA. Reactívala aquí.|Pendant sa désactivation, ce devoir est exclu de l’accueil, des rappels et des plans IA. Réactivez-le ici.
+临时名称、说明和时间仅用于本机安排，学校平台的真实截止时间保留。同步后仍保留本机更改，可恢复平台原文。|Temporary titles, notes and times only affect your local plan. The platform deadline is preserved. Changes survive sync and can be reset.|一時的な名称・説明・時刻は端末の予定だけに適用されます。元の期限を保持し、同期後も変更は残り、元に戻せます。|Los títulos, notas y horarios temporales solo afectan al plan local. Se conserva el plazo original. Los cambios persisten al sincronizar y se pueden restablecer.|Les titres, notes et horaires temporaires concernent uniquement le plan local. L’échéance initiale est conservée. Les changements persistent après synchronisation et sont réversibles.
+清除本机开始时间|Clear local start time|端末の開始日時を消去|Borrar inicio local|Effacer le début local
+设置本机开始时间|Set local start time|端末の開始日時を設定|Establecer inicio local|Définir le début local
+清除本机截止时间|Clear local deadline|端末の期限を消去|Borrar plazo local|Effacer l’échéance locale
+设置本机截止时间|Set local deadline|端末の期限を設定|Establecer plazo local|Définir l’échéance locale
+临时禁用|Temporarily disabled|一時的に無効|Desactivada temporalmente|Désactivé temporairement
+本机临时安排|Local temporary plan|端末の一時予定|Plan local temporal|Plan local temporaire
+生成问题诊断|Share diagnostics|診断情報を共有|Compartir diagnóstico|Partager le diagnostic
+保存后自动在后台登录并同步作业。每次打开 App 或返回前台时自动检查并恢复登录。|After saving, sign-in and homework sync run in the background. Each launch or return checks and restores your session.|保存後、バックグラウンドでログインと同期を行い、起動・復帰時に状態を確認して復元します。|Al guardar, el inicio de sesión y la sincronización se ejecutan en segundo plano. Al abrir o volver se comprueba y restaura la sesión.|Après enregistrement, la connexion et la synchronisation s’exécutent en arrière-plan. Chaque ouverture ou retour vérifie et rétablit la session.
+把课程调整到合适的节奏。|Make room for your classes.|授業を自分のペースに。|Adapta tus clases a tu ritmo.|Adaptez vos cours à votre rythme.
+把作业安排到合适的节奏。|Find the right time for your homework.|課題を無理のないペースで。|Encuentra el momento para tus tareas.|Trouvez le bon moment pour vos devoirs.
+仅本次课程|This occurrence only|今回の授業のみ|Solo esta sesión|Cette séance uniquement
+课程日期|Class date|授業日|Fecha de clase|Date du cours
+课程时间|Class time|授業時間|Horario de clase|Hora du cours
+作业名称|Assignment name|課題名|Nombre de la tarea|Nom du devoir
+作业时间|Assignment window|課題の期間|Plazo de la tarea|Période du devoir
+这里是本机的作业起止窗口，不代表连续占用时间。|This is your local assignment window, not a continuous block of busy time.|端末上の課題の期間です。この間ずっと予定が埋まるわけではありません。|Este es el plazo local de la tarea, no un bloque continuo de tiempo ocupado.|Il s’agit de la période locale du devoir, pas d’un créneau occupé en continu.
+编辑全部教学周|Edit all teaching weeks|すべての授業週を編集|Editar todas las semanas|Modifier toutes les semaines
+删除作业？|Delete this assignment?|この課題を削除しますか？|¿Eliminar esta tarea?|Supprimer ce devoir ?
+本次课程的结束时间需晚于开始时间，且在同一天。|This class must end after it starts, on the same day.|今回の授業の終了時刻は、同日の開始時刻より後にしてください。|La clase debe terminar después de empezar, el mismo día.|Ce cours doit se terminer après son début, le même jour.
+
+展开已完成{0}（{1}）|Expand completed {0} ({1})|完了した{0}（{1}）を展開|Expandir {0} completados ({1})|Développer les {0} terminés ({1})
+折叠已完成{0}（{1}）|Collapse completed {0} ({1})|完了した{0}（{1}）を折りたたむ|Contraer {0} completados ({1})|Réduire les {0} terminés ({1})
+
+通过同济 IAM 统一认证保持连接。每次打开或返回 App 自动同步作业；运行时约每 10 分钟维护会话，令牌约每 30 分钟更换。开启学号自动登录后可恢复认证，验证码或二次验证需手动完成。关闭或挂起 App 后不保证维护。|Keep your connection through Tongji IAM. Assignments sync when you open or return to the app. While running, the session is maintained about every 10 minutes and the token is renewed about every 30 minutes. Saved student login can restore authentication; verification codes or additional checks require your input. Maintenance is not guaranteed while the app is closed or suspended.|同済 IAM の統一認証で接続を維持します。起動時や復帰時に課題を同期し、動作中は約10分ごとにセッションを確認、約30分ごとにトークンを更新します。学籍番号による自動ログインで認証を復元できますが、認証コードや追加確認は手動操作が必要です。終了中や一時停止中の維持は保証されません。|La conexión se mantiene mediante Tongji IAM. Las tareas se sincronizan al abrir o volver a la app. Mientras está en ejecución, la sesión se comprueba aproximadamente cada 10 minutos y el token se renueva cada 30 minutos. El inicio de sesión guardado permite restaurar la autenticación; los códigos y las comprobaciones adicionales requieren tu intervención. El mantenimiento no está garantizado con la app cerrada o suspendida.|La connexion est maintenue via Tongji IAM. Les devoirs sont synchronisés à l’ouverture ou au retour dans l’app. Pendant son fonctionnement, la session est vérifiée environ toutes les 10 minutes et le jeton renouvelé toutes les 30 minutes. La connexion étudiante enregistrée peut rétablir l’authentification ; les codes et vérifications supplémentaires nécessitent votre intervention. Le maintien n’est pas garanti lorsque l’app est fermée ou suspendue.
+
+重要|Important|重要|Importante|Important
+紧急|Urgent|緊急|Urgente|Urgent
+重要紧急|Important and urgent|重要かつ緊急|Importante y urgente|Important et urgent
+重要不紧急|Important, not urgent|重要・緊急ではない|Importante, no urgente|Important, non urgent
+不重要紧急|Urgent, not important|緊急・重要ではない|Urgente, no importante|Urgent, non important
+不紧急不重要|Neither urgent nor important|緊急でも重要でもない|Ni urgente ni importante|Ni urgent ni important
+桌面小组件无法共享日程，请检查安装包的小组件共享权限。|The widget cannot access shared schedules. Check the installed app's widget sharing permissions.|ウィジェットが共有予定にアクセスできません。アプリのウィジェット共有権限をご確認ください。|El widget no puede acceder a la agenda compartida. Comprueba sus permisos en la app instalada.|Le widget ne peut pas accéder à l’agenda partagé. Vérifiez ses autorisations dans l’application installée.
+桌面小组件日程未写入，请重新打开 App。|The widget schedule was not saved. Please reopen the app.|ウィジェットの予定を保存できませんでした。アプリを再度開いてください。|No se guardó la agenda del widget. Vuelve a abrir la app.|L’agenda du widget n’a pas été enregistré. Rouvrez l’application.

@@ -1,0 +1,16 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'playwright'),fs=require('node:fs'),assert=require('node:assert/strict'),{spawn}=require('node:child_process');require('tsx/cjs');const {createDemoData}=require('../src/core/demo.ts');const wait=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{const server=spawn(process.execPath,['scripts/serve-preview.cjs','8082'],{windowsHide:true,stdio:'ignore'});let browser;try{
+ for(let i=0;i<60;i++){try{if((await fetch('http://127.0.0.1:8082')).ok)break;}catch{}if(i===59)throw Error('server unavailable');await wait(100);}
+ browser=await chromium.launch({channel:'msedge',headless:true});const c=await browser.newContext({viewport:{width:440,height:956},locale:'zh-CN'}),p=await c.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.clock.install({time:new Date('2026-11-16T04:00:00Z')});
+ const d=createDemoData();d.settings.language='zh-CN';for(const name of ['canvas','haoke','zhixuemeng'])d[name].connected=false;d.canvas.renewal=undefined;await c.addInitScript(data=>{localStorage.setItem('tjmuse.demo.data.v021',JSON.stringify(data));localStorage.setItem('tjmuse.demo.daily-overview.v1','2026-11-16');},d);
+ const b=name=>p.getByRole('button',{name,exact:true}),card=p.getByTestId('sheet-card');await p.goto('http://127.0.0.1:8082/?demo=021');await b('我的').click();const initial=await p.evaluate(()=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')).settings);
+ async function open(){await b('作业设置').click();await b('Canvas设置').click();await b('自动更换令牌').click();await b('读取并选择专用令牌').waitFor();}
+ await open();for(let i=0;i<5;i++){
+  await b('读取并选择专用令牌').click();await card.waitFor({state:'hidden'});await b('TJMuse 专用令牌（演示）').waitFor();assert.equal(await card.count(),1);await b('TJMuse 专用令牌（演示）').click();await b('同意自动重新生成所选专用令牌').waitFor();
+  if(i===0){await p.waitForFunction(()=>{const e=document.querySelector('[data-testid="attached-sheet-frame"]');return e&&Math.abs(e.getBoundingClientRect().bottom-innerHeight)<1;});await p.screenshot({path:'artifacts/canvas36-token-choices.png'});}
+  if(i<4){await b('读取并选择专用令牌').click();await card.waitFor({state:'hidden'});await b('TJMuse 专用令牌（演示）').waitFor();assert.equal(await b('同意自动重新生成所选专用令牌').count(),0,'fresh choices clear prior selection');}
+ }
+ await b('关闭').click();await card.waitFor({state:'hidden'});await p.waitForTimeout(1600);assert.equal(await card.count(),0);await open();await b('关闭').click();await card.waitFor({state:'hidden'});await b('关于我们').click();await card.getByText('TJMuse 0.5.1',{exact:true}).waitFor();await b('关闭').click();await card.waitFor({state:'hidden'});
+ assert.deepEqual(await p.evaluate(()=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')).settings),initial);assert.deepEqual(errors,[]);
+ const result={passed:true,demoTokenChoiceCycles:9,selectionWorks:true,newReadClearsSelection:true,closeAndReopenWorks:true,noStaleModal:true,otherSettingsUnchanged:true,pageErrors:errors,nativeWebViewTested:false};fs.writeFileSync('.build-tools/qa-canvas-token-list36.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result));
+}finally{if(browser)await browser.close();server.kill();}})().catch(e=>{console.error(e);process.exitCode=1});

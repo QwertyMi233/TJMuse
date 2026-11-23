@@ -1,14 +1,18 @@
 import { useStore } from '../state/store';
-export function isDark(hex: string) {
-  const c = hex.replace('#', '');
-  return parseInt(c.slice(0, 2), 16) * .299 + parseInt(c.slice(2, 4), 16) * .587 + parseInt(c.slice(4, 6), 16) * .114 < 135;
-}
+import {createContext,useContext} from 'react';
+import type {Palette} from '../core/types';
+import { useColorScheme } from 'react-native';
+import { isDark, resolveTheme } from '../core/theme';
+export { isDark } from '../core/theme';
+const Override=createContext<Palette|null>(null);
+export const ThemeOverrideProvider=Override.Provider;
 export function useTheme() {
-  const { data } = useStore();
-  const s = data.settings, dark = isDark(s.background);
-  return { bg: s.background, fg: s.foreground, accent: s.accent, dark,
-    muted: dark ? '#A5B2A9' : '#7C847E', surface: dark ? '#232C26' : '#FFFFFF',
-    line: dark ? '#354039' : '#E3E8E1', soft: dark ? '#2C3E32' : '#E9EFE6',
-    onAccent: isDark(s.accent) ? '#FFFFFF' : '#17231B',
+  const { data } = useStore(), system = useColorScheme(),override=useContext(Override);
+  const s = override?{...override,mode:'light' as const,dark:false}:resolveTheme(data.settings, system), dark = s.dark;
+  return { bg: s.background, fg: s.foreground, accent: s.accent, dark, mode: s.mode,
+    glow: dark ? `0px 0px 18px ${s.accent}55` : '0px 2px 5px #123B6405',
+    muted: dark ? '#AFBED1' : '#64778D', surface: dark ? '#1B2A3E' : '#FFFFFF',
+    line: dark ? '#33475F' : '#DEE8F2', soft: dark ? '#233C58' : '#EAF3FC',
+    onAccent: isDark(s.accent) ? '#FFFFFF' : '#123B64',
   };
 }

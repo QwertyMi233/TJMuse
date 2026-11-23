@@ -1,0 +1,10 @@
+import {createLocalLoginService} from './local-login';
+export const canvasStudentLogin=createLocalLoginService('tjmuse.tongji.student-login.v1');
+export const tongjiLoginStatus=canvasStudentLogin.status;
+export const saveTongjiLogin=canvasStudentLogin.save;
+export const clearTongjiLogin=canvasStudentLogin.clear;
+export const retryTongjiLogin=canvasStudentLogin.retry;
+export const reserveTongjiLogin=canvasStudentLogin.reserve;
+export const confirmTongjiLogin=canvasStudentLogin.succeeded;
+export const releaseTongjiLogin=canvasStudentLogin.release;
+export const onTongjiLoginChanged=canvasStudentLogin.subscribe;

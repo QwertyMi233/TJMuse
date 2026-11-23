@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { dateKey, parseDate, daysBetween, occursOn, tasksOn, toggleDate, weekDates } from '../src/core/calendar';
+import { dateKey, parseDate, daysBetween, occursOn, tasksOn, toggleDate, weekDates, semesterWeek } from '../src/core/calendar';
 import { upcomingReminders } from '../src/core/reminders';
 import { initialData } from '../src/core/defaults';
 import type { Task } from '../src/core/types';
@@ -12,6 +12,23 @@ test('local calendar keys survive timezone conversion, including DST boundary da
 test('week starts can be Monday or Sunday across a year boundary', () => {
   assert.equal(dateKey(weekDates(parseDate('2027-01-01'), 1)[0]!), '2026-12-28');
   assert.equal(dateKey(weekDates(parseDate('2027-01-01'), 0)[0]!), '2026-12-27');
+});
+test('teaching weeks use the selected semester week and continue across months and years', () => {
+  // Any day in September 14–20 defines that whole week as week 1.
+  for (const date of ['2026-09-14', '2026-09-16', '2026-09-20']) assert.equal(semesterWeek(parseDate(date), '2026-09-16', 1), 1);
+  assert.equal(semesterWeek(parseDate('2026-09-21'), '2026-09-16', 1), 2);
+  assert.equal(semesterWeek(parseDate('2026-10-01'), '2026-09-16', 1), 3);
+  assert.equal(semesterWeek(parseDate('2026-10-28'), '2026-09-16', 1), 7);
+  assert.equal(semesterWeek(parseDate('2027-01-01'), '2026-09-16', 1), 16);
+  assert.equal(semesterWeek(parseDate('2026-09-13'), '2026-09-16', 1), null);
+});
+test('teaching weeks respect Sunday starts and do not invent unset or invalid semester dates', () => {
+  assert.equal(semesterWeek(parseDate('2026-09-13'), '2026-09-14', 0), 1);
+  assert.equal(semesterWeek(parseDate('2026-09-19'), '2026-09-14', 0), 1);
+  assert.equal(semesterWeek(parseDate('2026-09-20'), '2026-09-14', 0), 2);
+  assert.equal(semesterWeek(parseDate('2026-09-20'), '2026-09-14', 1), 1);
+  assert.equal(semesterWeek(parseDate('2026-10-28'), null, 1), null);
+  assert.equal(semesterWeek(parseDate('2026-10-28'), '2026-02-30', 1), null);
 });
 test('one-off tasks only appear on their scheduled day and sort by time', () => {
   assert.equal(occursOn(base, '2026-10-26'), true);

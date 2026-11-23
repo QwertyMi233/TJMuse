@@ -1,0 +1,1940 @@
+{
+  "无法打开此作业链接。": {
+    "en-US": "This job link cannot be opened.",
+    "ja": "このジョブ リンクを開けません。",
+    "es": "Este enlace de trabajo no se puede abrir.",
+    "fr": "Ce lien d'emploi ne peut pas être ouvert."
+  },
+  "前往 {0} 查看作业": {
+    "en-US": "Go to {0} to view assignments",
+    "ja": "{0} に移動して割り当てを表示します",
+    "es": "Vaya a {0} para ver las tareas",
+    "fr": "Accédez à {0} pour afficher les affectations"
+  },
+  "未设置截止时间": {
+    "en-US": "No deadline set",
+    "ja": "期限は設定されていません",
+    "es": "No hay fecha límite establecida",
+    "fr": "Aucune date limite fixée"
+  },
+  "状态：": {
+    "en-US": "Status:",
+    "ja": "ステータス:",
+    "es": "Estado:",
+    "fr": "Statut :"
+  },
+  "尚未获取提交状态": {
+    "en-US": "The submission status has not been obtained yet",
+    "ja": "提出ステータスがまだ取得されていません",
+    "es": "El estado del envío aún no se ha obtenido",
+    "fr": "Le statut de soumission n'a pas encore été obtenu"
+  },
+  "{0}作业 {1}": {
+    "en-US": "{0}Job {1}",
+    "ja": "{0}ジョブ {1}",
+    "es": "{0}Trabajo {1}",
+    "fr": "{0}Tâche {1}"
+  },
+  "本机标记为已完成": {
+    "en-US": "This unit is marked as completed",
+    "ja": "このユニットは完了としてマークされています",
+    "es": "Esta unidad está marcada como completada.",
+    "fr": "Cette unité est marquée comme terminée"
+  },
+  "暂无作业说明。": {
+    "en-US": "There are no homework instructions yet.",
+    "ja": "宿題の指示はまだありません。",
+    "es": "Aún no hay instrucciones para la tarea.",
+    "fr": "Il n'y a pas encore d'instructions pour les devoirs."
+  },
+  "在 To-do 中显示": {
+    "en-US": "appears in To-do",
+    "ja": "が To-do に表示されます\n現在 To-do に",
+    "es": "aparece en Tareas pendientes",
+    "fr": "apparaît dans la tâche à faire"
+  },
+  "当前显示在 To-do 中。": {
+    "en-US": "is currently displayed in To-do.",
+    "ja": "が表示されています。",
+    "es": "se muestra actualmente en Tareas pendientes.",
+    "fr": "est actuellement affiché dans To-do."
+  },
+  "当前不显示在 To-do 中。": {
+    "en-US": "does not currently appear in To-dos.",
+    "ja": "は現在 To-do に表示されません。",
+    "es": "no aparece actualmente en Tareas pendientes.",
+    "fr": "n'apparaît actuellement pas dans les tâches."
+  },
+  "全局总开关已关闭，可在“我的 → 作业显示设置”开启。": {
+    "en-US": "The global master switch has been turned off and can be turned on in \"My → Job Display Settings\".",
+    "ja": "グローバルマスタースイッチがオフになっていますが、「My→ジョブ表示設定」でオンにできます。",
+    "es": "El interruptor maestro global se ha desactivado y se puede activar en \"Mi → Configuración de visualización de trabajos\".",
+    "fr": "L'interrupteur principal global a été désactivé et peut être activé dans \"Mon → Paramètres d'affichage des tâches\"."
+  },
+  "本机的完成勾选不会提交、修改或删除平台作业。": {
+    "en-US": "The native completion check will not submit, modify, or delete platform jobs.",
+    "ja": "ネイティブ完了チェックでは、プラットフォーム ジョブは送信、変更、削除されません。",
+    "es": "La verificación de finalización nativa no enviará, modificará ni eliminará trabajos de plataforma.",
+    "fr": "La vérification d'achèvement native ne soumettra, ne modifiera ni ne supprimera les tâches de plateforme."
+  },
+  "启用显示后，从开始日到截止日每天显示同一份作业，各天的完成状态联动。": {
+    "en-US": "After the display is enabled, the same job will be displayed every day from the start date to the deadline, and the completion status of each day will be linked.",
+    "ja": "表示を有効にすると、開始日から締切まで毎日同じジョブが表示され、各日の完了状況が連動します。",
+    "es": "Después de habilitar la visualización, el mismo trabajo se mostrará todos los días desde la fecha de inicio hasta la fecha límite, y se vinculará el estado de finalización de cada día.",
+    "fr": "Une fois l'affichage activé, le même travail sera affiché chaque jour de la date de début à la date limite, et l'état d'achèvement de chaque jour sera lié."
+  },
+  "无截止时间的作业启用后，从开始日起持续显示；可随时隐藏或删除。": {
+    "en-US": "After the assignment without deadline is enabled, it will continue to be displayed from the start date; it can be hidden or deleted at any time.",
+    "ja": "期限なしの課題を有効にすると、開始日から引き続き表示されます。いつでも非表示にしたり削除したりできます。",
+    "es": "Una vez habilitada la tarea sin fecha límite, se seguirá mostrando desde la fecha de inicio; se puede ocultar o eliminar en cualquier momento.",
+    "fr": "Une fois l'affectation sans date limite activée, elle continuera à être affichée à partir de la date de début ; il peut être masqué ou supprimé à tout moment."
+  },
+  "删除后移入“已经删除的作业”，保留 3 天，期间可恢复或手动清空；平台原始作业保留。": {
+    "en-US": "After deletion, move it to \"Deleted Jobs\" and keep it for 3 days. During this period, you can restore or clear it manually; the original job on the platform is retained.",
+    "ja": "削除後は「削除済みジョブ」に移動し、3 日間保存します。この期間中は、手動で復元またはクリアできます。プラットフォーム上の元のジョブは保持されます。",
+    "es": "Después de eliminarlo, muévalo a \"Trabajos eliminados\" y guárdelo durante 3 días. Durante este período, puedes restaurarlo o borrarlo manualmente; Se conserva el trabajo original en la plataforma.",
+    "fr": "Après suppression, déplacez-le vers « Tâches supprimées » et conservez-le pendant 3 jours. Pendant cette période, vous pouvez le restaurer ou l'effacer manuellement ; le travail d'origine sur la plateforme est conservé."
+  },
+  "操作失败。": {
+    "en-US": "Operation failed.",
+    "ja": "操作が失敗しました。",
+    "es": "Error en la operación.",
+    "fr": "L'opération a échoué."
+  },
+  "TJMuse 专用令牌（演示）": {
+    "en-US": "TJMuse private token (demo)",
+    "ja": "TJMuse プライベート トークン (デモ)",
+    "es": "Token privado TJMuse (demostración)",
+    "fr": "Jeton privé TJMuse (démo)"
+  },
+  "尚未找到令牌，请先在官方设置页创建一枚 TJMuse 专用令牌。": {
+    "en-US": "The token has not been found. Please create a TJMuse-specific token on the official settings page first.",
+    "ja": "トークンが見つかりませんでした。まずは公式設定ページでTJMuse固有のトークンを作成してください。",
+    "es": "No se ha encontrado el token. Primero cree un token específico de TJMuse en la página de configuración oficial.",
+    "fr": "Le jeton n'a pas été trouvé. Veuillez d'abord créer un jeton spécifique à TJMuse sur la page des paramètres officiels."
+  },
+  "无法读取令牌列表。": {
+    "en-US": "Unable to read token list.",
+    "ja": "トークン リストを読み取れません。",
+    "es": "No se puede leer la lista de tokens.",
+    "fr": "Impossible de lire la liste des jetons."
+  },
+  "演示使用示例令牌，不连接学校、不修改真实凭据。": {
+    "en-US": "Demonstrates using a sample token without connecting to the school or modifying real credentials.",
+    "ja": "学校に接続したり、実際の資格情報を変更したりせずに、サンプル トークンを使用する方法を示します。",
+    "es": "Demuestra el uso de un token de muestra sin conectarse a la escuela ni modificar las credenciales reales.",
+    "fr": "Démontre l'utilisation d'un exemple de jeton sans se connecter à l'école ni modifier les informations d'identification réelles."
+  },
+  "先在官方页面登录一次，再选择仅供 TJMuse 使用的专用令牌。可选用本机学号密码自动登录。": {
+    "en-US": "First log in once on the official page, and then select the dedicated token used only by TJMuse. You can choose to log in automatically using your local student ID and password.",
+    "ja": "まずは公式ページに一度ログインし、TJMuseのみで使用する専用トークンを選択してください。ローカルの学生 ID とパスワードを使用して自動的にログインすることを選択できます。",
+    "es": "Primero inicie sesión una vez en la página oficial y luego seleccione el token dedicado utilizado solo por TJMuse. Puede optar por iniciar sesión automáticamente utilizando su ID de estudiante local y su contraseña.",
+    "fr": "Connectez-vous d'abord une fois sur la page officielle, puis sélectionnez le token dédié utilisé uniquement par TJMuse. Vous pouvez choisir de vous connecter automatiquement en utilisant votre identifiant d'étudiant local et votre mot de passe."
+  },
+  "自动更换已开启": {
+    "en-US": "Automatic replacement is on",
+    "ja": "自動置換がオンになっています",
+    "es": "El reemplazo automático está activado",
+    "fr": "Le remplacement automatique est activé"
+  },
+  "自动更换未开启": {
+    "en-US": "Automatic replacement is not turned on",
+    "ja": "自動置換がオンになっていません",
+    "es": "El reemplazo automático no está activado",
+    "fr": "Le remplacement automatique n'est pas activé"
+  },
+  "上次更换：": {
+    "en-US": "Last changed:",
+    "ja": "最終変更日:",
+    "es": "Último cambio:",
+    "fr": "Dernière modification :"
+  },
+  "自动保持登录已开启 · 启动、回到前台及运行中定期检查": {
+    "en-US": "Automatically keep logged in is turned on · Start, return to the foreground and check regularly during operation",
+    "ja": "自動的にログイン状態を維持するがオンになっています · 起動し、フォアグラウンドに戻り、操作中に定期的に確認します",
+    "es": "Mantener la sesión iniciada automáticamente está activado · Iniciar, volver al primer plano y verificar periódicamente durante la operación",
+    "fr": "Le maintien automatique de la connexion est activé · Démarrez, revenez au premier plan et vérifiez régulièrement pendant le fonctionnement"
+  },
+  "上次登录检查：": {
+    "en-US": "Last login check:",
+    "ja": "最終ログイン チェック:",
+    "es": "Última verificación de inicio de sesión:",
+    "fr": "Dernière vérification de connexion :"
+  },
+  "官方登录并读取可选令牌": {
+    "en-US": "Official login and read optional token",
+    "ja": "公式ログインとオプションのトークンの読み取り",
+    "es": "Inicio de sesión oficial y lectura del token opcional",
+    "fr": "Connexion officielle et lecture du jeton facultatif"
+  },
+  "选择 TJMuse 专用令牌": {
+    "en-US": "Select TJMuse private token",
+    "ja": "TJMuse プライベート トークンを選択します",
+    "es": "Seleccione el token privado TJMuse",
+    "fr": "Sélectionnez le jeton privé TJMuse"
+  },
+  "同意自动重新生成所选专用令牌": {
+    "en-US": "Agree to automatically regenerate selected private tokens",
+    "ja": "選択したプライベート トークンを自動的に再生成することに同意します",
+    "es": "Acepta regenerar automáticamente los tokens privados seleccionados",
+    "fr": "Accepter de régénérer automatiquement les jetons privés sélectionnés"
+  },
+  "我同意自动重新生成所选专用令牌": {
+    "en-US": "I agree to the automatic regeneration of selected private tokens",
+    "ja": "選択したプライベート トークンの自動再生成に同意します",
+    "es": "Acepto la regeneración automática de tokens privados seleccionados",
+    "fr": "J'accepte la régénération automatique des tokens privés sélectionnés"
+  },
+  "重新生成后旧值立即失效，请勿选择其他软件正在使用的令牌。": {
+    "en-US": "The old value becomes invalid immediately after regeneration. Do not select a token that is being used by other software.",
+    "ja": "古い値は再生成直後に無効になります。他のソフトウェアで使用されているトークンは選択しないでください。",
+    "es": "El valor anterior deja de ser válido inmediatamente después de la regeneración. No seleccione un token que esté siendo utilizado por otro software.",
+    "fr": "L'ancienne valeur devient invalide immédiatement après la régénération. Ne sélectionnez pas un jeton utilisé par un autre logiciel."
+  },
+  "通过同济 IAM 统一认证保持连接。每次打开或返回 App 自动同步作业；运行时约每 10 分钟维护会话，令牌约每 12 小时更换。开启学号自动登录后可恢复认证，验证码或二次验证需手动完成。关闭或挂起 App 后不保证维护。": {
+    "en-US": "Stay connected through Tongji IAM unified authentication. Automatically synchronizes the job every time you open or return to the app; sessions are maintained approximately every 10 minutes while running, and tokens are replaced approximately every 12 hours. Authentication can be restored after automatic login with student ID is turned on. Verification code or secondary verification needs to be completed manually. Maintenance is not guaranteed after closing or suspending the App.",
+    "ja": "同済 IAM 統合認証を通じて接続を維持します。アプリを開いたり戻ったりするたびに、ジョブが自動的に同期されます。セッションは実行中約 10 分ごとに維持され、トークンは約 12 時間ごとに置き換えられます。学生証による自動ログインをONにすると認証を再開できます。検証コードまたは二次検証は手動で完了する必要があります。アプリの終了または一時停止後のメンテナンスは保証されません。",
+    "es": "Manténgase conectado a través de la autenticación unificada Tongji IAM. Sincroniza automáticamente el trabajo cada vez que abre o regresa a la aplicación; las sesiones se mantienen aproximadamente cada 10 minutos mientras se ejecutan y los tokens se reemplazan aproximadamente cada 12 horas. La autenticación se puede restaurar después de activar el inicio de sesión automático con ID de estudiante. El código de verificación o la verificación secundaria deben completarse manualmente. No se garantiza el mantenimiento tras cerrar o suspender la App.",
+    "fr": "Restez connecté grâce à l'authentification unifiée Tongji IAM. Synchronise automatiquement le travail à chaque fois que vous ouvrez ou revenez à l'application ; les sessions sont maintenues environ toutes les 10 minutes pendant l'exécution et les jetons sont remplacés environ toutes les 12 heures. L'authentification peut être restaurée après l'activation de la connexion automatique avec la carte d'étudiant. Le code de vérification ou la vérification secondaire doit être complété manuellement. La maintenance n'est pas garantie après la fermeture ou la suspension de l'Application."
+  },
+  "上下拖动调整顺序，或使用增减操作。": {
+    "en-US": "Drag up and down to adjust the order, or use increase or decrease operations.",
+    "ja": "上下にドラッグして順序を調整するか、増減操作を使用します。",
+    "es": "Arrastre hacia arriba y hacia abajo para ajustar el orden, o utilice operaciones de aumento o disminución.",
+    "fr": "Faites glisser vers le haut et vers le bas pour ajuster l'ordre, ou utilisez les opérations d'augmentation ou de diminution."
+  },
+  "第 {0} 项，共 3 项": {
+    "en-US": "Item {0} of 3",
+    "ja": "アイテム {0}/3",
+    "es": "Artículo {0} de 3",
+    "fr": "Article {0} sur 3"
+  },
+  "分类顺序：{0}": {
+    "en-US": "Classification order: {0}",
+    "ja": "分類順序: {0}",
+    "es": "Orden de clasificación: {0}",
+    "fr": "Ordre de classement : {0}"
+  },
+  "定位 {0}": {
+    "en-US": "Positioning {0}",
+    "ja": "{0} を配置しています",
+    "es": "Posicionamiento {0}",
+    "fr": "Positionnement {0}"
+  },
+  "请填写课程名称。": {
+    "en-US": "Please fill in the course name.",
+    "ja": "コース名を入力してください。",
+    "es": "Complete el nombre del curso.",
+    "fr": "Veuillez remplir le nom du cours."
+  },
+  "请输入六位十六进制颜色，如 #347BB8。": {
+    "en-US": "Please enter a six-digit hexadecimal color, such as #347BB8.",
+    "ja": "#347BB8 など、6 桁の 16 進数の色を入力してください。",
+    "es": "Ingrese un color hexadecimal de seis dígitos, como #347BB8.",
+    "fr": "Veuillez saisir une couleur hexadécimale à six chiffres, telle que #347BB8."
+  },
+  "课程设置未保存。": {
+    "en-US": "Course settings not saved.",
+    "ja": "コース設定が保存されませんでした。",
+    "es": "La configuración del curso no se guardó.",
+    "fr": "Paramètres de cours non enregistrés."
+  },
+  "周{0} · {1}–{2}节 · 第{3}周": {
+    "en-US": "Week {0} · Section {1}–{2} · Week {3}",
+    "ja": "週 {0} · セクション {1}–{2} · 週 {3}",
+    "es": "Semana {0} · Sección {1}–{2} · Semana {3}",
+    "fr": "Semaine {0} · Section {1}–{2} · Semaine {3}"
+  },
+  "一二三四五六日": {
+    "en-US": "One, two, three, four, five and six days",
+    "ja": "1、2、3、4、5、6 日",
+    "es": "Uno, dos, tres, cuatro, cinco y seis días",
+    "fr": "Un, deux, trois, quatre, cinq et six jours"
+  },
+  "课程配色 {0}": {
+    "en-US": "Course Color {0}",
+    "ja": "コースカラー {0}",
+    "es": "Color del curso {0}",
+    "fr": "Couleur du parcours {0}"
+  },
+  "颜色应用到同一课表中的同名课程；名称、地点和教师修改当前排课记录。": {
+    "en-US": "Color applied to courses with the same name in the same schedule; name, location, and teacher modify current schedule records.",
+    "ja": "同じスケジュール内の同じ名前のコースに色が適用されます。名前、場所、教師が現在のスケジュール記録を変更します。",
+    "es": "Color aplicado a cursos con el mismo nombre en el mismo horario; El nombre, la ubicación y el maestro modifican los registros del horario actual.",
+    "fr": "Couleur appliquée aux cours du même nom dans le même horaire; le nom, l'emplacement et l'enseignant modifient les enregistrements de l'horaire actuel."
+  },
+  "选择日期": {
+    "en-US": "Select date",
+    "ja": "日付を選択してください",
+    "es": "Seleccionar fecha",
+    "fr": "Sélectionnez la date"
+  },
+  "选择时间": {
+    "en-US": "Select time",
+    "ja": "時間を選択してください",
+    "es": "Seleccionar hora",
+    "fr": "Sélectionner l'heure"
+  },
+  "不设截止时间，交给合适的空闲。": {
+    "en-US": "There is no deadline, leave it to the appropriate free time.",
+    "ja": "期限はありません。適切な空き時間に任せてください。",
+    "es": "No hay fecha límite, déjalo para el tiempo libre que corresponda.",
+    "fr": "Il n'y a pas de date limite, laissez-le au temps libre approprié."
+  },
+  "请填入 To-do 名称。": {
+    "en-US": "Please enter the To-do name.",
+    "ja": "ToDo 名を入力してください。",
+    "es": "Ingrese el nombre de la tarea pendiente.",
+    "fr": "Veuillez saisir le nom de la tâche."
+  },
+  "TO-DO 名称": {
+    "en-US": "TO-DO name",
+    "ja": "TO-DO 名",
+    "es": "nombre de la tarea pendiente",
+    "fr": "Nom de la TO-DO"
+  },
+  "一直想做的一件事…": {
+    "en-US": "Something I’ve always wanted to do…",
+    "ja": "ずっとやりたかったこと…",
+    "es": "Algo que siempre he querido hacer...",
+    "fr": "Quelque chose que j'ai toujours voulu faire…"
+  },
+  "关于它的想法（可选）": {
+    "en-US": "Thoughts about it (optional)",
+    "ja": "それについての考え (オプション)",
+    "es": "Pensamientos al respecto (opcional)",
+    "fr": "Réflexions à ce sujet (facultatif)"
+  },
+  "可以在对话中请 AI 添加小事，也可手动填写。自由事项独立保存在 AI 页，不会自动写入固定日程。": {
+    "en-US": "You can ask the AI to add trivia in the conversation, or you can fill it in manually. Free items are saved independently on the AI ​​page and will not be automatically written into the fixed schedule.",
+    "ja": "AI に会話にトリビアを追加するよう依頼することも、手動で入力することもできます。無料アイテムはAIページに独自に保存され、固定スケジュールに自動で書き込まれることはありません。",
+    "es": "Puedes pedirle a la IA que agregue trivia en la conversación, o puedes completarla manualmente. Los artículos gratuitos se guardan de forma independiente en la página de AI y no se escribirán automáticamente en el cronograma fijo.",
+    "fr": "Vous pouvez demander à l'IA d'ajouter des anecdotes dans la conversation, ou vous pouvez les remplir manuellement. Les éléments gratuits sont enregistrés indépendamment sur la page AI et ne seront pas automatiquement inscrits dans le planning fixe."
+  },
+  "该自由事项会被删除。": {
+    "en-US": "This free item will be deleted.",
+    "ja": "この無料アイテムは削除されます。",
+    "es": "Este artículo gratuito será eliminado.",
+    "fr": "Cet article gratuit sera supprimé."
+  },
+  "总开关关闭时隐藏全部作业。单项“显示／隐藏”优先于默认规则，总开关重新开启后恢复各项选择。显示设置与截止通知分别控制。": {
+    "en-US": "All jobs are hidden when the main switch is turned off. The single \"Show/Hide\" option takes precedence over the default rules, and all selections will be restored after the master switch is turned back on. Display settings and deadline notifications are controlled separately.",
+    "ja": "メインスイッチをオフにすると、すべてのジョブが非表示になります。単一の「表示/非表示」オプションはデフォルトのルールよりも優先され、マスター スイッチが再びオンになった後にすべての選択が復元されます。表示設定と期限通知は個別に制御されます。",
+    "es": "Todos los trabajos quedan ocultos cuando el interruptor principal está apagado. La opción única \"Mostrar/Ocultar\" tiene prioridad sobre las reglas predeterminadas y todas las selecciones se restaurarán después de que se vuelva a encender el interruptor maestro. La configuración de visualización y las notificaciones de fechas límite se controlan por separado.",
+    "fr": "Tous les travaux sont masqués lorsque l'interrupteur principal est éteint. L'option unique « Afficher/Masquer » a priorité sur les règles par défaut et toutes les sélections seront restaurées une fois l'interrupteur principal réactivé. Les paramètres d'affichage et les notifications de date limite sont contrôlés séparément."
+  },
+  "置于顶部": {
+    "en-US": "Place on top",
+    "ja": "上に置きます",
+    "es": "Colocar encima",
+    "fr": "Placer sur le dessus"
+  },
+  "置于底部": {
+    "en-US": "Place at the bottom",
+    "ja": "一番下に配置\nToDoには開始日から期限まで毎日",
+    "es": "Colocar en la parte inferior",
+    "fr": "Placer en bas"
+  },
+  "从开始日到截止日每天显示在 To-do 中，完成状态联动。排序选择自动保存。": {
+    "en-US": "is displayed in To-do every day from the start date to the deadline, and the completion status is linked. Sorted selections are saved automatically.",
+    "ja": "が表示され、完了状況が紐付けられます。並べ替えられた選択内容は自動的に保存されます。",
+    "es": "se muestra en Tareas pendientes todos los días desde la fecha de inicio hasta la fecha límite y el estado de finalización está vinculado. Las selecciones ordenadas se guardan automáticamente.",
+    "fr": "est affiché dans To-do tous les jours de la date de début à la date limite, et le statut d'achèvement est lié. Les sélections triées sont enregistrées automatiquement."
+  },
+  "清空已删除作业？": {
+    "en-US": "Clear deleted jobs?",
+    "ja": "削除されたジョブをクリアしますか?",
+    "es": "¿Borrar trabajos eliminados?",
+    "fr": "Effacer les tâches supprimées ?"
+  },
+  "已经删除的作业": {
+    "en-US": "Deleted job",
+    "ja": "ジョブが削除されました",
+    "es": "Trabajo eliminado",
+    "fr": "Travail supprimé"
+  },
+  "将立即清除这里的": {
+    "en-US": "will clear this immediately",
+    "ja": "はこれをすぐにクリアします",
+    "es": "borrará esto inmediatamente\nLos trabajos",
+    "fr": "effacera cela immédiatement\nLes tâches"
+  },
+  "份作业，无法恢复。平台上的作业不受影响。": {
+    "en-US": "jobs cannot be restored. Jobs on the platform are not affected.",
+    "ja": "ジョブは復元できません。プラットフォーム上のジョブは影響を受けません。",
+    "es": "no se pueden restaurar. Los trabajos en la plataforma no se ven afectados.",
+    "fr": "ne peuvent pas être restaurées. Les emplois sur la plateforme ne sont pas affectés."
+  },
+  "作业在删除后保留 3 天，期间可以恢复。到期后自动清除，也可以提前手动清空。": {
+    "en-US": "Jobs are retained for 3 days after deletion and can be restored during this period. It will be cleared automatically after expiration, or it can be cleared manually in advance.",
+    "ja": "ジョブは削除後 3 日間保持され、この期間内であれば復元できます。有効期限が切れると自動的にクリアされますが、事前に手動でクリアすることもできます。",
+    "es": "Los trabajos se conservan durante 3 días después de la eliminación y se pueden restaurar durante este período. Se borrará automáticamente después del vencimiento o se puede borrar manualmente por adelantado.",
+    "fr": "Les tâches sont conservées pendant 3 jours après la suppression et peuvent être restaurées pendant cette période. Il sera effacé automatiquement après l'expiration, ou il peut être effacé manuellement à l'avance."
+  },
+  "即将清除": {
+    "en-US": "will be cleared soon",
+    "ja": "は間もなくクリアされます",
+    "es": "se borrará pronto",
+    "fr": "sera bientôt effacé"
+  },
+  "剩余 {0} 天{1}": {
+    "en-US": "{0} days remaining{1}",
+    "ja": "残り {0} 日{1}",
+    "es": "Quedan {0} días{1}",
+    "fr": "{0} jours restants{1}"
+  },
+  " {0} 小时": {
+    "en-US": "{0} hours",
+    "ja": "{0} 時間",
+    "es": "{0} horas",
+    "fr": "{0} heures"
+  },
+  "剩余 {0} 小时": {
+    "en-US": "{0} hours remaining",
+    "ja": "残り {0} 時間",
+    "es": "Quedan {0} horas",
+    "fr": "{0} heures restantes"
+  },
+  "恢复作业 {0}": {
+    "en-US": "Recovery job {0}",
+    "ja": "回復ジョブ {0}",
+    "es": "Trabajo de recuperación {0}",
+    "fr": "Tâche de récupération {0}"
+  },
+  "暂无已删除的作业。": {
+    "en-US": "There are no deleted jobs yet.",
+    "ja": "削除されたジョブはまだありません。",
+    "es": "Aún no hay trabajos eliminados.",
+    "fr": "Il n'y a pas encore de tâches supprimées."
+  },
+  "清空已删除作业": {
+    "en-US": "Clear deleted jobs",
+    "ja": "削除されたジョブをクリアする",
+    "es": "Borrar trabajos eliminados",
+    "fr": "Effacer les tâches supprimées"
+  },
+  "所选课表已不存在，请重新选择。": {
+    "en-US": "The selected class schedule no longer exists, please select again.",
+    "ja": "選択したクラス スケジュールは存在しません。もう一度選択してください。",
+    "es": "El horario de clases seleccionado ya no existe, por favor seleccione nuevamente.",
+    "fr": "L'horaire de cours sélectionné n'existe plus, veuillez le sélectionner à nouveau."
+  },
+  "课程未保存。": {
+    "en-US": "The course was not saved.",
+    "ja": "コースは保存されませんでした。",
+    "es": "El curso no se guardó.",
+    "fr": "Le cours n'a pas été enregistré."
+  },
+  "· 学期第一周": {
+    "en-US": "· First week of semester",
+    "ja": "· 学期の最初の週",
+    "es": "· Primera semana del semestre",
+    "fr": "· Première semaine du semestre"
+  },
+  "· 当前隐藏，保存后可在课表管理中勾选显示。": {
+    "en-US": "· Currently hidden, you can check and display it in the timetable management after saving.",
+    "ja": "・現在は非表示になっていますが、保存後、タイムテーブル管理で確認・表示できるようになります。",
+    "es": "· Actualmente oculto, puedes comprobarlo y mostrarlo en la gestión de horarios después de guardarlo.",
+    "fr": "· Actuellement masqué, vous pouvez le vérifier et l'afficher dans la gestion des horaires après sauvegarde."
+  },
+  "周{0}": {
+    "en-US": "Week{0}",
+    "ja": "週{0}",
+    "es": "Semana{0}",
+    "fr": "Semaine{0}"
+  },
+  "可选节次：": {
+    "en-US": "Optional sections:",
+    "ja": "オプションのセクション:",
+    "es": "Secciones opcionales:",
+    "fr": "Sections facultatives :"
+  },
+  "。默认上课时间": {
+    "en-US": ". Default class time",
+    "ja": "。デフォルトの授業時間",
+    "es": ". Horario de clase predeterminado",
+    "fr": ". Heure de cours par défaut"
+  },
+  "自定义上课时间": {
+    "en-US": "Customize class time",
+    "ja": "授業時間をカスタマイズする",
+    "es": "Personalizar el horario de clase",
+    "fr": "Personnaliser l'heure du cours"
+  },
+  "节次决定周课表中的位置，自定义时间用于首页日程、AI规划和课程提醒。": {
+    "en-US": "The section determines the position in the weekly class schedule, and the customized time is used for home page schedule, AI planning and course reminders.",
+    "ja": "このセクションは、週ごとのクラス スケジュール内の位置を決定し、カスタマイズされた時間はホームページのスケジュール、AI 計画、コース リマインダーに使用されます。",
+    "es": "La sección determina la posición en el cronograma de clases semanal y el tiempo personalizado se utiliza para el cronograma de la página de inicio, la planificación de IA y los recordatorios de cursos.",
+    "fr": "La section détermine la position dans l'horaire de cours hebdomadaire et l'heure personnalisée est utilisée pour l'horaire de la page d'accueil, la planification de l'IA et les rappels de cours."
+  },
+  "查看图片": {
+    "en-US": "View picture",
+    "ja": "画像を見る",
+    "es": "Ver imagen",
+    "fr": "Voir l'image"
+  },
+  "无法打开链接，请检查设备设置。": {
+    "en-US": "Unable to open link, please check device settings.",
+    "ja": "リンクを開けません。デバイスの設定を確認してください。",
+    "es": "No se puede abrir el enlace; verifique la configuración del dispositivo.",
+    "fr": "Impossible d'ouvrir le lien, veuillez vérifier les paramètres de l'appareil."
+  },
+  "全局显隐、有截止时间与无时间限制作业": {
+    "en-US": "Global visibility, deadline and non-time limit tasks",
+    "ja": "グローバルな可視性、期限および時間制限のないタスク",
+    "es": "Visibilidad global, tareas con plazo y sin límite de tiempo",
+    "fr": "Visibilité globale, tâches à échéance et sans limite de temps"
+  },
+  "请先在官方网页完成登录，再读取连接。": {
+    "en-US": "Please log in to the official website first and then read the connection.",
+    "ja": "まずは公式サイトにログインしてから接続をお読みください。",
+    "es": "Primero inicie sesión en el sitio web oficial y luego lea la conexión.",
+    "fr": "Veuillez d'abord vous connecter au site officiel, puis lire la connexion."
+  },
+  "请先打开学生个人课表页面。": {
+    "en-US": "Please open the student's personal timetable page first.",
+    "ja": "まず、生徒の個人時間割ページを開いてください。",
+    "es": "Primero abra la página de horarios personales del estudiante.",
+    "fr": "Veuillez d'abord ouvrir la page d'emploi du temps personnel de l'étudiant."
+  },
+  "自动登录已暂停，请在官方页面完成验证码／二次验证，或检查保存的学号密码。": {
+    "en-US": "Automatic login has been suspended. Please complete the verification code/secondary verification on the official page, or check the saved student ID and password.",
+    "ja": "自動ログインは一時停止されました。公式ページで認証コード・二次認証を完了するか、保存されている学生IDとパスワードをご確認ください。",
+    "es": "Se ha suspendido el inicio de sesión automático. Complete el código de verificación/verificación secundaria en la página oficial o verifique la identificación y contraseña del estudiante guardadas.",
+    "fr": "La connexion automatique a été suspendue. Veuillez compléter le code de vérification/vérification secondaire sur la page officielle, ou vérifier la carte d'étudiant et le mot de passe enregistrés."
+  },
+  "页面尚未提供登录信息，请确认已登录后重试。": {
+    "en-US": "The page has not provided login information. Please confirm that you are logged in and try again.",
+    "ja": "ページにはログイン情報が提供されていません。ログインしていることを確認して、もう一度お試しください。",
+    "es": "La página no ha proporcionado información de inicio de sesión. Confirme que ha iniciado sesión y vuelva a intentarlo.",
+    "fr": "La page n'a pas fourni d'informations de connexion. Veuillez confirmer que vous êtes connecté et réessayer."
+  },
+  "好课官方登录": {
+    "en-US": "Haoke Official Login",
+    "ja": "Haoke 公式ログイン",
+    "es": "Inicio de sesión oficial de Haoke",
+    "fr": "Connexion officielle de Haoke"
+  },
+  "Canvas 官方登录": {
+    "en-US": "Canvas official login",
+    "ja": "Canvas 公式ログイン",
+    "es": "Inicio de sesión oficial de Canvas",
+    "fr": "Connexion officielle à Canvas"
+  },
+  "取消网页登录": {
+    "en-US": "Cancel web login",
+    "ja": "Web ログインをキャンセルします",
+    "es": "Cancelar inicio de sesión web",
+    "fr": "Annuler la connexion Web"
+  },
+  "在官方网页完成统一认证，选择需要的学期，显示完整学生课表后读取。": {
+    "en-US": "Complete the unified certification on the official website, select the required semester, and read the complete student schedule after displaying it.",
+    "ja": "公式 Web サイトで統一認定を完了し、必要な学期を選択し、完全な学生スケジュールを表示後に読んでください。",
+    "es": "Complete la certificación unificada en el sitio web oficial, seleccione el semestre requerido y lea el horario estudiantil completo después de mostrarlo.",
+    "fr": "Complétez la certification unifiée sur le site officiel, sélectionnez le semestre requis et lisez le calendrier complet des étudiants après l'avoir affiché."
+  },
+  "在下方官方页面完成登录，再读取连接。学校密码只在网页中填写。": {
+    "en-US": "Complete the login on the official page below, and then read the connection. The school password is only filled in on the web page.",
+    "ja": "以下の公式ページでログインを完了し、接続を読んでください。学校のパスワードは Web ページ上でのみ入力されます。",
+    "es": "Complete el inicio de sesión en la página oficial a continuación y luego lea la conexión. La contraseña del colegio sólo se rellena en la página web.",
+    "fr": "Complétez la connexion sur la page officielle ci-dessous, puis lisez la connexion. Le mot de passe de l'école est renseigné uniquement sur la page web."
+  },
+  "完成学校登录，创建一枚仅供 TJMuse 使用的令牌，再返回读取可选令牌。": {
+    "en-US": "Complete the school login, create a token that can only be used by TJMuse, and then return to read the optional token.",
+    "ja": "学校へのログインを完了し、TJMuse のみで使用できるトークンを作成してから、オプションのトークンの読み取りに戻ります。",
+    "es": "Complete el inicio de sesión de la escuela, cree un token que solo pueda ser utilizado por TJMuse y luego regrese para leer el token opcional.",
+    "fr": "Complétez la connexion à l'école, créez un jeton qui ne peut être utilisé que par TJMuse, puis revenez pour lire le jeton facultatif."
+  },
+  "切换手机网页": {
+    "en-US": "Switch mobile web page",
+    "ja": "モバイル Web ページを切り替える",
+    "es": "Cambiar página web móvil",
+    "fr": "Changer de page Web mobile"
+  },
+  "切换桌面网页": {
+    "en-US": "Switch desktop web page",
+    "ja": "デスクトップ Web ページの切り替え",
+    "es": "Cambiar página web de escritorio",
+    "fr": "Changer de page Web pour ordinateur de bureau"
+  },
+  "读取当前个人课表": {
+    "en-US": "Read the current personal class schedule",
+    "ja": "現在の個人クラスのスケジュールを読む",
+    "es": "Leer el horario de clases personal actual",
+    "fr": "Lire l'horaire actuel des cours personnels"
+  },
+  "已登录，读取并连接": {
+    "en-US": "logged in, read and connected",
+    "ja": "ログイン、読み取り、接続しました",
+    "es": "iniciado sesión, leído y conectado",
+    "fr": "connecté, lu et connecté"
+  },
+  "已登录，读取可选令牌": {
+    "en-US": "Logged in, reading optional token",
+    "ja": "ログインし、オプションのトークンを読み取りました",
+    "es": "Iniciado sesión, leyendo el token opcional",
+    "fr": "Connecté, lecture du jeton facultatif"
+  },
+  "学期第一周内的任意一天": {
+    "en-US": "Any day during the first week of the semester",
+    "ja": "学期の最初の週の任意の日",
+    "es": "Cualquier día durante la primera semana del semestre",
+    "fr": "N'importe quel jour de la première semaine du semestre"
+  },
+  "学期第一周 {0}": {
+    "en-US": "First week of semester {0}",
+    "ja": "学期 {0} の最初の週",
+    "es": "Primera semana del semestre {0}",
+    "fr": "Première semaine du semestre {0}"
+  },
+  "第 1 周 ·": {
+    "en-US": "Week 1 ·",
+    "ja": "第 1 週 ·",
+    "es": "Semana 1 ·",
+    "fr": "Semaine 1 ·"
+  },
+  "选择这学期第一周中的任意日期，整周都会记作第 1 周。周次跨月、跨年连续计算；更换学期时可在“我的 → 日历与作息”修改。": {
+    "en-US": "Select any date during the first week of the semester and the entire week will be counted as Week 1. Weeks are calculated continuously across months and years; when changing semesters, they can be modified in \"My → Calendar and Schedule\".",
+    "ja": "学期の最初の週の任意の日付を選択すると、その週全体が第 1 週としてカウントされます。週は月および年にわたって継続的に計算されます。学期を変更する場合は、「My→カレンダーとスケジュール」で変更できます。",
+    "es": "Seleccione cualquier fecha durante la primera semana del semestre y la semana completa se contará como Semana 1. Las semanas se calculan continuamente entre meses y años; al cambiar de semestre, se pueden modificar en \"Mi → Calendario y Horarios\".",
+    "fr": "Sélectionnez n'importe quelle date au cours de la première semaine du semestre et la semaine entière sera comptée comme la semaine 1. Les semaines sont calculées en continu sur plusieurs mois et années ; lors d'un changement de semestre, ils peuvent être modifiés dans \"Mon → Calendrier et Planning\"."
+  },
+  "请允许访问相册以选择头像。": {
+    "en-US": "Please allow access to the album to select an avatar.",
+    "ja": "アバターを選択するにはアルバムへのアクセスを許可してください。",
+    "es": "Permita el acceso al álbum para seleccionar un avatar.",
+    "fr": "Veuillez autoriser l'accès à l'album pour sélectionner un avatar."
+  },
+  "无法选择头像。": {
+    "en-US": "Unable to select avatar.",
+    "ja": "アバターを選択できません。",
+    "es": "No se puede seleccionar avatar.",
+    "fr": "Impossible de sélectionner l'avatar."
+  },
+  "无法读取安全存储，请关闭后重试。": {
+    "en-US": "Unable to read secure storage, please close and try again.",
+    "ja": "安全なストレージを読み取れません。閉じて再試行してください。",
+    "es": "No se puede leer el almacenamiento seguro. Ciérrelo e inténtelo nuevamente.",
+    "fr": "Impossible de lire le stockage sécurisé, veuillez fermer et réessayer."
+  },
+  "请填写模型名称。": {
+    "en-US": "Please fill in the model name.",
+    "ja": "モデル名を入力してください。",
+    "es": "Complete el nombre del modelo.",
+    "fr": "Veuillez remplir le nom du modèle."
+  },
+  "输出上限请填写 64–32768 的整数。": {
+    "en-US": "For the output upper limit, please fill in an integer from 64–32768.",
+    "ja": "出力上限値は64～32768の整数で入力してください。",
+    "es": "Para el límite superior de salida, complete un número entero entre 64 y 32768.",
+    "fr": "Pour la limite supérieure de sortie, veuillez remplir un entier compris entre 64 et 32768."
+  },
+  "保存失败。": {
+    "en-US": "Saving failed.",
+    "ja": "保存に失敗しました。",
+    "es": "Error al guardar.",
+    "fr": "Échec de l'enregistrement."
+  },
+  "你熟悉的模型，读懂你的日常。": {
+    "en-US": "The model you are familiar with can understand your daily life.",
+    "ja": "見慣れたモデルであなたの日常生活がわかります。",
+    "es": "El modelo con el que está familiarizado puede comprender su vida diaria.",
+    "fr": "Le modèle que vous connaissez peut comprendre votre quotidien."
+  },
+  "读取安全存储…": {
+    "en-US": "Read secure storage...",
+    "ja": "安全なストレージを読み取ります...",
+    "es": "Leer almacenamiento seguro...",
+    "fr": "Lire le stockage sécurisé..."
+  },
+  "填入你的 API Key": {
+    "en-US": "Fill in your API Key",
+    "ja": "API キーを入力してください",
+    "es": "Complete su clave API",
+    "fr": "Remplissez votre clé API"
+  },
+  "填入接口支持的模型 ID": {
+    "en-US": "Fill in the model ID supported by the interface",
+    "ja": "インターフェースでサポートされているモデル ID を入力してください",
+    "es": "Complete el ID del modelo admitido por la interfaz",
+    "fr": "Remplissez l'ID du modèle pris en charge par l'interface"
+  },
+  "支持 Chat Completions 兼容接口。更换服务商时，请确认模型 ID 和地址。API Key 随服务商分别保存。": {
+    "en-US": "Supports Chat Completions compatible interface. When changing service providers, please confirm the model ID and address. The API Key is saved separately with the service provider.",
+    "ja": "チャット完了互換インターフェイスをサポートします。プロバイダを変更する場合は、機種IDとアドレスをご確認ください。 API キーはサービス プロバイダーによって個別に保存されます。",
+    "es": "Admite la interfaz compatible con Finalizaciones de chat. Al cambiar de proveedor de servicios, confirme el ID del modelo y la dirección. La clave API se guarda por separado con el proveedor de servicios.",
+    "fr": "Prend en charge l'interface compatible avec les achèvements de chat. Lorsque vous changez de fournisseur de services, veuillez confirmer l'ID du modèle et l'adresse. La clé API est enregistrée séparément auprès du fournisseur de services."
+  },
+  "在对话中要求 AI 新增或调整待办、把小事移入日程，保存后可撤销。进入 AI 页的自动规划仅提供建议。": {
+    "en-US": "In the conversation, ask AI to add or adjust to-dos and move small things to the schedule, which can be undone after saving. The automatic planning that goes into the AI ​​page only provides suggestions.",
+    "ja": "会話の中で、AI に To-Do を追加または調整し、小さなことをスケジュールに移動するよう依頼します。これは保存後に元に戻すことができます。 AI ページに入る自動プランニングは提案のみを提供します。",
+    "es": "En la conversación, pídale a AI que agregue o ajuste tareas pendientes y mueva cosas pequeñas al cronograma, que se pueden deshacer después de guardar. La planificación automática que se incluye en la página de IA solo proporciona sugerencias.",
+    "fr": "Dans la conversation, demandez à l'IA d'ajouter ou d'ajuster des tâches et de déplacer de petites choses vers le planning, qui peuvent être annulées après l'enregistrement. La planification automatique qui entre dans la page IA ne fournit que des suggestions."
+  },
+  "网页版密钥仅保留在当前会话内，刷新页面后需要重新填写。": {
+    "en-US": "The web version key is only retained in the current session and needs to be filled in again after refreshing the page.",
+    "ja": "Web バージョン キーは現在のセッションでのみ保持されるため、ページを更新した後に再度入力する必要があります。",
+    "es": "La clave de la versión web solo se conserva en la sesión actual y debe completarse nuevamente después de actualizar la página.",
+    "fr": "La clé de version Web n'est conservée que dans la session en cours et doit être renseignée après avoir actualisé la page."
+  },
+  "密钥保存在设备的系统安全存储中。": {
+    "en-US": "The key is saved in the device's system secure storage.",
+    "ja": "キーはデバイスのシステムの安全なストレージに保存されます。",
+    "es": "La clave se guarda en el almacenamiento seguro del sistema del dispositivo.",
+    "fr": "La clé est enregistrée dans le stockage sécurisé du système de l'appareil."
+  },
+  "进入 AI 页时，当天任务和自由事项会发送给所选服务商。每次生成可能产生 API 费用。": {
+    "en-US": "When entering the AI ​​page, the tasks and free items for the day will be sent to the selected service provider. API fees may apply per build.",
+    "ja": "AI ページに入ると、その日のタスクと無料アイテムが選択したサービス プロバイダーに送信されます。 API 料金はビルドごとに適用される場合があります。",
+    "es": "Al ingresar a la página de AI, las tareas y elementos gratuitos del día se enviarán al proveedor de servicios seleccionado. Es posible que se apliquen tarifas de API por compilación.",
+    "fr": "Lors de l'accès à la page IA, les tâches et objets gratuits de la journée seront envoyés au prestataire sélectionné. Des frais d'API peuvent s'appliquer par build."
+  },
+  "无法开启提醒。": {
+    "en-US": "Unable to turn on reminder.",
+    "ja": "リマインダーをオンにできません。",
+    "es": "No se puede activar el recordatorio.",
+    "fr": "Impossible d'activer le rappel."
+  },
+  "重要的事，在合适的时候想起。": {
+    "en-US": "Important things should be remembered at the right time.",
+    "ja": "重要なことは適切なタイミングで思い出す必要があります。",
+    "es": "Las cosas importantes deben recordarse en el momento adecuado.",
+    "fr": "Les choses importantes doivent être rappelées au bon moment."
+  },
+  "按任务开始时间提醒": {
+    "en-US": "Reminder according to task start time",
+    "ja": "タスクの開始時間に応じたリマインダー",
+    "es": "Recordatorio según hora de inicio de tarea",
+    "fr": "Rappel selon l'heure de début de la tâche"
+  },
+  "为后续课表功能保留": {
+    "en-US": "is reserved for subsequent class schedule functions",
+    "ja": "は後続のクラススケジュール機能のために予約されています",
+    "es": "está reservado para funciones posteriores del horario de clases.",
+    "fr": "est réservé aux fonctions d'horaire de cours ultérieures"
+  },
+  "独立按 Canvas 截止时间提醒": {
+    "en-US": "Press Canvas deadline reminder independently",
+    "ja": "キャンバスの期限リマインダーを個別に押す",
+    "es": "Presione el recordatorio de fecha límite de Canvas de forma independiente",
+    "fr": "Press Canvas rappel de date limite indépendamment"
+  },
+  "作业通知与是否显示在 To-do 中分别设置；本机删除、已完成或 Canvas 已提交的作业不再安排提醒。": {
+    "en-US": "The assignment notification and whether to display it in To-do are set separately; assignments that are deleted locally, completed, or submitted by Canvas will no longer be reminded.",
+    "ja": "課題の通知とTo-doに表示するかどうかは個別に設定します。ローカルで削除された課題、完了した課題、または Canvas によって送信された課題は通知されなくなります。",
+    "es": "La notificación de tarea y si se muestra en Tareas pendientes se configuran por separado; Ya no se recordarán las tareas que Canvas elimine localmente, complete o envíe.",
+    "fr": "La notification d'affectation et l'opportunité de l'afficher dans To-do sont définies séparément ; les devoirs supprimés localement, terminés ou soumis par Canvas ne seront plus rappelés."
+  },
+  "提醒使用设备本地时间。保存任务或重新打开 App 时，会更新未来 60 天内最近的 48 条提醒。系统省电设置可能影响送达时间。": {
+    "en-US": "Reminder to use device local time. When you save a task or reopen the app, the 48 most recent reminders for the next 60 days are updated. System power saving settings may affect delivery time.",
+    "ja": "デバイスの現地時間を使用するためのリマインダー。タスクを保存するかアプリを再度開くと、今後 60 日間の最新の 48 件のリマインダーが更新されます。システムの省電力設定は、配信時間に影響を与える可能性があります。",
+    "es": "Recordatorio para usar la hora local del dispositivo. Cuando guarda una tarea o vuelve a abrir la aplicación, se actualizan los 48 recordatorios más recientes de los próximos 60 días. La configuración de ahorro de energía del sistema puede afectar el tiempo de entrega.",
+    "fr": "Rappel d'utiliser l'heure locale de l'appareil. Lorsque vous enregistrez une tâche ou rouvrez l'application, les 48 rappels les plus récents pour les 60 prochains jours sont mis à jour. Les paramètres d'économie d'énergie du système peuvent affecter le délai de livraison."
+  },
+  "无法打开系统设置。": {
+    "en-US": "Unable to open system settings.",
+    "ja": "システム設定を開けません。",
+    "es": "No se puede abrir la configuración del sistema.",
+    "fr": "Impossible d'ouvrir les paramètres système."
+  },
+  "选定学期第一周，按你的习惯展开日程。": {
+    "en-US": "Select the first week of the semester and expand the schedule according to your habits.",
+    "ja": "学期の最初の週を選択し、習慣に応じてスケジュールを拡張します。",
+    "es": "Selecciona la primera semana del semestre y amplía el horario según tus hábitos.",
+    "fr": "Sélectionnez la première semaine du semestre et élargissez l'horaire selon vos habitudes."
+  },
+  "请选择有效的学期第一周日期。": {
+    "en-US": "Please select a valid first week of semester date.",
+    "ja": "学期の有効な最初の週の日付を選択してください。",
+    "es": "Seleccione una fecha válida para la primera semana del semestre.",
+    "fr": "Veuillez sélectionner une date valide pour la première semaine du semestre."
+  },
+  "可安排时间的结束时间需晚于开始时间。": {
+    "en-US": "The end time of the scheduleable time needs to be later than the start time.",
+    "ja": "スケジュール可能な時間の終了時刻は開始時刻よりも後である必要があります。",
+    "es": "La hora de finalización del tiempo programable debe ser posterior a la hora de inicio.",
+    "fr": "L'heure de fin de l'heure programmable doit être postérieure à l'heure de début."
+  },
+  "AI 会参考这段时间安排自由事项，并保留固定任务原来的时间。修改周起始日不会改变已创建循环任务的周期。": {
+    "en-US": "AI will refer to this time to arrange free tasks and retain the original time of fixed tasks. Changing the start day of the week will not change the period of the created recurring task.",
+    "ja": "AI はこの時間を参照して自由タスクを整理し、固定タスクの元の時間を保持します。週の開始日を変更しても、作成された定期タスクの期間は変更されません。",
+    "es": "AI hará referencia a este tiempo para organizar tareas libres y conservar el tiempo original de las tareas fijas. Cambiar el día de inicio de la semana no cambiará el período de la tarea recurrente creada.",
+    "fr": "AI se référera à cette heure pour organiser les tâches libres et conserver l'heure d'origine des tâches fixes. Changer le jour de début de la semaine ne changera pas la période de la tâche récurrente créée."
+  },
+  "请输入 2000–2099 范围内的年份。": {
+    "en-US": "Please enter a year in the range 2000–2099.",
+    "ja": "2000 ～ 2099 の範囲で年を入力してください。",
+    "es": "Introduzca un año en el rango 2000–2099.",
+    "fr": "Veuillez saisir une année comprise entre 2000 et 2099."
+  },
+  "{0} 年调休数据已更新。": {
+    "en-US": "{0} annual vacation data has been updated.",
+    "ja": "{0} の年間休暇データが更新されました。",
+    "es": "Se han actualizado {0} datos de vacaciones anuales.",
+    "fr": "{0} les données de vacances annuelles ont été mises à jour."
+  },
+  "同步失败，已保留本地数据。": {
+    "en-US": "Synchronization failed, local data has been retained.",
+    "ja": "同期が失敗しました。ローカル データは保持されています。",
+    "es": "Error de sincronización, se han conservado los datos locales.",
+    "fr": "Échec de la synchronisation, les données locales ont été conservées."
+  },
+  "把休息日与补班日，放进日历里。": {
+    "en-US": "Put rest days and make-up days in the calendar.",
+    "ja": "カレンダーに休息日と振替日を記入します。",
+    "es": "Poner los días de descanso y los días de recuperación en el calendario.",
+    "fr": "Inscrivez les jours de repos et les jours de rattrapage dans le calendrier."
+  },
+  "在日历与 AI 规划中显示": {
+    "en-US": "Show in Calendar and AI Planning",
+    "ja": "カレンダーと AI プランニングで表示",
+    "es": "Mostrar en Calendario y Planificación de IA",
+    "fr": "Afficher dans le calendrier et la planification IA"
+  },
+  "显示中国大陆调休": {
+    "en-US": "shows the holiday in mainland China",
+    "ja": "は中国本土の祝日を示します",
+    "es": "muestra las vacaciones en China continental",
+    "fr": "montre les vacances en Chine continentale"
+  },
+  "已内置 2026 年国务院公布的放假调休安排。网络同步使用 holiday-cn 开源数据，并缓存在设备；未公布或获取失败的年份不会推测补班日期。": {
+    "en-US": "has built-in the holiday and holiday arrangements announced by the State Council in 2026. Network synchronization uses holiday-cn open source data and caches it on the device; the make-up date will not be estimated for years that have not been published or failed to be obtained.",
+    "ja": "には、2026 年に国務院が発表した祝日と祝日の取り決めが組み込まれています。ネットワーク同期では、holiday-cn オープン ソース データが使用され、デバイスにキャッシュされます。公表されていない年や入手できなかった年については、補日は推定されません。",
+    "es": "ha incorporado los arreglos de vacaciones y días festivos anunciados por el Consejo de Estado en 2026. La sincronización de red utiliza datos de código abierto de Holiday-cn y los almacena en caché en el dispositivo; No se estimará la fecha de recuperación para los años que no hayan sido publicados o no hayan podido obtenerse.",
+    "fr": "a intégré les vacances et les arrangements de vacances annoncés par le Conseil d'État en 2026. La synchronisation du réseau utilise les données open source Holiday-cn et les met en cache sur l'appareil ; la date de rattrapage ne sera pas estimée pour les années non publiées ou non obtenues."
+  },
+  "上次网络同步：": {
+    "en-US": "Last network synchronization:",
+    "ja": "最後のネットワーク同期:",
+    "es": "Última sincronización de red:",
+    "fr": "Dernière synchronisation réseau :"
+  },
+  "尚未同步，使用内置数据": {
+    "en-US": "Not synchronized yet, using built-in data",
+    "ja": "まだ同期されていません。組み込みデータを使用しています",
+    "es": "Aún no sincronizado, utilizando datos integrados",
+    "fr": "Pas encore synchronisé, utilisant les données intégrées"
+  },
+  "查看调休数据来源": {
+    "en-US": "Check the source of holiday compensation data",
+    "ja": "休日補償データのソースを確認してください",
+    "es": "Verifique la fuente de datos de compensación de vacaciones",
+    "fr": "Vérifier la source des données sur l'indemnisation des vacances"
+  },
+  "无法打开来源链接。": {
+    "en-US": "Unable to open source link.",
+    "ja": "ソース リンクを開けません。",
+    "es": "No se puede abrir el enlace de código fuente.",
+    "fr": "Impossible d'ouvrir le lien source."
+  },
+  "{0}已提交作业（{1}）": {
+    "en-US": "{0} has submitted the job ({1})",
+    "ja": "{0} がジョブ ({1}) を送信しました",
+    "es": "{0} ha enviado el trabajo ({1})",
+    "fr": "{0} a soumis le travail ({1})"
+  },
+  "已提交的作业 ·": {
+    "en-US": "Submitted assignments ·",
+    "ja": "提出された課題 ·",
+    "es": "Tareas enviadas ·",
+    "fr": "Travaux soumis ·"
+  },
+  "{0}（{1} 开始）": {
+    "en-US": "{0} (started by {1})",
+    "ja": "{0} ({1} によって開始されました)",
+    "es": "{0} (iniciado por {1})",
+    "fr": "{0} (commencé par {1})"
+  },
+  "查看 {0}": {
+    "en-US": "View {0}",
+    "ja": "{0} を表示",
+    "es": "Ver {0}",
+    "fr": "Afficher {0}"
+  },
+  "跨天续程": {
+    "en-US": "Cross-day continuation",
+    "ja": "日をまたいでの継続",
+    "es": "Continuación entre días",
+    "fr": "Suite des jours croisés"
+  },
+  "跨天": {
+    "en-US": "across the sky",
+    "ja": "空の向こう側",
+    "es": "a través del cielo",
+    "fr": "à travers le ciel"
+  },
+  "截止 {0} {1} · {2}": {
+    "en-US": "Ending {0} {1} · {2}",
+    "ja": "終了 {0} {1} · {2}",
+    "es": "Finalizando {0} {1} · {2}",
+    "fr": "Fin de {0} {1} · {2}"
+  },
+  "{0} 作业": {
+    "en-US": "{0} Homework",
+    "ja": "{0} 宿題",
+    "es": "{0} Tarea",
+    "fr": "{0} Devoirs"
+  },
+  "无截止时间 · {0}": {
+    "en-US": "No deadline · {0}",
+    "ja": "期限なし · {0}",
+    "es": "Sin fecha límite · {0}",
+    "fr": "Pas de date limite · {0}"
+  },
+  "{0}–{1} · 共 {2} 分钟": {
+    "en-US": "{0}–{1} · {2} minutes in total",
+    "ja": "{0}–{1} · 合計 {2} 分",
+    "es": "{0}–{1} · {2} minutos en total",
+    "fr": "{0}–{1} · {2} minutes au total"
+  },
+  " · 子任务 {0}/{1}": {
+    "en-US": "· Subtask {0}/{1}",
+    "ja": "· サブタスク {0}/{1}",
+    "es": "· Subtarea {0}/{1}",
+    "fr": "· Sous-tâche {0}/{1}"
+  },
+  "编辑 {0}": {
+    "en-US": "Edit {0}",
+    "ja": "{0} を編集",
+    "es": "Editar {0}",
+    "fr": "Modifier {0}"
+  },
+  "完成子任务 {0}": {
+    "en-US": "Complete subtask {0}",
+    "ja": "サブタスク {0} を完了します",
+    "es": "Completar subtarea {0}",
+    "fr": "Terminer la sous-tâche {0}"
+  },
+  "请选择有效的开始和结束日期、时间。": {
+    "en-US": "Please select a valid start and end date and time.",
+    "ja": "有効な開始日時と終了日時を選択してください。",
+    "es": "Seleccione una fecha y hora de inicio y finalización válidas.",
+    "fr": "Veuillez sélectionner une date et une heure de début et de fin valides."
+  },
+  "结束日期和时间需要晚于开始日期和时间。": {
+    "en-US": "The end date and time needs to be later than the start date and time.",
+    "ja": "終了日時は開始日時より後の日時である必要があります。",
+    "es": "La fecha y hora de finalización deben ser posteriores a la fecha y hora de inicio.",
+    "fr": "La date et l'heure de fin doivent être postérieures à la date et à l'heure de début."
+  },
+  "我同意仅在本机安全保存学号和密码，用于同济官方学号登录。": {
+    "en-US": "I agree to only keep my student ID and password securely on this computer for logging in with Tongji’s official student ID.",
+    "ja": "私は、同済大学の公式学生 ID を使用してログインする場合にのみ、学生 ID とパスワードをこのコンピュータに安全に保管することに同意します。",
+    "es": "Acepto guardar únicamente mi identificación de estudiante y contraseña de forma segura en esta computadora para iniciar sesión con la identificación de estudiante oficial de Tongji.",
+    "fr": "J'accepte de conserver mon numéro d'étudiant et mon mot de passe en toute sécurité sur cet ordinateur uniquement pour me connecter avec le numéro d'étudiant officiel de Tongji."
+  },
+  "自动选择“学号/教师工号”，核对学校为同济大学，并勾选“一周内自动登录”。": {
+    "en-US": "Automatically select \"Student ID/Teacher ID\", check that the school is Tongji University, and check \"Automatically log in within one week\".",
+    "ja": "「学生ID/教師ID」を自動的に選択し、学校が同済大学であることを確認し、「1週間以内に自動的にログインする」にチェックを入れます。",
+    "es": "Seleccione automáticamente \"ID de estudiante/ID de maestro\", verifique que la escuela sea la Universidad de Tongji y marque \"Iniciar sesión automáticamente dentro de una semana\".",
+    "fr": "Sélectionnez automatiquement « ID d'étudiant/ID d'enseignant », vérifiez que l'école est l'Université de Tongji et cochez « Se connecter automatiquement dans un délai d'une semaine »."
+  },
+  "通过 iam.tongji.edu.cn 统一身份认证登录，沿用学校的会话策略。": {
+    "en-US": "Log in through iam.tongji.edu.cn unified identity authentication and follow the school’s session policy.",
+    "ja": "iam.tongji.edu.cn 統合 ID 認証を通じてログインし、学校のセッション ポリシーに従ってください。",
+    "es": "Inicie sesión a través de la autenticación de identidad unificada iam.tongji.edu.cn y siga la política de sesión de la escuela.",
+    "fr": "Connectez-vous via l'authentification d'identité unifiée iam.tongji.edu.cn et suivez la politique de session de l'école."
+  },
+  "验证码、二次验证或密码错误时停止自动重试，改由你在官方页面完成。": {
+    "en-US": "Automatic retry will be stopped when the verification code, two-step verification or password is incorrect, and you will complete it on the official page instead.",
+    "ja": "認証コード、二段階認証、パスワードが間違っている場合、自動再試行は停止され、公式ページで完了することになります。",
+    "es": "El reintento automático se detendrá cuando el código de verificación, la verificación en dos pasos o la contraseña sean incorrectos y, en su lugar, lo completará en la página oficial.",
+    "fr": "La nouvelle tentative automatique sera arrêtée lorsque le code de vérification, la vérification en deux étapes ou le mot de passe est incorrect, et vous le compléterez plutôt sur la page officielle."
+  },
+  "保存后自动在后台连接；每次打开 App 自动同步，票据失效时自动恢复。": {
+    "en-US": "Automatically connects in the background after saving; automatically synchronizes every time you open the App, and automatically restores when the ticket expires.",
+    "ja": "保存後、バックグラウンドで自動的に接続します。アプリを開くたびに自動的に同期され、チケットの有効期限が切れると自動的に復元されます。",
+    "es": "Se conecta automáticamente en segundo plano después de guardar; se sincroniza automáticamente cada vez que abre la aplicación y se restaura automáticamente cuando caduca el ticket.",
+    "fr": "Se connecte automatiquement en arrière-plan après l'enregistrement ; se synchronise automatiquement à chaque fois que vous ouvrez l'application et se restaure automatiquement à l'expiration du ticket."
+  },
+  "首次需选择并授权维护 TJMuse 专用令牌；此后每次打开 App 自动同步，统一认证失效时会使用这里保存的信息。": {
+    "en-US": "You need to select and authorize the maintenance of the TJMuse dedicated token for the first time; thereafter, it will be automatically synchronized every time you open the App, and the information saved here will be used when the unified authentication fails.",
+    "ja": "初めて TJMuse 専用トークンのメンテナンスを選択して承認する必要があります。以降、アプリを開くたびに自動的に同期され、統合認証に失敗した場合には、ここに保存された情報が使用されます。",
+    "es": "Debe seleccionar y autorizar el mantenimiento del token dedicado TJMuse por primera vez; A partir de entonces, se sincronizará automáticamente cada vez que abra la aplicación y la información guardada aquí se utilizará cuando falle la autenticación unificada.",
+    "fr": "Vous devez sélectionner et autoriser la maintenance du token dédié TJMuse pour la première fois ; par la suite, il sera automatiquement synchronisé à chaque fois que vous ouvrirez l'application, et les informations enregistrées ici seront utilisées en cas d'échec de l'authentification unifiée."
+  },
+  "保存并启用自动登录": {
+    "en-US": "Save and enable automatic login",
+    "ja": "保存して自動ログインを有効にする",
+    "es": "Guardar y habilitar el inicio de sesión automático",
+    "fr": "Enregistrer et activer la connexion automatique"
+  },
+  "允许再次尝试自动登录": {
+    "en-US": "Allow automatic login attempts again",
+    "ja": "自動ログイン試行を再度許可します",
+    "es": "Permitir intentos de inicio de sesión automático nuevamente",
+    "fr": "Autoriser à nouveau les tentatives de connexion automatiques"
+  },
+  "关闭并删除本机登录信息": {
+    "en-US": "Close and delete local login information",
+    "ja": "ローカル ログイン情報を閉じて削除します",
+    "es": "Cerrar y eliminar información de inicio de sesión local",
+    "fr": "Fermer et supprimer les informations de connexion locales"
+  },
+  "请基于最新任务和当前时间，重新生成今天的时间规划。": {
+    "en-US": "Please regenerate today's time plan based on the latest tasks and the current time.",
+    "ja": "最新のタスクと現在時刻に基づいて、今日の時間計画を再生成してください。",
+    "es": "Regenere el plan de tiempo de hoy en función de las últimas tareas y la hora actual.",
+    "fr": "Veuillez régénérer le planning d'aujourd'hui en fonction des dernières tâches et de l'heure actuelle."
+  },
+  "无法读取本机API设置，请重新打开设置。": {
+    "en-US": "Unable to read native API settings, please reopen the settings.",
+    "ja": "ネイティブ API 設定を読み取れません。設定を再度開いてください。",
+    "es": "No se puede leer la configuración nativa de la API; vuelva a abrir la configuración.",
+    "fr": "Impossible de lire les paramètres de l'API natifs, veuillez rouvrir les paramètres."
+  },
+  "AI 请求失败，请重试。": {
+    "en-US": "AI request failed, please try again.",
+    "ja": "AI リクエストが失敗しました。もう一度お試しください。",
+    "es": "Error en la solicitud de IA, inténtelo de nuevo.",
+    "fr": "La demande AI a échoué, veuillez réessayer."
+  },
+  "自定义 AI": {
+    "en-US": "Custom AI",
+    "ja": "カスタム AI",
+    "es": "IA personalizada",
+    "fr": "IA personnalisée"
+  },
+  "从今天的待办开始，一起理清节奏。": {
+    "en-US": "Starting from today’s to-do list, let’s clarify the rhythm together.",
+    "ja": "今日のやることリストから、一緒にリズムを明確にしていきましょう。",
+    "es": "A partir de la lista de tareas pendientes de hoy, aclaremos juntos el ritmo.",
+    "fr": "À partir de la liste de choses à faire du jour, clarifions ensemble le rythme."
+  },
+  "让今天，": {
+    "en-US": "Let today,",
+    "ja": "今日は、",
+    "es": "Que hoy,",
+    "fr": "Laissez aujourd'hui,"
+  },
+  "有自己的节奏。": {
+    "en-US": "has its own rhythm.",
+    "ja": "には独自のリズムがあります。",
+    "es": "tiene su propio ritmo.",
+    "fr": "a son propre rythme."
+  },
+  "连接你的 AI，结合当天待办与自由事项，生成具体到分钟的时间提案。": {
+    "en-US": "Connect your AI, combine the day's to-dos and free items, and generate time proposals specific to the minute.",
+    "ja": "AI を接続し、その日のやるべきことと自由な項目を組み合わせて、その分に特化した時間提案を生成します。",
+    "es": "Conecte su IA, combine las tareas pendientes del día y los elementos gratuitos, y genere propuestas de tiempo específicas para cada minuto.",
+    "fr": "Connectez votre IA, combinez les tâches de la journée et les éléments gratuits et générez des propositions de temps spécifiques à la minute."
+  },
+  "一本想读的书，一次想去的散步。": {
+    "en-US": "A book I want to read, a walk I want to take.",
+    "ja": "読みたい本、歩きたい散歩。",
+    "es": "Un libro que quiero leer, un paseo que quiero dar.",
+    "fr": "Un livre que je veux lire, une promenade que je veux faire."
+  },
+  "不着急，先把它记下来。": {
+    "en-US": "Don’t worry, write it down first.",
+    "ja": "心配しないで、まず書き留めてください。",
+    "es": "No te preocupes, escríbelo primero.",
+    "fr": "Ne vous inquiétez pas, écrivez-le d'abord."
+  },
+  "完成自由事项 {0}": {
+    "en-US": "Complete free tasks {0}",
+    "ja": "無料タスクを完了する {0}",
+    "es": "Completa tareas gratuitas {0}",
+    "fr": "Effectuer des tâches gratuites {0}"
+  },
+  "编辑自由事项 {0}": {
+    "en-US": "Editorial freedom matters {0}",
+    "ja": "編集の自由は重要です {0}",
+    "es": "La libertad editorial importa {0}",
+    "fr": "La liberté éditoriale est importante {0}"
+  },
+  "更多 {0}": {
+    "en-US": "More {0}",
+    "ja": "もっと見る {0}",
+    "es": "Más {0}",
+    "fr": "Plus {0}"
+  },
+  "好课连接失败。": {
+    "en-US": "Good lesson connection failed.",
+    "ja": "良好なレッスンの接続に失敗しました。",
+    "es": "Error en la buena conexión de la lección.",
+    "fr": "Échec de la bonne connexion à la leçon."
+  },
+  "连接失败，请重试。": {
+    "en-US": "Connection failed, please try again.",
+    "ja": "接続に失敗しました。もう一度お試しください。",
+    "es": "Error de conexión, inténtelo de nuevo.",
+    "fr": "Échec de la connexion, veuillez réessayer."
+  },
+  "无法清除令牌，请重试。": {
+    "en-US": "Unable to clear token, please try again.",
+    "ja": "トークンをクリアできません。もう一度お試しください。",
+    "es": "No se puede borrar el token, inténtelo de nuevo.",
+    "fr": "Impossible d'effacer le jeton, veuillez réessayer."
+  },
+  "无法打开 Canvas 设置页，请在浏览器中访问学校网站。": {
+    "en-US": "Unable to open the Canvas settings page, please visit the school website in your browser.",
+    "ja": "キャンバス設定ページを開けません。ブラウザで学校の Web サイトにアクセスしてください。",
+    "es": "No se puede abrir la página de configuración de Canvas, visite el sitio web de la escuela en su navegador.",
+    "fr": "Impossible d'ouvrir la page des paramètres de Canvas, veuillez visiter le site Web de l'école dans votre navigateur."
+  },
+  "{0}设置": {
+    "en-US": "{0} settings",
+    "ja": "{0} 設定",
+    "es": "{0} configuración",
+    "fr": "{0} paramètres"
+  },
+  "同步{0}作业": {
+    "en-US": "Synchronization {0} job",
+    "ja": "同期 {0} ジョブ",
+    "es": "Sincronización {0} trabajo",
+    "fr": "Tâche de synchronisation {0}"
+  },
+  "请在“我的 → 作业设置”中连接平台。": {
+    "en-US": "Please connect to the platform in \"My → Job Settings\".",
+    "ja": "「マイ→ジョブ設定」でプラットフォームに接続してください。",
+    "es": "Conéctese a la plataforma en \"Mi → Configuración de trabajo\".",
+    "fr": "Veuillez vous connecter à la plateforme dans « Mon → Paramètres de travail »."
+  },
+  "全部平台": {
+    "en-US": "All platforms",
+    "ja": "すべてのプラットフォーム",
+    "es": "Todas las plataformas",
+    "fr": "Toutes les plateformes"
+  },
+  "当前可见课程中暂无作业。": {
+    "en-US": "There are currently no assignments in the visible course.",
+    "ja": "表示されているコースには現在課題がありません。",
+    "es": "Actualmente no hay tareas en el curso visible.",
+    "fr": "Il n'y a actuellement aucun devoir dans le cours visible."
+  },
+  "连接后将自动同步，也可点击同步重试。": {
+    "en-US": "will be automatically synchronized after connection. You can also click Sync to try again.",
+    "ja": "は接続後に自動的に同期されます。 「同期」をクリックして再試行することもできます。",
+    "es": "se sincronizará automáticamente después de la conexión. También puedes hacer clic en Sincronizar para volver a intentarlo.",
+    "fr": "sera automatiquement synchronisé après la connexion. Vous pouvez également cliquer sur Synchroniser pour réessayer."
+  },
+  "查看作业 {0}": {
+    "en-US": "View job {0}",
+    "ja": "ジョブ {0} を表示",
+    "es": "Ver trabajo {0}",
+    "fr": "Afficher le travail {0}"
+  },
+  "· 已提交": {
+    "en-US": "· Submitted",
+    "ja": "· 送信されました",
+    "es": "· Enviado",
+    "fr": "· Soumis"
+  },
+  "每次打开 App 或从后台返回时，自动在后台同步已连接平台；也可随时手动同步。同步失败保留已有作业，不会弹出登录页打断使用。": {
+    "en-US": "Every time you open the app or return from the background, the connected platform will be automatically synchronized in the background; you can also synchronize manually at any time. If synchronization fails, existing jobs will be retained, and the login page will not pop up to interrupt use.",
+    "ja": "アプリを開くたび、またはバックグラウンドから戻るたびに、接続されたプラットフォームはバックグラウンドで自動的に同期されます。いつでも手動で同期することもできます。同期が失敗した場合、既存のジョブは保持され、ログイン ページがポップアップして使用が中断されることはありません。",
+    "es": "Cada vez que abra la aplicación o regrese desde el fondo, la plataforma conectada se sincronizará automáticamente en segundo plano; También puedes sincronizar manualmente en cualquier momento. Si la sincronización falla, los trabajos existentes se conservarán y la página de inicio de sesión no aparecerá para interrumpir el uso.",
+    "fr": "Chaque fois que vous ouvrez l'application ou que vous revenez de l'arrière-plan, la plateforme connectée sera automatiquement synchronisée en arrière-plan ; vous pouvez également synchroniser manuellement à tout moment. Si la synchronisation échoue, les tâches existantes seront conservées et la page de connexion ne s'affichera pas pour interrompre l'utilisation."
+  },
+  "有截止时间默认显示，无截止时间默认隐藏。点开每份作业可修改显示选择或本机删除，全局规则在“我的 → 个性化设置 → 作业显示设置”中调整。本机勾选不代替 Canvas 提交。": {
+    "en-US": "is displayed by default if there is a deadline, and is hidden by default if there is no deadline. Click on each job to modify the display selection or delete it locally. Global rules can be adjusted in \"My → Personalized Settings → Job Display Settings\". Native checkboxes do not replace Canvas submission.",
+    "ja": "は、期限がある場合はデフォルトで表示され、期限がない場合はデフォルトで非表示になります。各ジョブをクリックして表示選択を変更するか、ローカルで削除します。グローバルルールは「マイ→個人設定→ジョブ表示設定」で調整できます。ネイティブ チェックボックスは Canvas の送信に代わるものではありません。",
+    "es": "se muestra de forma predeterminada si hay una fecha límite y se oculta de forma predeterminada si no hay una fecha límite. Haga clic en cada trabajo para modificar la selección de visualización o eliminarlo localmente. Las reglas globales se pueden ajustar en \"Mi → Configuración personalizada → Configuración de visualización de trabajos\". Las casillas de verificación nativas no reemplazan el envío de Canvas.",
+    "fr": "est affiché par défaut s'il y a une date limite, et est masqué par défaut s'il n'y a pas de date limite. Cliquez sur chaque tâche pour modifier la sélection d'affichage ou la supprimer localement. Les règles globales peuvent être ajustées dans « Mes → Paramètres personnalisés → Paramètres d'affichage des tâches ». Les cases à cocher natives ne remplacent pas la soumission Canvas."
+  },
+  "每次打开 App 或返回前台时同步已连接平台，也可手动一键同步。设置与作业页共用。": {
+    "en-US": "Synchronize the connected platform every time you open the app or return to the front desk, or you can synchronize manually with one click. Settings are shared with the assignment page.",
+    "ja": "アプリを開いたりフロントデスクに戻ったりするたびに、接続されたプラットフォームを同期するか、ワンクリックで手動で同期することもできます。設定は課題ページと共有されます。",
+    "es": "Sincronice la plataforma conectada cada vez que abra la aplicación o regrese a la recepción, o puede sincronizar manualmente con un clic. La configuración se comparte con la página de tareas.",
+    "fr": "Synchronisez la plateforme connectée à chaque fois que vous ouvrez l'application ou revenez à la réception, ou vous pouvez synchroniser manuellement en un seul clic. Les paramètres sont partagés avec la page d’affectation."
+  },
+  "将清除本机令牌和作业缓存。如需撤销令牌，请在 Canvas 用户设置中删除对应的访问许可证。": {
+    "en-US": "will clear the native token and job cache. To revoke a token, delete the corresponding access license in Canvas User Settings.",
+    "ja": "はネイティブ トークンとジョブ キャッシュをクリアします。トークンを取り消すには、キャンバスのユーザー設定で対応するアクセス ライセンスを削除します。",
+    "es": "borrará el token nativo y la caché de trabajos. Para revocar un token, elimine la licencia de acceso correspondiente en la Configuración de usuario de Canvas.",
+    "fr": "effacera le jeton natif et le cache des tâches. Pour révoquer un jeton, supprimez la licence d'accès correspondante dans les paramètres utilisateur de Canvas."
+  },
+  "粘贴新令牌以更新连接": {
+    "en-US": "Paste new token to update connection",
+    "ja": "新しいトークンを貼り付けて接続を更新します",
+    "es": "Pegue el nuevo token para actualizar la conexión",
+    "fr": "Coller le nouveau jeton pour mettre à jour la connexion"
+  },
+  "粘贴 Canvas 生成的访问令牌": {
+    "en-US": "Paste the access token generated by Canvas",
+    "ja": "Canvas によって生成されたアクセス トークンを貼り付けます",
+    "es": "Pega el token de acceso generado por Canvas",
+    "fr": "Collez le jeton d'accès généré par Canvas"
+  },
+  "网页仅在内存中使用令牌，刷新后需要重新填写。学校可能限制跨域请求，请使用 iOS／Android App 完成同步。": {
+    "en-US": "The web page only uses the token in memory and needs to be refilled after refreshing. The school may restrict cross-domain requests, please use iOS/Android App to complete synchronization.",
+    "ja": "Web ページはメモリ内のトークンのみを使用するため、更新後にトークンを再充填する必要があります。学校はクロスドメインリクエストを制限する場合があります。同期を完了するには iOS/Android アプリを使用してください。",
+    "es": "La página web solo usa el token en la memoria y debe recargarse después de la actualización. La escuela puede restringir las solicitudes entre dominios; utilice la aplicación iOS/Android para completar la sincronización.",
+    "fr": "La page Web utilise uniquement le jeton en mémoire et doit être rechargée après actualisation. L'école peut restreindre les demandes inter-domaines, veuillez utiliser l'application iOS/Android pour terminer la synchronisation."
+  },
+  "令牌保存在本机系统安全存储中。应用使用令牌直接读取 Canvas；更换同一账户的令牌会保留已勾选状态。": {
+    "en-US": "The token is saved in native system secure storage. The app uses the token to read Canvas directly; changing the token for the same account will keep it checked.",
+    "ja": "トークンはネイティブ システムの安全なストレージに保存されます。アプリはトークンを使用して Canvas を直接読み取ります。同じアカウントのトークンを変更すると、チェックされた状態が維持されます。",
+    "es": "El token se guarda en el almacenamiento seguro del sistema nativo. La aplicación utiliza el token para leer Canvas directamente; cambiar el token para la misma cuenta lo mantendrá marcado.",
+    "fr": "Le jeton est enregistré dans le stockage sécurisé natif du système. L'application utilise le jeton pour lire directement Canvas ; changer le jeton pour le même compte le gardera vérifié."
+  },
+  "断开好课连接？": {
+    "en-US": "Disconnect the good lesson?",
+    "ja": "良いレッスンを中断しますか?",
+    "es": "¿Desconectar la buena lección?",
+    "fr": "Déconnecter la bonne leçon ?"
+  },
+  "好课连接演示": {
+    "en-US": "Good Lesson Connection Demonstration",
+    "ja": "優れたレッスン接続のデモンストレーション",
+    "es": "Demostración de conexión de buena lección",
+    "fr": "Démonstration de bonne connexion avec la leçon"
+  },
+  "好课连接设置": {
+    "en-US": "Good lesson connection settings",
+    "ja": "良いレッスン接続設定",
+    "es": "Buena configuración de conexión de lección",
+    "fr": "Bons paramètres de connexion aux leçons"
+  },
+  "将清除本机好课凭据和作业缓存，普通任务与 Canvas 连接保留。": {
+    "en-US": "will clear the local good course credentials and job cache, and normal tasks and Canvas connections will be retained.",
+    "ja": "はローカルの適切なコース資格情報とジョブ キャッシュをクリアし、通常のタスクとキャンバス接続は保持されます。",
+    "es": "borrará las credenciales locales del buen curso y la caché de trabajos, y se conservarán las tareas normales y las conexiones de Canvas.",
+    "fr": "effacera les informations d'identification locales des bons cours et le cache des tâches, et les tâches normales et les connexions Canvas seront conservées."
+  },
+  "保留好课连接": {
+    "en-US": "Keep good lesson links",
+    "ja": "適切なレッスンのリンクを維持する",
+    "es": "Mantenga buenos enlaces de lecciones",
+    "fr": "Gardez de bons liens de cours"
+  },
+  "演示将连接示例好课账户，使用模拟作业，不访问学校平台。正式 App 会在官方网页中完成登录。": {
+    "en-US": "The demonstration will connect to the sample Haoke account, use simulated assignments, and do not access the school platform. The official App will complete the login on the official webpage.",
+    "ja": "デモはサンプル Haoke アカウントに接続し、模擬課題を使用しますが、学校のプラットフォームにはアクセスしません。公式アプリは公式Webページ上でログインが完了します。",
+    "es": "La demostración se conectará a la cuenta de muestra de Haoke, utilizará tareas simuladas y no accederá a la plataforma de la escuela. La aplicación oficial completará el inicio de sesión en la página web oficial.",
+    "fr": "La démonstration se connectera à l'exemple de compte Haoke, utilisera des devoirs simulés et n'accédera pas à la plateforme scolaire. L'application officielle terminera la connexion sur la page Web officielle."
+  },
+  "在官方网页中登录，读取登录票据后安全保存在本机。票据失效时会提示重新登录。": {
+    "en-US": "Log in to the official webpage, read the login ticket and save it safely on this machine. When the ticket expires, you will be prompted to log in again.",
+    "ja": "公式 Web ページにログインし、ログイン チケットを読み、このマシンに安全に保存します。チケットの有効期限が切れると、再度ログインするように求められます。",
+    "es": "Inicie sesión en la página web oficial, lea el ticket de inicio de sesión y guárdelo de forma segura en esta máquina. Cuando el ticket caduque, se le pedirá que inicie sesión nuevamente.",
+    "fr": "Connectez-vous à la page Web officielle, lisez le ticket de connexion et enregistrez-le en toute sécurité sur cette machine. Une fois le ticket expiré, vous serez invité à vous reconnecter."
+  },
+  "连接示例好课账户": {
+    "en-US": "Connect the sample Haoke account",
+    "ja": "サンプル Haoke アカウントを接続する",
+    "es": "Conecte la cuenta Haoke de muestra",
+    "fr": "Connectez l'exemple de compte Haoke"
+  },
+  "编辑个人资料": {
+    "en-US": "Edit profile",
+    "ja": "プロフィールを編集",
+    "es": "Editar perfil",
+    "fr": "Modifier le profil"
+  },
+  "把日子，过成喜欢的样子。": {
+    "en-US": "Live your life how you like it.",
+    "ja": "好きなように人生を生きましょう。",
+    "es": "Vive tu vida como te gusta.",
+    "fr": "Vivez votre vie comme vous l'aimez."
+  },
+  "PREFERENCES · 偏好设置": {
+    "en-US": "PREFERENCES · Preferences",
+    "ja": "設定 · 設定",
+    "es": "PREFERENCIAS · Preferencias",
+    "fr": "PRÉFÉRENCES · Préférences"
+  },
+  "{0} · 模型与 API Key": {
+    "en-US": "{0} · Model and API Key",
+    "ja": "{0} · モデルと API キー",
+    "es": "{0} · Modelo y clave API",
+    "fr": "{0} · Modèle et clé API"
+  },
+  "To-do 提醒已开启": {
+    "en-US": "To-do reminder is on",
+    "ja": "ToDo リマインダーがオンになっています",
+    "es": "El recordatorio de tareas pendientes está activado",
+    "fr": "Le rappel de tâches est activé"
+  },
+  "To-do 提醒已关闭": {
+    "en-US": "To-do reminder has been closed",
+    "ja": "ToDo リマインダーが閉じられました",
+    "es": "Se ha cerrado el recordatorio de tareas pendientes",
+    "fr": "Le rappel de tâches a été fermé"
+  },
+  "学期第一周 · 每周从{0}开始": {
+    "en-US": "First week of semester · Each week starts at {0}",
+    "ja": "学期の最初の週 · 各週は {0} に始まります",
+    "es": "Primera semana del semestre · Cada semana comienza a las {0}",
+    "fr": "Première semaine du semestre · Chaque semaine commence à {0}"
+  },
+  "节假日与补班日期": {
+    "en-US": "Holidays and make-up dates",
+    "ja": "休日と振替日",
+    "es": "Días festivos y fechas de recuperación",
+    "fr": "Jours fériés et dates de rattrapage"
+  },
+  "MORE · 其他": {
+    "en-US": "MORE · Others",
+    "ja": "もっと見る · その他",
+    "es": "MÁS · Otros",
+    "fr": "PLUS · Autres"
+  },
+  "{0} 条本地对话记录": {
+    "en-US": "{0} local conversation records",
+    "ja": "{0} 個のローカル会話記録",
+    "es": "{0} registros de conversaciones locales",
+    "fr": "{0} enregistrements de conversations locales"
+  },
+  "无法选择头像，请重试。": {
+    "en-US": "Unable to select avatar, please try again.",
+    "ja": "アバターを選択できません。もう一度お試しください。",
+    "es": "No se puede seleccionar el avatar, inténtalo de nuevo.",
+    "fr": "Impossible de sélectionner l'avatar, veuillez réessayer."
+  },
+  "份课表已保存": {
+    "en-US": "Class schedule has been saved",
+    "ja": "クラススケジュールが保存されました",
+    "es": "Se ha guardado el horario de clases.",
+    "fr": "L'horaire des cours a été enregistré"
+  },
+  "好课 ·": {
+    "en-US": "Good lesson ·",
+    "ja": "良い教訓 ·",
+    "es": "Buena lección ·",
+    "fr": "Bonne leçon ·"
+  },
+  "ChatGPT · DeepSeek · 自定义接口": {
+    "en-US": "ChatGPT · DeepSeek · Custom interface",
+    "ja": "ChatGPT · DeepSeek · カスタム インターフェイス",
+    "es": "ChatGPT · DeepSeek · Interfaz personalizada",
+    "fr": "ChatGPT · DeepSeek · Interface personnalisée"
+  },
+  "· 周": {
+    "en-US": "· Week",
+    "ja": "· 週",
+    "es": "· Semana",
+    "fr": "· Semaine"
+  },
+  "日一二三四五六": {
+    "en-US": "day one two three four five six",
+    "ja": "1 日目 2 3 4 5 6",
+    "es": "día uno dos tres cuatro cinco seis",
+    "fr": "jour un deux trois quatre cinq six"
+  },
+  "点击右下角加号导入课表或手动添加课程，日期栏和课程网格均可左右切周。": {
+    "en-US": "Click the plus sign in the lower right corner to import the class schedule or add courses manually. Both the date column and the course grid can be cut left or right.",
+    "ja": "右下隅のプラス記号をクリックして、クラススケジュールをインポートするか、コースを手動で追加します。日付列とコースグリッドはどちらも左右にカットできます。",
+    "es": "Haga clic en el signo más en la esquina inferior derecha para importar el horario de clases o agregar cursos manualmente. Tanto la columna de fecha como la cuadrícula del curso se pueden cortar hacia la izquierda o hacia la derecha.",
+    "fr": "Cliquez sur le signe plus dans le coin inférieur droit pour importer l'horaire des cours ou ajouter des cours manuellement. La colonne de date et la grille des cours peuvent être coupées à gauche ou à droite."
+  },
+  "时长请填入 1–525600 分钟的整数（最长 365 天）。": {
+    "en-US": "Please enter the duration as an integer from 1 to 525600 minutes (maximum 365 days).",
+    "ja": "期間を 1 ～ 525600 分の整数で入力してください (最大 365 日)。",
+    "es": "Ingrese la duración como un número entero de 1 a 525600 minutos (máximo 365 días).",
+    "fr": "Veuillez saisir la durée sous forme d'entier compris entre 1 et 525 600 minutes (maximum 365 jours)."
+  },
+  "起止时间与时长不一致，请重新选择。": {
+    "en-US": "The start and end time are inconsistent with the duration, please select again.",
+    "ja": "開始時刻と終了時刻が期間と一致しません。もう一度選択してください。",
+    "es": "La hora de inicio y finalización no coinciden con la duración, seleccione nuevamente.",
+    "fr": "Les heures de début et de fin ne correspondent pas à la durée, veuillez sélectionner à nouveau."
+  },
+  "循环间隔请填入 1–999 的整数。": {
+    "en-US": "Please fill in the cycle interval with an integer from 1 to 999.",
+    "ja": "サイクル間隔を 1 ～ 999 の整数で入力してください。",
+    "es": "Complete el intervalo del ciclo con un número entero del 1 al 999.",
+    "fr": "Veuillez remplir l'intervalle de cycle avec un nombre entier compris entre 1 et 999."
+  },
+  "请选择每周执行的日期。": {
+    "en-US": "Please select a day of the week for execution.",
+    "ja": "実行する曜日を選択してください。",
+    "es": "Seleccione un día de la semana para la ejecución.",
+    "fr": "Veuillez sélectionner un jour de la semaine pour l'exécution."
+  },
+  "编辑 To-do": {
+    "en-US": "Edit To-do",
+    "ja": "To-Do の編集",
+    "es": "Editar tarea pendiente",
+    "fr": "Modifier la tâche"
+  },
+  "为一天添一件事": {
+    "en-US": "Add one thing to your day",
+    "ja": "一日に一つ何かを加えましょう",
+    "es": "Añade una cosa a tu día",
+    "fr": "Ajoutez une chose à votre journée"
+  },
+  "把计划调整到合适的节奏。": {
+    "en-US": "Adjust the plan to the appropriate pace.",
+    "ja": "計画を適切なペースに調整します。",
+    "es": "Ajustar el plan al ritmo adecuado.",
+    "fr": "Ajustez le plan au rythme approprié."
+  },
+  "留给重要的事，也留一点空白。": {
+    "en-US": "Leave important things aside and leave a little blank space.",
+    "ja": "重要なことは脇に置いて、少し空白を残してください。",
+    "es": "Deja las cosas importantes a un lado y deja un pequeño espacio en blanco.",
+    "fr": "Laissez les choses importantes de côté et laissez un petit espace vide."
+  },
+  "删除 To-do": {
+    "en-US": "Delete To-do",
+    "ja": "To-do を削除",
+    "es": "Eliminar tarea pendiente",
+    "fr": "Supprimer la tâche"
+  },
+  "展开任务类型": {
+    "en-US": "Expand task type",
+    "ja": "タスク タイプを展開します",
+    "es": "Ampliar tipo de tarea",
+    "fr": "Développer le type de tâche"
+  },
+  "循环 To-do": {
+    "en-US": "Loop To-do",
+    "ja": "ループ ToDo",
+    "es": "Bucle de tareas pendientes",
+    "fr": "Boucle à faire"
+  },
+  "一次性 To-do": {
+    "en-US": "One-time To-do",
+    "ja": "1 回限りの ToDo",
+    "es": "Tarea pendiente única",
+    "fr": "Tâche unique"
+  },
+  "填入 To-do…": {
+    "en-US": "Fill in To-do…",
+    "ja": "To Do を記入してください…",
+    "es": "Complete la tarea pendiente…",
+    "fr": "Remplissez la tâche à faire…"
+  },
+  "直接选择结束日期和时间，时长会自动算好。也可以填写时长，结束时间会随之更新。": {
+    "en-US": "Select the end date and time directly, and the duration will be calculated automatically. You can also fill in the duration, and the end time will be updated accordingly.",
+    "ja": "終了日時を直接選択すると、期間が自動的に計算されます。期間を入力することもでき、それに応じて終了時刻が更新されます。",
+    "es": "Seleccione la fecha y hora de finalización directamente y la duración se calculará automáticamente. También puede ingresar la duración y la hora de finalización se actualizará en consecuencia.",
+    "fr": "Sélectionnez directement la date et l'heure de fin et la durée sera calculée automatiquement. Vous pouvez également renseigner la durée, et l'heure de fin sera mise à jour en conséquence."
+  },
+  "这里设置首次执行的起止时间，后续每次循环沿用这一时长。": {
+    "en-US": "Here sets the start and end time of the first execution, and this duration will be used for each subsequent cycle.",
+    "ja": "ここでは、最初の実行の開始時刻と終了時刻を設定します。この期間は後続の各サイクルで使用されます。",
+    "es": "Aquí establece la hora de inicio y finalización de la primera ejecución, y esta duración se utilizará para cada ciclo posterior.",
+    "fr": "Définit ici l'heure de début et de fin de la première exécution, et cette durée sera utilisée pour chaque cycle suivant."
+  },
+  "写下一些细节（可选）": {
+    "en-US": "Write down some details (optional)\nWhere is",
+    "ja": "詳細を書き留めます (オプション)",
+    "es": "Anota algunos detalles (opcional)\n¿Dónde está",
+    "fr": "Notez quelques détails (facultatif)\nOù est"
+  },
+  "在哪里（可选）": {
+    "en-US": "(optional)",
+    "ja": "はどこですか (オプション)",
+    "es": "(opcional)",
+    "fr": "(facultatif)"
+  },
+  "填入子任务 {0}…": {
+    "en-US": "Fill in subtask {0}…",
+    "ja": "サブタスク {0} を入力してください…",
+    "es": "Complete la subtarea {0}…",
+    "fr": "Remplissez la sous-tâche {0}…"
+  },
+  "删除子任务 {0}": {
+    "en-US": "Delete subtask {0}",
+    "ja": "サブタスク {0} を削除します",
+    "es": "Eliminar subtarea {0}",
+    "fr": "Supprimer la sous-tâche {0}"
+  },
+  "遇到没有对应日期的月份，在该月最后一天执行。": {
+    "en-US": "If a month does not have a corresponding date, it will be executed on the last day of the month.",
+    "ja": "月に対応する日付がない場合、月の末日に実行されます。",
+    "es": "Si un mes no tiene fecha correspondiente, se ejecutará el último día del mes.",
+    "fr": "Si un mois n'a pas de date correspondante, il sera exécuté le dernier jour du mois."
+  },
+  "从下方日期开始循环，完成状态按每次日程分别记录。": {
+    "en-US": "starts the cycle from the date below, and the completion status is recorded separately for each schedule.",
+    "ja": "は以下の日付からサイクルを開始し、完了ステータスがスケジュールごとに個別に記録されます。",
+    "es": "inicia el ciclo a partir de la fecha siguiente y el estado de finalización se registra por separado para cada programa.",
+    "fr": "démarre le cycle à partir de la date ci-dessous et l'état d'achèvement est enregistré séparément pour chaque planning."
+  },
+  "切换为循环任务后，保存时将移除子任务。": {
+    "en-US": "After switching to a recurring task, the subtasks will be removed when saving.",
+    "ja": "定期的なタスクに切り替えると、保存時にサブタスクが削除されます。",
+    "es": "Después de cambiar a una tarea recurrente, las subtareas se eliminarán al guardar.",
+    "fr": "Après le passage à une tâche récurrente, les sous-tâches seront supprimées lors de l'enregistrement."
+  },
+  "支持跨天或连续多天，任务会显示在实际占用的每一天，完成状态与子任务联动；循环任务按每次开始日期分别记录。": {
+    "en-US": "supports spanning days or multiple consecutive days. The task will be displayed on each day actually occupied, and the completion status is linked to the sub-task; recurring tasks are recorded separately according to each start date.",
+    "ja": "は、複数日または連続する複数日をサポートします。タスクは実際に作業が行われた日ごとに表示され、完了ステータスはサブタスクにリンクされます。定期的なタスクは、各開始日に従って個別に記録されます。",
+    "es": "admite días que abarcan o varios días consecutivos. La tarea se mostrará cada día realmente ocupado y el estado de finalización está vinculado a la subtarea; Las tareas recurrentes se registran por separado según cada fecha de inicio.",
+    "fr": "prend en charge des jours répartis ou plusieurs jours consécutifs. La tâche sera affichée pour chaque jour effectivement occupé, et l'état d'avancement est lié à la sous-tâche ; les tâches récurrentes sont enregistrées séparément en fonction de chaque date de début."
+  },
+  "边框颜色 {0}": {
+    "en-US": "Border color {0}",
+    "ja": "境界線の色 {0}",
+    "es": "Color del borde {0}",
+    "fr": "Couleur de bordure {0}"
+  },
+  "更改或删除循环任务将应用于整个循环系列。": {
+    "en-US": "Changing or deleting a cycle task will apply to the entire cycle series.",
+    "ja": "サイクル タスクの変更または削除は、サイクル シリーズ全体に適用されます。",
+    "es": "Cambiar o eliminar una tarea de ciclo se aplicará a toda la serie de ciclos.",
+    "fr": "La modification ou la suppression d'une tâche de cycle s'appliquera à l'ensemble de la série de cycles."
+  },
+  "删除这项 To-do？": {
+    "en-US": "Delete this To-do?",
+    "ja": "この ToDo を削除しますか?",
+    "es": "¿Eliminar esta tarea pendiente?",
+    "fr": "Supprimer cette tâche ?"
+  },
+  "整个循环系列及完成记录都会被删除。": {
+    "en-US": "The entire cycle series and completion records will be deleted.",
+    "ja": "サイクル シリーズ全体と完了レコードが削除されます。",
+    "es": "Se eliminarán toda la serie de ciclos y los registros de finalización.",
+    "fr": "La série entière de cycles et les enregistrements d'achèvement seront supprimés."
+  },
+  "该任务及其子任务会从日程中删除。": {
+    "en-US": "The task and its subtasks will be removed from the schedule.",
+    "ja": "タスクとそのサブタスクはスケジュールから削除されます。",
+    "es": "La tarea y sus subtareas se eliminarán de la programación.",
+    "fr": "La tâche et ses sous-tâches seront supprimées du planning."
+  },
+  "选择{0}{1} {2}": {
+    "en-US": "Select {0}{1} {2}",
+    "ja": "{0}{1} {2} を選択してください",
+    "es": "Seleccione {0}{1} {2}",
+    "fr": "Sélectionnez {0}{1} {2}"
+  },
+  "颜色请使用 #RRGGBB 格式。": {
+    "en-US": "Please use #RRGGBB format for color.",
+    "ja": "カラーには #RRGGBB 形式を使用してください。",
+    "es": "Utilice el formato #RRGGBB para el color.",
+    "fr": "Veuillez utiliser le format #RRGGBB pour la couleur."
+  },
+  "前景与背景请选择一深一浅的颜色。": {
+    "en-US": "Please choose one dark and one light color for the foreground and background.",
+    "ja": "前景色と背景に暗い色と明るい色を 1 つずつ選択してください。",
+    "es": "Elija un color oscuro y otro claro para el primer plano y el fondo.",
+    "fr": "Veuillez choisir une couleur sombre et une couleur claire pour le premier plan et l'arrière-plan."
+  },
+  "跟随系统时，手机切换浅色或深色，TJMuse 会同步适配。两套配色分别保存。": {
+    "en-US": "When following the system, if the phone switches to light or dark color, TJMuse will adapt simultaneously. The two sets of color matching are saved separately.",
+    "ja": "システムに従っているときに、電話機が明るい色または暗い色に切り替わると、TJMuse は同時に適応します。 2 つのカラー マッチング セットは別々に保存されます。",
+    "es": "Al seguir el sistema, si el teléfono cambia a color claro u oscuro, TJMuse se adaptará simultáneamente. Los dos conjuntos de combinación de colores se guardan por separado.",
+    "fr": "En suivant le système, si le téléphone passe en couleur claire ou foncée, TJMuse s'adaptera simultanément. Les deux ensembles de correspondance des couleurs sont enregistrés séparément."
+  },
+  "每一天，都有自己的颜色。": {
+    "en-US": "Every day has its own color.",
+    "ja": "毎日に色がある。",
+    "es": "Cada día tiene su propio color.",
+    "fr": "Chaque jour a sa propre couleur."
+  },
+  "恢复同济蓝配色": {
+    "en-US": "Restore Tongji Blue color scheme",
+    "ja": "同済ブルーの配色を復元",
+    "es": "Restaurar el esquema de color azul Tongji",
+    "fr": "Restaurer la palette de couleurs Tongji Blue"
+  },
+  "深色模式为强调按钮、图标和卡片提供柔和发光效果。": {
+    "en-US": "Dark mode provides a soft glow effect for accent buttons, icons, and cards.",
+    "ja": "ダーク モードは、アクセント ボタン、アイコン、カードに柔らかい光る効果を提供します。",
+    "es": "El modo oscuro proporciona un efecto de brillo suave para botones, íconos y tarjetas de acento.",
+    "fr": "Le mode sombre fournit un effet de lueur douce pour les boutons d'accentuation, les icônes et les cartes."
+  },
+  "同济课表 {0}": {
+    "en-US": "Tongji Class Schedule {0}",
+    "ja": "同済クラスのスケジュール {0}",
+    "es": "Horario de clases de Tongji {0}",
+    "fr": "Programme des cours Tongji {0}"
+  },
+  "课表读取失败，已有课表保留。": {
+    "en-US": "Failed to read the class schedule. The class schedule is already reserved.",
+    "ja": "授業スケジュールの読み込みに失敗しました。クラススケジュールはすでに予約されています。",
+    "es": "No se pudo leer el horario de clases. El horario de clases ya está reservado.",
+    "fr": "Échec de la lecture de l'horaire des cours. L'horaire des cours est déjà réservé."
+  },
+  "无法保存课表。": {
+    "en-US": "Unable to save class schedule.",
+    "ja": "クラスのスケジュールを保存できません。",
+    "es": "No se puede guardar el horario de clases.",
+    "fr": "Impossible d'enregistrer l'horaire des cours."
+  },
+  "将删除“": {
+    "en-US": "will delete \"",
+    "ja": "は「を削除します」",
+    "es": "eliminará \"",
+    "fr": "supprimera \""
+  },
+  "”及其课程安排，其他课表、作业和 To-do 保留。": {
+    "en-US": "\" and its course schedule, other class schedules, assignments and To-dos are reserved.",
+    "ja": "」とそのコーススケジュール、その他のクラススケジュール、課題、ToDo が予約されています。",
+    "es": "\" y su horario de cursos, otros horarios de clases, tareas y tareas pendientes están reservados.",
+    "fr": "\" et son planning de cours, les autres plannings de cours, les devoirs et les To-dos sont réservés."
+  },
+  "当前为示例课表，不读取学校真实数据。": {
+    "en-US": "is currently a sample class schedule and does not read the school’s real data.",
+    "ja": "は現在サンプルの授業スケジュールであり、学校の実際のデータは読み込まれません。",
+    "es": "es actualmente un horario de clases de muestra y no lee los datos reales de la escuela.",
+    "fr": "est actuellement un exemple d'horaire de cours et ne lit pas les données réelles de l'école."
+  },
+  "已读取当前网页的个人课表，请核对识别结果。": {
+    "en-US": "The personal class schedule of the current web page has been read, please check the recognition result.",
+    "ja": "現在の Web ページの個人授業スケジュールが読み込まれました。認識結果を確認してください。",
+    "es": "Se ha leído el horario de clases personal de la página web actual, consulte el resultado del reconocimiento.",
+    "fr": "L'horaire personnel des cours de la page web actuelle a été lu, veuillez vérifier le résultat de la reconnaissance."
+  },
+  "保存后课程同时显示在周课表与首页，隐藏课表时两处同步隐藏。": {
+    "en-US": "After saving, the course will be displayed on the weekly schedule and the home page at the same time. When the schedule is hidden, the two places will be hidden simultaneously.",
+    "ja": "保存後、コースは週間スケジュールとトップページに同時に表示されます。スケジュールを非表示にすると、2 つの場所が同時に非表示になります。",
+    "es": "Después de guardar, el curso se mostrará en el programa semanal y en la página de inicio al mismo tiempo. Cuando el horario esté oculto, los dos lugares se ocultarán simultáneamente.",
+    "fr": "Après sauvegarde, le cours sera affiché simultanément sur le planning hebdomadaire et sur la page d'accueil. Lorsque le planning est masqué, les deux lieux seront masqués simultanément."
+  },
+  "这份课表独立保存学期第一周，其他课表与首页教学周设置不受影响。": {
+    "en-US": "This class schedule is saved independently for the first week of the semester. Other class schedules and teaching week settings on the homepage are not affected.",
+    "ja": "この授業スケジュールは、学期の最初の週に個別に保存されます。ホームページ上の他のクラススケジュールや指導週の設定は影響を受けません。",
+    "es": "Este horario de clases se guarda de forma independiente para la primera semana del semestre. Otros horarios de clases y configuraciones de semanas de enseñanza en la página de inicio no se ven afectados.",
+    "fr": "Cet horaire de cours est sauvegardé indépendamment pour la première semaine du semestre. Les autres horaires de cours et paramètres de semaine d’enseignement sur la page d’accueil ne sont pas affectés."
+  },
+  "每周从{0}开始": {
+    "en-US": "Weekly starts at {0}",
+    "ja": "毎週は {0} に始まります",
+    "es": "La semana comienza a las {0}",
+    "fr": "La semaine commence à {0}"
+  },
+  "收起节次时间": {
+    "en-US": "Collapse session time",
+    "ja": "セッション時間を折りたたむ",
+    "es": "Contraer tiempo de sesión",
+    "fr": "Réduire la durée de la session"
+  },
+  "核对节次时间": {
+    "en-US": "Check section time",
+    "ja": "セクションタイムを確認する",
+    "es": "Consultar horario de sección",
+    "fr": "Vérifier l'heure de la section"
+  },
+  "默认时间参照同济课表项目；请按学校当前安排核对。每份课表可独立修改。": {
+    "en-US": "The default time refers to the Tongji class schedule; please check according to the school's current schedule. Each class schedule can be modified independently.",
+    "ja": "デフォルトの時間は、同済クラスのスケジュールを指します。学校の現在のスケジュールに従ってご確認ください。各クラスのスケジュールは個別に変更できます。",
+    "es": "El horario predeterminado se refiere al horario de clases de Tongji; por favor verifique de acuerdo con el horario actual de la escuela. Cada horario de clases se puede modificar de forma independiente.",
+    "fr": "L'heure par défaut fait référence à l'horaire des cours de Tongji ; veuillez vérifier selon l'horaire actuel de l'école. Chaque horaire de cours peut être modifié indépendamment."
+  },
+  "第{0}节开始": {
+    "en-US": "Section {0} begins",
+    "ja": "セクション {0} が始まります",
+    "es": "Comienza la sección {0}",
+    "fr": "Début de la section {0}"
+  },
+  "第{0}节结束": {
+    "en-US": "End of section {0}",
+    "ja": "セクション {0} の終了",
+    "es": "Fin de la sección {0}",
+    "fr": "Fin de la section {0}"
+  },
+  "条排课": {
+    "en-US": "Course schedule",
+    "ja": "コーススケジュール",
+    "es": "Horario del curso",
+    "fr": "Calendrier des cours"
+  },
+  "导入课程 {0}": {
+    "en-US": "Import course {0}",
+    "ja": "コース {0} をインポートします",
+    "es": "Importar curso {0}",
+    "fr": "Importer le cours {0}"
+  },
+  "节 · 第": {
+    "en-US": "Section · No.",
+    "ja": "セクション · いいえ。",
+    "es": "Sección · No.\nLos registros",
+    "fr": "Section · No.\nLes enregistrements"
+  },
+  "条记录未能可靠识别，已跳过：": {
+    "en-US": "records could not be reliably identified and have been skipped:",
+    "ja": "レコードは確実に識別できなかったため、スキップされました:",
+    "es": "no se pudieron identificar de manera confiable y se omitieron:",
+    "fr": "n'ont pas pu être identifiés de manière fiable et ont été ignorés :"
+  },
+  "可以保存多份课表，勾选需要显示的课表。显隐同时作用于周课表和首页 To-do。": {
+    "en-US": "You can save multiple timetables and check the timetables that need to be displayed. Showing and hiding affects both the weekly class schedule and the homepage To-do.",
+    "ja": "複数の時刻表を保存し、表示する必要がある時刻表を確認できます。表示と非表示は、週ごとのクラス スケジュールとホームページの To-Do の両方に影響します。",
+    "es": "Puede guardar varios horarios y comprobar los horarios que deben mostrarse. Mostrar y ocultar afecta tanto al horario de clases semanal como a las tareas pendientes de la página de inicio.",
+    "fr": "Vous pouvez enregistrer plusieurs horaires et vérifier les horaires qui doivent être affichés. Afficher et masquer affecte à la fois le programme de cours hebdomadaire et la page d'accueil des tâches à faire."
+  },
+  "还没有导入课表。": {
+    "en-US": "The class schedule has not been imported yet.",
+    "ja": "クラススケジュールはまだインポートされていません。",
+    "es": "El horario de clases aún no se ha importado.",
+    "fr": "L'horaire des cours n'a pas encore été importé."
+  },
+  "显示课表 {0}": {
+    "en-US": "Show class schedule {0}",
+    "ja": "クラススケジュールを表示 {0}",
+    "es": "Mostrar horario de clases {0}",
+    "fr": "Afficher l'horaire des cours {0}"
+  },
+  "编辑课表 {0}": {
+    "en-US": "Edit class schedule {0}",
+    "ja": "クラススケジュールを編集 {0}",
+    "es": "Editar horario de clases {0}",
+    "fr": "Modifier l'horaire des cours {0}"
+  },
+  "条排课 ·": {
+    "en-US": "Course schedule ·",
+    "ja": "コーススケジュール ·",
+    "es": "Horario del curso ·",
+    "fr": "Calendrier des cours ·"
+  },
+  "删除课表 {0}": {
+    "en-US": "Delete class schedule {0}",
+    "ja": "クラススケジュール {0} を削除します",
+    "es": "Eliminar horario de clases {0}",
+    "fr": "Supprimer l'horaire des cours {0}"
+  },
+  "行高请填写28–180。": {
+    "en-US": "Please enter 28–180 for row height.",
+    "ja": "行の高さには 28 ～ 180 を入力してください。",
+    "es": "Ingrese 28–180 para la altura de la fila.",
+    "fr": "Veuillez saisir 28 à 180 pour la hauteur des rangées."
+  },
+  "每节时长请填写1–360分钟。": {
+    "en-US": "Please fill in the duration of each session from 1 to 360 minutes.",
+    "ja": "各セッションの所要時間を 1 ～ 360 分の範囲で入力してください。",
+    "es": "Por favor complete la duración de cada sesión de 1 a 360 minutos.",
+    "fr": "Veuillez renseigner la durée de chaque séance de 1 à 360 minutes."
+  },
+  "设置未保存。": {
+    "en-US": "Settings not saved.",
+    "ja": "設定は保存されませんでした。",
+    "es": "Configuración no guardada.",
+    "fr": "Paramètres non enregistrés."
+  },
+  "自动模式在有效空间内显示全部节次。手动加大行高后，可上下滚动查看。": {
+    "en-US": "Automatic mode displays all sections within the valid space. After manually increasing the row height, you can scroll up and down to view it.",
+    "ja": "自動モードでは、有効なスペース内のすべてのセクションが表示されます。行の高さを手動で大きくした後、上下にスクロールして表示できます。",
+    "es": "El modo automático muestra todas las secciones dentro del espacio válido. Después de aumentar manualmente la altura de la fila, puede desplazarse hacia arriba y hacia abajo para verla.",
+    "fr": "Le mode automatique affiche toutes les sections dans l'espace valide. Après avoir augmenté manuellement la hauteur de la ligne, vous pouvez faire défiler vers le haut et vers le bas pour l'afficher."
+  },
+  "修改哪份课表的时间": {
+    "en-US": "Which timetable should be modified?",
+    "ja": "どのタイムテーブルを変更する必要がありますか?",
+    "es": "¿Qué horario debería modificarse?",
+    "fr": "Quel horaire faut-il modifier ?"
+  },
+  "调整所选课表的节次时间。已单独指定时间的课程继续使用自己的时间。": {
+    "en-US": "Adjust the period time of the selected class schedule. Courses that have been assigned separate times continue to use their own time.",
+    "ja": "選択したクラススケジュールの期間時間を調整します。別々の時間が割り当てられているコースは、引き続き独自の時間を使用します。",
+    "es": "Ajusta el período de tiempo del horario de clases seleccionado. Los cursos a los que se les han asignado horarios separados continúan usando su propio tiempo.",
+    "fr": "Ajustez la période de l'horaire de cours sélectionné. Les cours auxquels des horaires distincts ont été attribués continuent d'utiliser leur propre temps."
+  },
+  "默认模板用于今后新增或导入的课表，已有课表保留各自的时间。": {
+    "en-US": "The default template is used for new or imported class schedules in the future, and existing class schedules retain their respective times.",
+    "ja": "デフォルトのテンプレートは、今後の新規またはインポートされたクラス スケジュールに使用され、既存のクラス スケジュールはそれぞれの時間を保持します。",
+    "es": "La plantilla predeterminada se utiliza para horarios de clases nuevos o importados en el futuro, y los horarios de clases existentes conservan sus horarios respectivos.",
+    "fr": "Le modèle par défaut est utilisé pour les horaires de cours nouveaux ou importés à l'avenir, et les horaires de cours existants conservent leurs heures respectives."
+  },
+  "起始时间、结束时间和时长联动，时长单位为分钟。": {
+    "en-US": "The start time, end time and duration are linked, and the duration unit is minutes.",
+    "ja": "開始時刻、終了時刻、期間はリンクされており、期間の単位は分です。",
+    "es": "La hora de inicio, la hora de finalización y la duración están vinculadas y la unidad de duración es minutos.",
+    "fr": "L'heure de début, l'heure de fin et la durée sont liées, et l'unité de durée est la minute."
+  },
+  "第{0}节开始时间": {
+    "en-US": "Section {0} start time",
+    "ja": "セクション {0} の開始時刻",
+    "es": "Hora de inicio de la sección {0}",
+    "fr": "Heure de début de la section {0}"
+  },
+  "第{0}节结束时间": {
+    "en-US": "Section {0} end time",
+    "ja": "セクション {0} の終了時刻",
+    "es": "Hora de finalización de la sección {0}",
+    "fr": "Heure de fin de la section {0}"
+  },
+  "第{0}节时长": {
+    "en-US": "Section {0} duration",
+    "ja": "セクション {0} の期間",
+    "es": "Duración de la sección {0}",
+    "fr": "Durée de la section {0}"
+  },
+  "本机登录设置未完成。": {
+    "en-US": "The local login setting is not completed.",
+    "ja": "ローカルログインの設定が完了していません。",
+    "es": "La configuración de inicio de sesión local no está completa.",
+    "fr": "Le paramètre de connexion locale n'est pas terminé."
+  },
+  "好课学号自动登录": {
+    "en-US": "Haoke student ID automatically logs in",
+    "ja": "Haoke 学生 ID が自動的にログインします",
+    "es": "La identificación de estudiante de Haoke inicia sesión automáticamente",
+    "fr": "La carte d'étudiant Haoke se connecte automatiquement"
+  },
+  "Canvas 学号自动登录": {
+    "en-US": "Canvas student ID automatic login",
+    "ja": "キャンバス学生ID自動ログイン",
+    "es": "Inicio de sesión automático con ID de estudiante de Canvas",
+    "fr": "Connexion automatique avec carte d'étudiant Canvas"
+  },
+  "当前为演示，只在本页内存中使用示例学号密码，不连接学校。": {
+    "en-US": "is currently a demonstration. It only uses the sample student ID and password in the memory of this page and does not connect to the school.",
+    "ja": "は現在デモンストレーション中です。このページのメモリにあるサンプルの学生 ID とパスワードのみが使用され、学校には接続されません。",
+    "es": "es actualmente una demostración. Solo utiliza la identificación y contraseña de estudiante de muestra en la memoria de esta página y no se conecta a la escuela.",
+    "fr": "est actuellement une démonstration. Il utilise uniquement l'exemple d'identifiant et de mot de passe d'étudiant dans la mémoire de cette page et ne se connecte pas à l'école."
+  },
+  "学号和密码仅保存在本机系统安全存储中，只在{0}官方登录页填写，不进入聊天记录、AI 或源码导出。两平台分别保存，分别开关。": {
+    "en-US": "The student ID and password are only saved in the local system secure storage and are only filled in on the {0} official login page. They do not enter the chat history, AI or source code export. The two platforms are saved separately and switched on and off separately.",
+    "ja": "学生 ID とパスワードはローカル システムの安全なストレージにのみ保存され、{0} の公式ログイン ページでのみ入力されます。チャット履歴、AI、またはソースコードのエクスポートには入りません。 2 つのプラットフォームは個別に保存され、個別にオンとオフが切り替えられます。",
+    "es": "La identificación del estudiante y la contraseña solo se guardan en el almacenamiento seguro del sistema local y solo se completan en la página de inicio de sesión oficial {0}. No ingresan al historial de chat, a la IA ni a la exportación del código fuente. Las dos plataformas se guardan por separado y se encienden y apagan por separado.",
+    "fr": "L'ID étudiant et le mot de passe sont uniquement enregistrés dans le stockage sécurisé du système local et ne sont renseignés que sur la page de connexion officielle {0}. Ils n'entrent pas dans l'historique des discussions, l'IA ou l'exportation du code source. Les deux plates-formes sont enregistrées séparément et activées et désactivées séparément."
+  },
+  "同济 Canvas": {
+    "en-US": "Tongji Canvas",
+    "ja": "同済キャンバス",
+    "es": "Lienzo Tongji",
+    "fr": "Toile Tongji"
+  },
+  "本机自动登录已开启": {
+    "en-US": "Automatic login of this machine is turned on",
+    "ja": "このマシンの自動ログインはオンになっています",
+    "es": "El inicio de sesión automático de esta máquina está activado",
+    "fr": "La connexion automatique de cette machine est activée"
+  },
+  "本机自动登录未开启": {
+    "en-US": "The automatic login of this machine is not turned on",
+    "ja": "このマシンの自動ログインはオンになっていません",
+    "es": "El inicio de sesión automático de esta máquina no está activado",
+    "fr": "La connexion automatique de cette machine n'est pas activée"
+  },
+  "上次登录未完成，已暂停自动重试": {
+    "en-US": "The last login was not completed and automatic retry has been suspended.",
+    "ja": "最後のログインが完了せず、自動再試行が一時停止されました。",
+    "es": "El último inicio de sesión no se completó y se suspendió el reintento automático.",
+    "fr": "La dernière connexion n'a pas été effectuée et la nouvelle tentative automatique a été suspendue."
+  },
+  "准备就绪": {
+    "en-US": "Ready",
+    "ja": "準備完了",
+    "es": "Listo",
+    "fr": "Prêt"
+  },
+  "最近成功：": {
+    "en-US": "Recent successes:",
+    "ja": "最近の成功:",
+    "es": "Éxitos recientes:",
+    "fr": "Succès récents :"
+  },
+  "学号登录密码": {
+    "en-US": "Student ID login password",
+    "ja": "学生証ログインパスワード",
+    "es": "Contraseña de inicio de sesión de identificación de estudiante",
+    "fr": "Mot de passe de connexion à l'ID étudiant"
+  },
+  "同意仅在本机安全保存学号和密码": {
+    "en-US": "Agree to keep your student ID and password securely only on this machine",
+    "ja": "学生 ID とパスワードをこのマシン上でのみ安全に保管することに同意します",
+    "es": "Acepta mantener su identificación de estudiante y contraseña de forma segura solo en esta máquina",
+    "fr": "Acceptez de conserver votre identifiant d'étudiant et votre mot de passe en toute sécurité uniquement sur cette machine"
+  },
+  "课表日期 {0}": {
+    "en-US": "Class schedule date {0}",
+    "ja": "クラススケジュール日 {0}",
+    "es": "Fecha del horario de clases {0}",
+    "fr": "Date du programme de cours {0}"
+  },
+  "课程 {0} {1} {2}": {
+    "en-US": "Course {0} {1} {2}",
+    "ja": "コース {0} {1} {2}",
+    "es": "Curso {0} {1} {2}",
+    "fr": "Cours {0} {1} {2}"
+  },
+  "本周没有已显示的课程，可切换周次或管理课表。": {
+    "en-US": "There are no displayed courses this week. You can switch weeks or manage the class schedule.",
+    "ja": "今週は表示されているコースがありません。週を切り替えたり、クラスのスケジュールを管理したりできます。",
+    "es": "No se muestran cursos esta semana. Puedes cambiar de semana o gestionar el horario de clases.",
+    "fr": "Il n'y a aucun cours affiché cette semaine. Vous pouvez changer de semaine ou gérer l'horaire des cours."
+  },
+  "导入后将在这里显示课程。": {
+    "en-US": "Courses will appear here after importing.",
+    "ja": "インポート後、コースがここに表示されます。",
+    "es": "Los cursos aparecerán aquí después de importarlos.",
+    "fr": "Les cours apparaîtront ici après l'importation."
+  },
+  "欢迎来到 TJMuse。先选定学期第一周，之后的日程就会显示正确的教学周次。": {
+    "en-US": "Welcome to TJMuse. Select the first week of the semester first, and subsequent schedules will show the correct teaching weeks.",
+    "ja": "TJMuse へようこそ。最初に学期の最初の週を選択すると、それ以降のスケジュールには正しい授業週が表示されます。",
+    "es": "Bienvenido a TJMuse. Seleccione primero la primera semana del semestre y los horarios posteriores mostrarán las semanas de enseñanza correctas.",
+    "fr": "Bienvenue sur TJMuse. Sélectionnez d'abord la première semaine du semestre et les horaires suivants afficheront les semaines d'enseignement correctes."
+  },
+  "每周从哪一天开始？": {
+    "en-US": "What day does the week start?",
+    "ja": "週は何日から始まりますか?",
+    "es": "¿Qué día empieza la semana?",
+    "fr": "Quel jour commence la semaine ?"
+  },
+  "以这一周作为第 1 周": {
+    "en-US": "Make this week Week 1",
+    "ja": "今週を第 1 週にします",
+    "es": "Hacer esta semana Semana 1",
+    "fr": "Faire cette semaine Semaine 1"
+  },
+  "请选择有效的第一周日期。": {
+    "en-US": "Please select a valid first week date.",
+    "ja": "有効な最初の週の日付を選択してください。",
+    "es": "Seleccione una fecha válida para la primera semana.",
+    "fr": "Veuillez sélectionner une date de première semaine valide."
+  },
+  "，已完成 {0} 件": {
+    "en-US": ", {0} items completed",
+    "ja": "、{0} 個のアイテムが完了しました",
+    "es": ", {0} elementos completados",
+    "fr": ", {0} éléments terminés"
+  },
+  "，留一点时间给自己": {
+    "en-US": ", leave some time for yourself",
+    "ja": "、自分のための時間を残してください",
+    "es": ", deja algo de tiempo para ti",
+    "fr": ", laisse-toi du temps pour toi"
+  },
+  "{0}{1}分类": {
+    "en-US": "{0}{1} classification",
+    "ja": "{0}{1} 分類",
+    "es": "{0}{1} clasificación",
+    "fr": "{0}{1}classement"
+  },
+  "{0}已完成{1}（{2}）": {
+    "en-US": "{0} Completed {1} ({2})",
+    "ja": "{0} 完了 {1} ({2})",
+    "es": "{0} Completado {1} ({2})",
+    "fr": "{0} Terminé {1} ({2})"
+  },
+  "暂无": {
+    "en-US": "None",
+    "ja": "なし",
+    "es": "Ninguno",
+    "fr": "Aucun"
+  },
+  "年调休数据尚未同步，可在“我的 → 中国大陆调休”中获取。": {
+    "en-US": "The annual leave data has not been synchronized and can be obtained in \"My → Mainland China Leave\".",
+    "ja": "年次休暇データは同期されていないため、「My → Mainland China Leave」で取得できます。",
+    "es": "Los datos de vacaciones anuales no se han sincronizado y se pueden obtener en \"Mi → Licencia de China continental\".",
+    "fr": "Les données de congés annuels n'ont pas été synchronisées et peuvent être obtenues dans « Mon → Congé en Chine continentale »."
+  },
+  "演示 · 示例数据": {
+    "en-US": "Demo · Sample data",
+    "ja": "デモ・サンプルデータ",
+    "es": "Demostración · Datos de muestra",
+    "fr": "Démo · Exemples de données"
+  },
+  "重置演示数据": {
+    "en-US": "Reset demo data",
+    "ja": "デモ データをリセットします",
+    "es": "Restablecer datos de demostración",
+    "fr": "Réinitialiser les données de démonstration"
+  },
+  "重置演示": {
+    "en-US": "Reset demo",
+    "ja": "リセットデモ",
+    "es": "Restablecer demostración",
+    "fr": "Réinitialiser la démo"
+  },
+  "退出演示": {
+    "en-US": "Exit demonstration",
+    "ja": "デモを終了します",
+    "es": "Salida de demostración",
+    "fr": "Quitter la démonstration"
+  },
+  "关闭提示": {
+    "en-US": "Close prompt",
+    "ja": "プロンプトを閉じる",
+    "es": "Cerrar mensaje",
+    "fr": "Invite de fermeture"
+  }
+}

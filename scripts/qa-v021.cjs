@@ -1,0 +1,56 @@
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+(async () => {
+  const browser = await chromium.launch({ channel: 'msedge', headless: true });
+  try {
+    const context = await browser.newContext({ viewport: { width: 393, height: 852 }, locale: 'zh-CN', timezoneId: 'Asia/Singapore' });
+    const page = await context.newPage(), errors = []; let schoolRequests = 0;
+    page.on('pageerror', error => errors.push(error.message));
+    await page.clock.install({ time: new Date('2026-10-30T08:00:00+08:00') });
+    await context.route('https://cdn.jsdelivr.net/**', route => route.abort());
+    await context.route(/https:\/\/(canvas\.tongji\.edu\.cn|tongji\.aihaoke\.net)\//, route => { schoolRequests++; return route.abort(); });
+    await context.addInitScript(() => { if (!localStorage.getItem('tjmuse.data.v1')) localStorage.setItem('tjmuse.data.v1', JSON.stringify({ untouched: true })); });
+    const button = name => page.getByRole('button', { name, exact: true });
+    const close = async () => { await button('关闭').click(); await page.getByTestId('sheet-card').waitFor({ state: 'hidden' }); };
+    await page.goto('http://127.0.0.1:8081/?demo=021',{waitUntil:'domcontentloaded',timeout:60000});
+    await page.getByText(`TJMuse ${require('../package.json').version} 演示 · 示例数据`, { exact: true }).waitFor();
+    for (const label of ['To-do','课程表','AI','作业','我的']) await button(label).waitFor();
+    await button('课程表').click(); await page.getByTestId('schedule-grid').waitFor();
+    await button('添加或管理课表').waitFor();
+    await page.screenshot({ path: 'artifacts/preview-021-schedule.png' });
+    await button('作业').click();
+    await button('一键同步所有平台作业').click(); await page.getByText('Canvas · 同步完成', { exact: true }).waitFor();
+    await button('连接好课平台').click(); await page.getByText('好课连接演示', { exact: true }).waitFor();
+    await button('连接示例好课账户').click(); await button('同步好课作业').waitFor();
+    await button('一键同步所有平台作业').click(); await page.getByText('好课 · 同步完成', { exact: true }).waitFor();
+    const allBox = await button('一键同步所有平台作业').boundingBox(), canvasBox = await page.getByText('Canvas 作业', { exact: true }).boundingBox(), haokeBox = await page.getByText('好课平台', { exact: true }).boundingBox();
+    assert.ok(allBox.y < canvasBox.y && canvasBox.y < haokeBox.y);
+    await button('一键同步所有平台作业').scrollIntoViewIfNeeded(); await page.screenshot({ path: 'artifacts/preview-021-platforms.png' });
+    await button('Canvas 自动更换令牌').click(); await button('官方登录并读取可选令牌').click();
+    await button('TJMuse 专用令牌（演示）').click();
+    await button('同意自动重新生成所选专用令牌').click(); await button('启用自动更换').click();
+    await page.getByText('自动更换已开启', { exact: true }).waitFor();
+    await page.getByText('自动保持登录已开启 · 启动、回到前台及运行中定期检查', {exact:true}).waitFor();
+    const renewalBefore=await page.evaluate(()=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')).canvas.renewal);
+    await button('立即检查登录状态').click();
+    await page.waitForFunction(before=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')).canvas.renewal.lastSessionCheck!==before&&document.querySelector('[aria-label="立即检查登录状态"]').getAttribute('aria-disabled')!=='true',renewalBefore.lastSessionCheck);
+    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('tjmuse.demo.data.v021')).canvas.renewal.lastRotated),renewalBefore.lastRotated);
+    await page.screenshot({ path: 'artifacts/preview-021-renewal.png' });
+    await close(); await button('To-do').click();
+    await button('查看 实验课前预习').waitFor(); await button('完成 实验课前预习').click(); await button('取消完成 实验课前预习').click();
+    await button('编辑 实验课前预习').click(); await button('隐藏').click(); await close();
+    assert.equal(await button('查看 实验课前预习').count(), 0);
+    await button('作业').click(); await button('查看作业 实验课前预习').click(); await button('显示').click(); await button('删除作业').click();
+    await button('查看已删除作业（1）').click(); await button('恢复作业 实验课前预习').click(); await close();
+    await button('To-do').click(); await button('查看 实验课前预习').waitFor();
+    await page.screenshot({ path: 'artifacts/preview-021-todo.png' });
+    await page.reload(); await button('作业').click(); await button('同步好课作业').waitFor();
+    await page.getByText('已开启 · 本机网页登录维护', { exact: true }).waitFor();
+    for (const width of [320,393,768]) { await page.setViewportSize({ width, height: 852 }); assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false); }
+    assert.deepEqual(await page.evaluate(() => JSON.parse(localStorage.getItem('tjmuse.data.v1'))), { untouched: true });
+    assert.equal(schoolRequests, 0); assert.deepEqual(errors, []);
+    const result = { result: 'passed', fiveTabs: true, timetableGrid: true, platformOrder: true, syncAll: true, haokeConnection: true, renewalConsentAndPersistence: true, sharedTodoAndTrash: true, demoIsolation: true, schoolRequests, pageErrors: errors };
+    fs.writeFileSync('.build-tools/qa-v021-result.json', JSON.stringify(result)); console.log(JSON.stringify(result));
+  } finally { await browser.close(); }
+})().catch(error => { console.error(error); process.exitCode = 1; });

@@ -1,0 +1,62 @@
+{
+  "sourceSha256": "4ea3909cb50c19b5460fee49ae6b9050ed23c404ec1283572d2b348d6a3cfca1",
+  "segmentsSeconds": [
+    [
+      2.5,
+      5.3
+    ],
+    [
+      6.07,
+      9.3
+    ],
+    [
+      9.71,
+      12.6
+    ],
+    [
+      13.25,
+      16.0
+    ],
+    [
+      17.28,
+      19.6
+    ],
+    [
+      20.65,
+      23.1
+    ]
+  ],
+  "echo": "Seven progressively quieter delays; padded tail, no looping.",
+  "cues": [
+    {
+      "file": "cue-1.m4a",
+      "bytes": 83258,
+      "sha256": "a9f9926e13637e3ccc5ff6f7274d810f9cf24cbf2aa8e0446c303559f141540a"
+    },
+    {
+      "file": "cue-2.m4a",
+      "bytes": 89906,
+      "sha256": "80e270069b25f0a1addb44328988f4e4a47798c2982f8a8c5988417e3496fa5b"
+    },
+    {
+      "file": "cue-3.m4a",
+      "bytes": 84222,
+      "sha256": "1397e08700fd67c67276c37b9e93fdcd77e179cfdda15f205e294f562a676f71"
+    },
+    {
+      "file": "cue-4.m4a",
+      "bytes": 81867,
+      "sha256": "3c1635b520d11946d74647af596f76fb46c3617eeefc64e08a8ebb48e7708260"
+    },
+    {
+      "file": "cue-5.m4a",
+      "bytes": 75317,
+      "sha256": "ef9a24b392366c7bec8d87e34f35e6fa12de7b747d1291e75185e08ba54f7f24"
+    },
+    {
+      "file": "cue-6.m4a",
+      "bytes": 77343,
+      "sha256": "138e3e9ec1acd9a3fc9c250b25cae5d3858aa4863e72ad7b6a1b500f39157382"
+    }
+  ]
+}

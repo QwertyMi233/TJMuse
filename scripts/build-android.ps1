@@ -39,7 +39,7 @@ Push-Location -LiteralPath (Join-Path $taskRoot 'android')
 try {
     $taskGradle = Join-Path $taskRoot '.build-tools/gradle/gradle-9.4.1/bin/gradle.bat'
     if (-not (Test-Path -LiteralPath $taskGradle)) { $taskGradle = '.\gradlew.bat' }
-    & $taskGradle ':app:assembleRelease' "-PreactNativeArchitectures=$Architecture" --no-daemon --console=plain --max-workers=4
+    & $taskGradle ':app:assembleRelease' "-PreactNativeArchitectures=$Architecture" --init-script (Join-Path $taskRoot 'scripts/android-repositories.gradle') --no-daemon --console=plain --max-workers=4
     if ($LASTEXITCODE -ne 0) { throw 'Android release build failed.' }
 } finally {
     Pop-Location
@@ -49,7 +49,8 @@ try {
     Remove-Item Env:TJMUSE_RELEASE_KEY_ALIAS -ErrorAction SilentlyContinue
 }
 New-Item -ItemType Directory -Force -Path 'releases' | Out-Null
-$taskApkName = "TJMuse-0.1.0-$Architecture.apk"
+$taskVersion = (Get-Content -LiteralPath 'package.json' -Raw | ConvertFrom-Json).version
+$taskApkName = "TJMuse-$taskVersion-$Architecture.apk"
 Copy-Item -LiteralPath 'android/app/build/outputs/apk/release/app-release.apk' -Destination (Join-Path 'releases' $taskApkName) -Force
 $taskHash = (Get-FileHash -LiteralPath (Join-Path 'releases' $taskApkName) -Algorithm SHA256).Hash.ToLowerInvariant()
 "$taskHash  $taskApkName" | Set-Content -LiteralPath (Join-Path 'releases' "$taskApkName.sha256") -Encoding utf8

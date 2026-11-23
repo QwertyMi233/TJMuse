@@ -57,6 +57,7 @@ def macho_details(data):
 
 
 def verify(ipa):
+    config = json.loads((Path(__file__).resolve().parent.parent / "app.json").read_text(encoding="utf-8"))["expo"]
     with zipfile.ZipFile(ipa) as archive:
         failed = archive.testzip()
         if failed:
@@ -66,24 +67,47 @@ def verify(ipa):
             raise ValueError("Expected exactly one main application in Payload")
         root = infos[0][:-len("Info.plist")]
         info = plistlib.loads(archive.read(infos[0]))
-        if info.get("CFBundleIdentifier") != "com.tjmuse.app" or info.get("CFBundleShortVersionString") != "0.1.0":
+        if info.get("CFBundleIdentifier") != config["ios"]["bundleIdentifier"] or info.get("CFBundleShortVersionString") != config["version"]:
             raise ValueError("Unexpected app identifier or version")
         if "iPhoneOS" not in info.get("CFBundleSupportedPlatforms", []):
             raise ValueError("Info.plist does not identify an iPhone device app")
         binary = macho_details(archive.read(root + info["CFBundleExecutable"]))
+        if binary["hasCodeSignatureLoadCommand"]:
+            raise ValueError("Unexpected code signature in the requested unsigned executable")
+        if str(info.get("CFBundleVersion")) != config["ios"]["buildNumber"]:
+            raise ValueError("Unexpected iOS build number")
         profile = root + "embedded.mobileprovision" in archive.namelist()
         if profile:
             raise ValueError("Unexpected Apple provisioning profile in the requested unsigned build")
         bundles = [item for item in archive.infolist() if item.filename.startswith(root) and item.filename.endswith((".jsbundle", ".hbc")) and item.file_size > 1024]
         if not bundles:
             raise ValueError("Release JavaScript bundle is missing or empty")
+        extensions = []
+        widget_enabled = any(isinstance(plugin, list) and plugin[0] == 'expo-widgets' for plugin in config.get('plugins', []))
+        if widget_enabled:
+            for name in archive.namelist():
+                if name.startswith(root + 'PlugIns/') and name.endswith('.appex/Info.plist'):
+                    extension_info = plistlib.loads(archive.read(name))
+                    if extension_info.get('NSExtension', {}).get('NSExtensionPointIdentifier') != 'com.apple.widgetkit-extension':
+                        continue
+                    extension_root = name[:-len('Info.plist')]
+                    executable = macho_details(archive.read(extension_root + extension_info['CFBundleExecutable']))
+                    if executable['hasCodeSignatureLoadCommand']:
+                        raise ValueError('Widget executable must be unsigned for local signing')
+                    if extension_info.get('CFBundleIdentifier') != 'com.tjmuse.app.widgets':
+                        raise ValueError('Unexpected widget extension identifier')
+                    if extension_info.get('CFBundleShortVersionString') != config['version']:
+                        raise ValueError('Unexpected widget extension version')
+                    extensions.append({'bundleIdentifier': extension_info['CFBundleIdentifier'], 'executable': executable, 'path': extension_root})
+            if not extensions:
+                raise ValueError('Native WidgetKit extension is missing')
         result = {"file": ipa.name, "zipIntegrityVerified": True,
                   "bundleIdentifier": info["CFBundleIdentifier"],
                   "version": info["CFBundleShortVersionString"], "buildNumber": info.get("CFBundleVersion"),
                   "minimumOSVersion": info.get("MinimumOSVersion"),
                   "containsProvisioningProfile": profile, "requiresLocalSigning": True,
                   "javascriptBundles": [{"path": item.filename, "sizeBytes": item.file_size} for item in bundles],
-                  "executable": binary, "sizeBytes": ipa.stat().st_size}
+                  "executable": binary, "widgetExtensions": extensions, "sizeBytes": ipa.stat().st_size}
     with ipa.open("rb") as stream:
         result["sha256"] = hashlib.file_digest(stream, "sha256").hexdigest()
     Path(str(ipa) + ".verification.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

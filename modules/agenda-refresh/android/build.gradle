@@ -1,0 +1,5 @@
+apply plugin: 'com.android.library'
+apply plugin: 'expo-module-gradle-plugin'
+group = 'com.tjmuse.agenda'
+version = '0.5.0'
+android { namespace 'com.tjmuse.agenda' }
